@@ -19363,6 +19363,17 @@ const template$2 = html`<custom-style>
 template$2.setAttribute('style', 'display: none;');
 document.head.appendChild(template$2.content);
 
+/**
+@license
+Copyright (c) 2017 The Polymer Project Authors. All rights reserved.
+This code may only be used under the BSD style license found at
+http://polymer.github.io/LICENSE.txt The complete set of authors may be found at
+http://polymer.github.io/AUTHORS.txt The complete set of contributors may be
+found at http://polymer.github.io/CONTRIBUTORS.txt Code distributed by Google as
+part of the polymer project is also subject to an additional IP rights grant
+found at http://polymer.github.io/PATENTS.txt
+*/
+
 const $_documentContainer = document.createElement('template');
 $_documentContainer.setAttribute('style', 'display: none;');
 
@@ -19394,6 +19405,17 @@ $_documentContainer.innerHTML = `<dom-module id="iron-doc-default-theme">
 </dom-module>`;
 
 document.head.appendChild($_documentContainer.content);
+
+/**
+@license
+Copyright (c) 2015 The Polymer Project Authors. All rights reserved.
+This code may only be used under the BSD style license found at
+http://polymer.github.io/LICENSE.txt The complete set of authors may be found at
+http://polymer.github.io/AUTHORS.txt The complete set of contributors may be
+found at http://polymer.github.io/CONTRIBUTORS.txt Code distributed by Google as
+part of the polymer project is also subject to an additional IP rights grant
+found at http://polymer.github.io/PATENTS.txt
+*/
 
 const $_documentContainer$1 = document.createElement('template');
 $_documentContainer$1.setAttribute('style', 'display: none;');
@@ -19531,12 +19553,14 @@ document.head.appendChild($_documentContainer$1.content);
 /**
 @license
 Copyright (c) 2017 The Polymer Project Authors. All rights reserved.
-This code may only be used under the BSD style license found at http://polymer.github.io/LICENSE.txt
-The complete set of authors may be found at http://polymer.github.io/AUTHORS.txt
-The complete set of contributors may be found at http://polymer.github.io/CONTRIBUTORS.txt
-Code distributed by Google as part of the polymer project is also
-subject to an additional IP rights grant found at http://polymer.github.io/PATENTS.txt
+This code may only be used under the BSD style license found at
+http://polymer.github.io/LICENSE.txt The complete set of authors may be found at
+http://polymer.github.io/AUTHORS.txt The complete set of contributors may be
+found at http://polymer.github.io/CONTRIBUTORS.txt Code distributed by Google as
+part of the polymer project is also subject to an additional IP rights grant
+found at http://polymer.github.io/PATENTS.txt
 */
+
 Polymer({
   _template: html`
     <style include="iron-doc-viewer-styles">
@@ -23118,11 +23142,12 @@ document.head.appendChild(template$3.content);
 /**
 @license
 Copyright (c) 2015 The Polymer Project Authors. All rights reserved.
-This code may only be used under the BSD style license found at http://polymer.github.io/LICENSE.txt
-The complete set of authors may be found at http://polymer.github.io/AUTHORS.txt
-The complete set of contributors may be found at http://polymer.github.io/CONTRIBUTORS.txt
-Code distributed by Google as part of the polymer project is also
-subject to an additional IP rights grant found at http://polymer.github.io/PATENTS.txt
+This code may only be used under the BSD style license found at
+http://polymer.github.io/LICENSE.txt The complete set of authors may be found at
+http://polymer.github.io/AUTHORS.txt The complete set of contributors may be
+found at http://polymer.github.io/CONTRIBUTORS.txt Code distributed by Google as
+part of the polymer project is also subject to an additional IP rights grant
+found at http://polymer.github.io/PATENTS.txt
 */
 /**
  * Renders documentation describing a function or method.
@@ -23195,7 +23220,7 @@ Polymer({
 
     <div class="import-path" hidden\$="[[!addImportPath]]">Requires import: <code>[[descriptor.sourceRange.file]]</code></div>
 
-    <marked-element sanitize="" markdown="[[descriptor.description]]" hidden\$="[[!descriptor.description]]">
+    <marked-element sanitize markdown="[[descriptor.description]]" hidden\$="[[!descriptor.description]]">
       <div slot="markdown-html" class="markdown-html"></div>
     </marked-element>
 
@@ -23203,7 +23228,7 @@ Polymer({
       <template is="dom-repeat" items="[[descriptor.params]]">
         <li>
           <code class="paramName">[[item.name]]</code>
-          <marked-element sanitize="" markdown="[[item.description]]" hidden\$="[[!item.description]]">
+          <marked-element sanitize markdown="[[item.description]]" hidden\$="[[!item.description]]">
            <div slot="markdown-html" class="markdown-html"></div>
          </marked-element>
         </li>
@@ -23248,11 +23273,12 @@ Polymer({
 /**
 @license
 Copyright (c) 2017 The Polymer Project Authors. All rights reserved.
-This code may only be used under the BSD style license found at http://polymer.github.io/LICENSE.txt
-The complete set of authors may be found at http://polymer.github.io/AUTHORS.txt
-The complete set of contributors may be found at http://polymer.github.io/CONTRIBUTORS.txt
-Code distributed by Google as part of the polymer project is also
-subject to an additional IP rights grant found at http://polymer.github.io/PATENTS.txt
+This code may only be used under the BSD style license found at
+http://polymer.github.io/LICENSE.txt The complete set of authors may be found at
+http://polymer.github.io/AUTHORS.txt The complete set of contributors may be
+found at http://polymer.github.io/CONTRIBUTORS.txt Code distributed by Google as
+part of the polymer project is also subject to an additional IP rights grant
+found at http://polymer.github.io/PATENTS.txt
 */
 Polymer({
   _template: html`
@@ -23276,7 +23302,7 @@ Polymer({
       }
     </style>
 
-    <a href="" on-tap="_toggle">
+    <a href on-tap="_toggle">
       <span hidden\$="[[visible]]">Show</span>
       <span hidden\$="[[!visible]]">Hide</span>
       <span><slot></slot></span>
@@ -23295,17 +23321,18 @@ Polymer({
 /**
 @license
 Copyright (c) 2015 The Polymer Project Authors. All rights reserved.
-This code may only be used under the BSD style license found at http://polymer.github.io/LICENSE.txt
-The complete set of authors may be found at http://polymer.github.io/AUTHORS.txt
-The complete set of contributors may be found at http://polymer.github.io/CONTRIBUTORS.txt
-Code distributed by Google as part of the polymer project is also
-subject to an additional IP rights grant found at http://polymer.github.io/PATENTS.txt
+This code may only be used under the BSD style license found at
+http://polymer.github.io/LICENSE.txt The complete set of authors may be found at
+http://polymer.github.io/AUTHORS.txt The complete set of contributors may be
+found at http://polymer.github.io/CONTRIBUTORS.txt Code distributed by Google as
+part of the polymer project is also subject to an additional IP rights grant
+found at http://polymer.github.io/PATENTS.txt
 */
 const $_documentContainer$2 = document.createElement('template');
 $_documentContainer$2.setAttribute('style', 'display: none;');
 
 $_documentContainer$2.innerHTML = `<dom-module id="iron-doc-property">
-  <template strip-whitespace="">
+  <template strip-whitespace>
     <style include="iron-doc-viewer-styles"></style>
     <style>
       :host {
@@ -23360,7 +23387,7 @@ $_documentContainer$2.innerHTML = `<dom-module id="iron-doc-property">
     </p>
 
     <div id="details">
-      <marked-element sanitize="" id="desc" markdown="[[descriptor.description]]" hidden\$="[[!descriptor.description]]">
+      <marked-element sanitize id="desc" markdown="[[descriptor.description]]" hidden\$="[[!descriptor.description]]">
         <div slot="markdown-html" class="markdown-html"></div>
       </marked-element>
     </div>
@@ -23370,6 +23397,11 @@ $_documentContainer$2.innerHTML = `<dom-module id="iron-doc-property">
 </dom-module>`;
 
 document.head.appendChild($_documentContainer$2.content);
+
+/*
+Renders documentation describing a specific property of an element, mixin,
+class, etc.
+*/
 Polymer({
   is: 'iron-doc-property',
 
@@ -23577,12 +23609,14 @@ function numLeadingUnderscores(str) {
 /**
 @license
 Copyright (c) 2017 The Polymer Project Authors. All rights reserved.
-This code may only be used under the BSD style license found at http://polymer.github.io/LICENSE.txt
-The complete set of authors may be found at http://polymer.github.io/AUTHORS.txt
-The complete set of contributors may be found at http://polymer.github.io/CONTRIBUTORS.txt
-Code distributed by Google as part of the polymer project is also
-subject to an additional IP rights grant found at http://polymer.github.io/PATENTS.txt
+This code may only be used under the BSD style license found at
+http://polymer.github.io/LICENSE.txt The complete set of authors may be found at
+http://polymer.github.io/AUTHORS.txt The complete set of contributors may be
+found at http://polymer.github.io/CONTRIBUTORS.txt Code distributed by Google as
+part of the polymer project is also subject to an additional IP rights grant
+found at http://polymer.github.io/PATENTS.txt
 */
+
 Polymer({
   _template: html`
     <style include="iron-doc-viewer-styles">
@@ -23628,7 +23662,7 @@ Polymer({
       </h2>
 
       <template is="dom-repeat" items="[[_public(descriptor.staticMethods)]]" sort="_compareDescriptors">
-        <iron-doc-function descriptor="[[item]]" static="" anchor-id="[[fragmentPrefix]]staticmethod-[[item.name]]">
+        <iron-doc-function descriptor="[[item]]" static anchor-id="[[fragmentPrefix]]staticmethod-[[item.name]]">
         </iron-doc-function>
       </template>
 
@@ -23640,7 +23674,7 @@ Polymer({
       <template is="dom-if" if="[[_protectedCount(descriptor.methods, _staticMethods)]]">
         <template is="dom-if" if="[[_showProtectedMethods]]">
           <template is="dom-repeat" items="[[_protected(descriptor.staticMethods)]]" sort="_compareDescriptors">
-            <iron-doc-function descriptor="[[item]]" static="" anchor-id="[[fragmentPrefix]]method-[[item.name]]">
+            <iron-doc-function descriptor="[[item]]" static anchor-id="[[fragmentPrefix]]method-[[item.name]]">
             </iron-doc-function>
           </template>
 
@@ -23750,11 +23784,18 @@ Polymer({
 /**
 @license
 Copyright (c) 2015 The Polymer Project Authors. All rights reserved.
-This code may only be used under the BSD style license found at http://polymer.github.io/LICENSE.txt
-The complete set of authors may be found at http://polymer.github.io/AUTHORS.txt
-The complete set of contributors may be found at http://polymer.github.io/CONTRIBUTORS.txt
-Code distributed by Google as part of the polymer project is also
-subject to an additional IP rights grant found at http://polymer.github.io/PATENTS.txt
+This code may only be used under the BSD style license found at
+http://polymer.github.io/LICENSE.txt The complete set of authors may be found at
+http://polymer.github.io/AUTHORS.txt The complete set of contributors may be
+found at http://polymer.github.io/CONTRIBUTORS.txt Code distributed by Google as
+part of the polymer project is also subject to an additional IP rights grant
+found at http://polymer.github.io/PATENTS.txt
+*/
+
+/*
+`iron-doc-behavior` renders documentation about a Polymer 1.x behavior from a
+JSON descriptor output by
+[Polymer Analyzer](https://github.com/Polymer/polymer-analyzer).
 */
 Polymer({
   _template: html`
@@ -23785,7 +23826,7 @@ Polymer({
         <a href\$="#[[fragmentPrefix]]description" class="deeplink">Description</a>
       </h2>
 
-      <marked-element sanitize="" markdown="[[descriptor.description]]">
+      <marked-element sanitize markdown="[[descriptor.description]]">
         <div slot="markdown-html" class="markdown-html"></div>
       </marked-element>
     </section>
@@ -23806,11 +23847,18 @@ Polymer({
 /**
 @license
 Copyright (c) 2017 The Polymer Project Authors. All rights reserved.
-This code may only be used under the BSD style license found at http://polymer.github.io/LICENSE.txt
-The complete set of authors may be found at http://polymer.github.io/AUTHORS.txt
-The complete set of contributors may be found at http://polymer.github.io/CONTRIBUTORS.txt
-Code distributed by Google as part of the polymer project is also
-subject to an additional IP rights grant found at http://polymer.github.io/PATENTS.txt
+This code may only be used under the BSD style license found at
+http://polymer.github.io/LICENSE.txt The complete set of authors may be found at
+http://polymer.github.io/AUTHORS.txt The complete set of contributors may be
+found at http://polymer.github.io/CONTRIBUTORS.txt Code distributed by Google as
+part of the polymer project is also subject to an additional IP rights grant
+found at http://polymer.github.io/PATENTS.txt
+*/
+
+/*
+`iron-doc-class` renders documentation about a JavaScript class from a JSON
+descriptor output by
+[Polymer Analyzer](https://github.com/Polymer/polymer-analyzer).
 */
 Polymer({
   _template: html`
@@ -23836,7 +23884,7 @@ Polymer({
         <a href\$="#[[fragmentPrefix]]description" class="deeplink">Description</a>
       </h2>
 
-      <marked-element sanitize="" markdown="[[descriptor.description]]">
+      <marked-element sanitize markdown="[[descriptor.description]]">
         <div slot="markdown-html" class="markdown-html"></div>
       </marked-element>
     </section>
@@ -23857,11 +23905,12 @@ Polymer({
 /**
 @license
 Copyright (c) 2017 The Polymer Project Authors. All rights reserved.
-This code may only be used under the BSD style license found at http://polymer.github.io/LICENSE.txt
-The complete set of authors may be found at http://polymer.github.io/AUTHORS.txt
-The complete set of contributors may be found at http://polymer.github.io/CONTRIBUTORS.txt
-Code distributed by Google as part of the polymer project is also
-subject to an additional IP rights grant found at http://polymer.github.io/PATENTS.txt
+This code may only be used under the BSD style license found at
+http://polymer.github.io/LICENSE.txt The complete set of authors may be found at
+http://polymer.github.io/AUTHORS.txt The complete set of contributors may be
+found at http://polymer.github.io/CONTRIBUTORS.txt Code distributed by Google as
+part of the polymer project is also subject to an additional IP rights grant
+found at http://polymer.github.io/PATENTS.txt
 */
 Polymer({
   _template: html`
@@ -23900,11 +23949,18 @@ Polymer({
 /**
 @license
 Copyright (c) 2015 The Polymer Project Authors. All rights reserved.
-This code may only be used under the BSD style license found at http://polymer.github.io/LICENSE.txt
-The complete set of authors may be found at http://polymer.github.io/AUTHORS.txt
-The complete set of contributors may be found at http://polymer.github.io/CONTRIBUTORS.txt
-Code distributed by Google as part of the polymer project is also
-subject to an additional IP rights grant found at http://polymer.github.io/PATENTS.txt
+This code may only be used under the BSD style license found at
+http://polymer.github.io/LICENSE.txt The complete set of authors may be found at
+http://polymer.github.io/AUTHORS.txt The complete set of contributors may be
+found at http://polymer.github.io/CONTRIBUTORS.txt Code distributed by Google as
+part of the polymer project is also subject to an additional IP rights grant
+found at http://polymer.github.io/PATENTS.txt
+*/
+
+/*
+`iron-doc-element` renders documentation about a custom element from a JSON
+descriptor output by
+[Polymer Analyzer](https://github.com/Polymer/polymer-analyzer).
 */
 Polymer({
   _template: html`
@@ -23946,7 +24002,7 @@ Polymer({
         <a href\$="#[[fragmentPrefix]]description" class="deeplink">Description</a>
       </h2>
 
-      <marked-element sanitize="" markdown="[[descriptor.description]]">
+      <marked-element sanitize markdown="[[descriptor.description]]">
         <div slot="markdown-html" class="markdown-html"></div>
       </marked-element>
     </section>
@@ -23981,11 +24037,18 @@ Polymer({
 /**
 @license
 Copyright (c) 2015 The Polymer Project Authors. All rights reserved.
-This code may only be used under the BSD style license found at http://polymer.github.io/LICENSE.txt
-The complete set of authors may be found at http://polymer.github.io/AUTHORS.txt
-The complete set of contributors may be found at http://polymer.github.io/CONTRIBUTORS.txt
-Code distributed by Google as part of the polymer project is also
-subject to an additional IP rights grant found at http://polymer.github.io/PATENTS.txt
+This code may only be used under the BSD style license found at
+http://polymer.github.io/LICENSE.txt The complete set of authors may be found at
+http://polymer.github.io/AUTHORS.txt The complete set of contributors may be
+found at http://polymer.github.io/CONTRIBUTORS.txt Code distributed by Google as
+part of the polymer project is also subject to an additional IP rights grant
+found at http://polymer.github.io/PATENTS.txt
+*/
+
+/*
+`iron-doc-element` renders documentation about a JavaScript mixin from a JSON
+descriptor output by
+[Polymer Analyzer](https://github.com/Polymer/polymer-analyzer).
 */
 Polymer({
   _template: html`
@@ -24016,7 +24079,7 @@ Polymer({
         <a href\$="#[[fragmentPrefix]]description" class="deeplink">Description</a>
       </h2>
 
-      <marked-element sanitize="" markdown="[[descriptor.description]]">
+      <marked-element sanitize markdown="[[descriptor.description]]">
         <div slot="markdown-html" class="markdown-html"></div>
       </marked-element>
     </section>
@@ -24037,11 +24100,12 @@ Polymer({
 /**
 @license
 Copyright (c) 2015 The Polymer Project Authors. All rights reserved.
-This code may only be used under the BSD style license found at http://polymer.github.io/LICENSE.txt
-The complete set of authors may be found at http://polymer.github.io/AUTHORS.txt
-The complete set of contributors may be found at http://polymer.github.io/CONTRIBUTORS.txt
-Code distributed by Google as part of the polymer project is also
-subject to an additional IP rights grant found at http://polymer.github.io/PATENTS.txt
+This code may only be used under the BSD style license found at
+http://polymer.github.io/LICENSE.txt The complete set of authors may be found at
+http://polymer.github.io/AUTHORS.txt The complete set of contributors may be
+found at http://polymer.github.io/CONTRIBUTORS.txt Code distributed by Google as
+part of the polymer project is also subject to an additional IP rights grant
+found at http://polymer.github.io/PATENTS.txt
 */
 Polymer({
   _template: html`
@@ -24099,11 +24163,18 @@ Polymer({
 /**
 @license
 Copyright (c) 2015 The Polymer Project Authors. All rights reserved.
-This code may only be used under the BSD style license found at http://polymer.github.io/LICENSE.txt
-The complete set of authors may be found at http://polymer.github.io/AUTHORS.txt
-The complete set of contributors may be found at http://polymer.github.io/CONTRIBUTORS.txt
-Code distributed by Google as part of the polymer project is also
-subject to an additional IP rights grant found at http://polymer.github.io/PATENTS.txt
+This code may only be used under the BSD style license found at
+http://polymer.github.io/LICENSE.txt The complete set of authors may be found at
+http://polymer.github.io/AUTHORS.txt The complete set of contributors may be
+found at http://polymer.github.io/CONTRIBUTORS.txt Code distributed by Google as
+part of the polymer project is also subject to an additional IP rights grant
+found at http://polymer.github.io/PATENTS.txt
+*/
+
+/*
+`iron-doc-namespace` renders documentation about a JavaScript namespace from a
+JSON descriptor output by
+[Polymer Analyzer](https://github.com/Polymer/polymer-analyzer).
 */
 Polymer({
   _template: html`
@@ -24122,7 +24193,7 @@ Polymer({
       <h2>
         <a href\$="#[[fragmentPrefix]]description" class="deeplink">Description</a>
       </h2>
-      <marked-element sanitize="" markdown="[[descriptor.description]]">
+      <marked-element sanitize markdown="[[descriptor.description]]">
         <div slot="markdown-html" class="markdown-html"></div>
       </marked-element>
     </section>
@@ -24172,7 +24243,7 @@ Polymer({
         <a href\$="#[[fragmentPrefix]]functions" class="deeplink">Functions</a>
       </h2>
       <template is="dom-repeat" items="[[descriptor.functions]]" sort="_compareDescriptors">
-        <iron-doc-function add-import-path="" anchor-id="[[fragmentPrefix]]function-[[item.name]]" descriptor="[[item]]">
+        <iron-doc-function add-import-path anchor-id="[[fragmentPrefix]]function-[[item.name]]" descriptor="[[item]]">
         </iron-doc-function>
       </template>
     </section>
@@ -24202,11 +24273,46 @@ Polymer({
 /**
 @license
 Copyright (c) 2015 The Polymer Project Authors. All rights reserved.
-This code may only be used under the BSD style license found at http://polymer.github.io/LICENSE.txt
-The complete set of authors may be found at http://polymer.github.io/AUTHORS.txt
-The complete set of contributors may be found at http://polymer.github.io/CONTRIBUTORS.txt
-Code distributed by Google as part of the polymer project is also
-subject to an additional IP rights grant found at http://polymer.github.io/PATENTS.txt
+This code may only be used under the BSD style license found at
+http://polymer.github.io/LICENSE.txt The complete set of authors may be found at
+http://polymer.github.io/AUTHORS.txt The complete set of contributors may be
+found at http://polymer.github.io/CONTRIBUTORS.txt Code distributed by Google as
+part of the polymer project is also subject to an additional IP rights grant
+found at http://polymer.github.io/PATENTS.txt
+*/
+
+/*
+`iron-doc-viewer` renders documentation about elements, mixins, classes, and
+more from a JSON descriptor output by
+[Polymer Analyzer](https://github.com/Polymer/polymer-analyzer).
+
+Provide the descriptor JSON as a data binding to `descriptor`:
+
+    <iron-doc-viewer descriptor="[[descriptor]]"></iron-doc-viewer>
+
+`iron-doc-viewer` will initially display all items contained in the given
+descriptor (e.g. elements, mixins, classes). `path` is used to display detail
+about specific items within the descriptor (e.g. "/elements/my-component"), and
+by default is bound to the current `window.location` path.
+
+### Styling
+
+Most users should include the default theme alongside this element:
+
+    <script type="module">
+      import '@polymer/iron-doc-viewer/default-theme.js';
+    </script>
+
+    <custom-style>
+      <style is="custom-style" include="iron-doc-default-theme"></style>
+    </custom-style>
+
+The following custom properties and mixins are available for styling:
+
+Custom property | Description | Default
+----------------|-------------|----------
+`--iron-doc-font-code` | Mixin applied to code snippets. | `{}`
+`--iron-doc-font-body` | Mixin applied to non-code text. | `{}`
 */
 Polymer({
   _template: html`
@@ -24218,32 +24324,32 @@ Polymer({
 
     <iron-location path="{{_urlPath}}" hash="{{_urlHash}}"></iron-location>
 
-    <template is="dom-if" if="[[_equal(_descriptorType,'demos')]]" restamp="">
+    <template is="dom-if" if="[[_equal(_descriptorType,'demos')]]" restamp>
       <iron-doc-demo class="active" demo="[[_demo]]" src-prefix="[[demoSrcPrefix]]" title="{{title}}">
       </iron-doc-demo>
     </template>
 
-    <template is="dom-if" if="[[_equal(_descriptorType,'namespaces')]]" restamp="">
+    <template is="dom-if" if="[[_equal(_descriptorType,'namespaces')]]" restamp>
       <iron-doc-namespace class="active" descriptor="[[_currentDescriptor]]" fragment-prefix="[[_fragmentPrefix]]" title="{{title}}" base-href="[[baseHref]]">
       </iron-doc-namespace>
     </template>
 
-    <template is="dom-if" if="[[_equal(_descriptorType,'elements')]]" restamp="">
+    <template is="dom-if" if="[[_equal(_descriptorType,'elements')]]" restamp>
       <iron-doc-element class="active" descriptor="[[_currentDescriptor]]" fragment-prefix="[[_fragmentPrefix]]" title="{{title}}" base-href="[[baseHref]]">
       </iron-doc-element>
     </template>
 
-    <template is="dom-if" if="[[_equal(_descriptorType,'mixins')]]" restamp="">
+    <template is="dom-if" if="[[_equal(_descriptorType,'mixins')]]" restamp>
       <iron-doc-mixin class="active" descriptor="[[_currentDescriptor]]" fragment-prefix="[[_fragmentPrefix]]" title="{{title}}" base-href="[[baseHref]]">
       </iron-doc-mixin>
     </template>
 
-    <template is="dom-if" if="[[_equal(_descriptorType,'behaviors')]]" restamp="">
+    <template is="dom-if" if="[[_equal(_descriptorType,'behaviors')]]" restamp>
       <iron-doc-behavior class="active" descriptor="[[_currentDescriptor]]" fragment-prefix="[[_fragmentPrefix]]" title="{{title}}" base-href="[[baseHref]]">
       </iron-doc-behavior>
     </template>
 
-    <template is="dom-if" if="[[_equal(_descriptorType,'classes')]]" restamp="">
+    <template is="dom-if" if="[[_equal(_descriptorType,'classes')]]" restamp>
       <iron-doc-class class="active" descriptor="[[_currentDescriptor]]" fragment-prefix="[[_fragmentPrefix]]" title="{{title}}" base-href="[[baseHref]]">
       </iron-doc-class>
     </template>
@@ -24254,8 +24360,8 @@ Polymer({
   properties: {
     /**
      * The [Polymer
-     * Analyzer](https://github.com/Polymer/polymer-analyzer)-generated element
-     * descriptor to display details for.
+     * Analyzer](https://github.com/Polymer/polymer-analyzer)-generated
+     * element descriptor to display details for.
      */
     descriptor: {
       type: Object,
@@ -27276,70 +27382,6 @@ part of the polymer project is also subject to an additional IP rights grant
 found at http://polymer.github.io/PATENTS.txt
 */
 
-const template$6 = html`
-<dom-module id="paper-icon-button">
-  <template strip-whitespace>
-    <style>
-      :host {
-        display: inline-block;
-        position: relative;
-        padding: 8px;
-        outline: none;
-        -webkit-user-select: none;
-        -moz-user-select: none;
-        -ms-user-select: none;
-        user-select: none;
-        cursor: pointer;
-        z-index: 0;
-        line-height: 1;
-
-        width: 40px;
-        height: 40px;
-
-        /* NOTE: Both values are needed, since some phones require the value to be \`transparent\`. */
-        -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-        -webkit-tap-highlight-color: transparent;
-
-        /* Because of polymer/2558, this style has lower specificity than * */
-        box-sizing: border-box !important;
-
-        @apply --paper-icon-button;
-      }
-
-      :host #ink {
-        color: var(--paper-icon-button-ink-color, var(--primary-text-color));
-        opacity: 0.6;
-      }
-
-      :host([disabled]) {
-        color: var(--paper-icon-button-disabled-text, var(--disabled-text-color));
-        pointer-events: none;
-        cursor: auto;
-
-        @apply --paper-icon-button-disabled;
-      }
-
-      :host([hidden]) {
-        display: none !important;
-      }
-
-      :host(:hover) {
-        @apply --paper-icon-button-hover;
-      }
-
-      iron-icon {
-        --iron-icon-width: 100%;
-        --iron-icon-height: 100%;
-      }
-    </style>
-
-    <iron-icon id="icon" src="[[src]]" icon="[[icon]]" alt\$="[[alt]]"></iron-icon>
-  </template>
-</dom-module>
-`;
-template$6.setAttribute('style', 'display: none;');
-document.body.appendChild(template$6.content);
-
 /**
 Material design: [Icon
 toggles](https://www.google.com/design/spec/components/buttons.html#buttons-toggle-buttons)
@@ -27403,9 +27445,75 @@ Custom property | Description | Default
 Polymer({
   is: 'paper-icon-button',
 
+  _template: html`
+    <style>
+      :host {
+        display: inline-block;
+        position: relative;
+        padding: 8px;
+        outline: none;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        cursor: pointer;
+        z-index: 0;
+        line-height: 1;
+
+        width: 40px;
+        height: 40px;
+
+        /*
+          NOTE: Both values are needed, since some phones require the value to
+          be \`transparent\`.
+        */
+        -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+        -webkit-tap-highlight-color: transparent;
+
+        /* Because of polymer/2558, this style has lower specificity than * */
+        box-sizing: border-box !important;
+
+        @apply --paper-icon-button;
+      }
+
+      :host #ink {
+        color: var(--paper-icon-button-ink-color, var(--primary-text-color));
+        opacity: 0.6;
+      }
+
+      :host([disabled]) {
+        color: var(--paper-icon-button-disabled-text, var(--disabled-text-color));
+        pointer-events: none;
+        cursor: auto;
+
+        @apply --paper-icon-button-disabled;
+      }
+
+      :host([hidden]) {
+        display: none !important;
+      }
+
+      :host(:hover) {
+        @apply --paper-icon-button-hover;
+      }
+
+      iron-icon {
+        --iron-icon-width: 100%;
+        --iron-icon-height: 100%;
+      }
+    </style>
+
+    <iron-icon id="icon" src="[[src]]" icon="[[icon]]"
+               alt$="[[alt]]"></iron-icon>
+  `,
+
   hostAttributes: {role: 'button', tabindex: '0'},
 
   behaviors: [PaperInkyFocusBehavior],
+
+  registered: function() {
+    this._template.setAttribute('strip-whitespace', '');
+  },
 
   properties: {
     /**
@@ -30354,11 +30462,12 @@ Polymer({
 /**
 @license
 Copyright (c) 2015 The Polymer Project Authors. All rights reserved.
-This code may only be used under the BSD style license found at http://polymer.github.io/LICENSE.txt
-The complete set of authors may be found at http://polymer.github.io/AUTHORS.txt
-The complete set of contributors may be found at http://polymer.github.io/CONTRIBUTORS.txt
-Code distributed by Google as part of the polymer project is also
-subject to an additional IP rights grant found at http://polymer.github.io/PATENTS.txt
+This code may only be used under the BSD style license found at
+http://polymer.github.io/LICENSE.txt The complete set of authors may be found at
+http://polymer.github.io/AUTHORS.txt The complete set of contributors may be
+found at http://polymer.github.io/CONTRIBUTORS.txt Code distributed by Google as
+part of the polymer project is also subject to an additional IP rights grant
+found at http://polymer.github.io/PATENTS.txt
 */
 Polymer({
   _template: html`
@@ -30416,28 +30525,28 @@ Polymer({
       }
     </style>
 
-    <iron-ajax auto="" url="[[descriptorUrl]]" handle-as="json" last-response="{{_descriptor}}" loading="{{_loading}}" last-error="{{_error}}">
+    <iron-ajax auto url="[[descriptorUrl]]" handle-as="json" last-response="{{_descriptor}}" loading="{{_loading}}" last-error="{{_descriptorError}}">
     </iron-ajax>
 
     <paper-toast id="loading-toast" opened="[[_loading]]" duration="0">
       Loading descriptor ...
     </paper-toast>
 
-    <paper-toast id="error-toast" opened="[[_error]]" duration="0">
-      Could not load descriptor "[[descriptorUrl]]". <br> [[_error.error]]
+    <paper-toast id="error-toast" opened="[[_descriptorError]]" duration="0">
+      Could not load descriptor "[[descriptorUrl]]". <br> [[_descriptorError.error]]
     </paper-toast>
 
-    <app-drawer-layout fullbleed="" narrow="{{_narrow}}">
+    <app-drawer-layout fullbleed narrow="{{_narrow}}">
 
-      <app-drawer id="drawer" slot="drawer" swipe-open="">
+      <app-drawer id="drawer" slot="drawer" swipe-open>
         <iron-doc-nav descriptor="[[_descriptor]]" base-href="[[baseHref]]" path="[[_path]]" on-select="_onNavSelect">
         </iron-doc-nav>
       </app-drawer>
 
-      <app-header-layout has-scrolling-region="">
-        <app-header slot="header" fixed="">
+      <app-header-layout has-scrolling-region>
+        <app-header slot="header" fixed>
           <app-toolbar>
-            <paper-icon-button icon="menu" drawer-toggle="" hidden\$="[[!_narrow]]">
+            <paper-icon-button icon="menu" drawer-toggle hidden\$="[[!_narrow]]">
             </paper-icon-button>
 
             <div>[[_title]]</div>
@@ -30487,7 +30596,7 @@ Polymer({
 
     _loading: Boolean,
 
-    _error: Object,
+    _descriptorError: Object,
 
     _descriptor: {type: Object, observer: '_descriptorChanged'},
 
@@ -30513,7 +30622,7 @@ Polymer({
   },
 
   _descriptorUrlChanged() {
-    this._error = null;
+    this._descriptorError = null;
   },
 
   _descriptorChanged(descriptor) {
