@@ -1,1 +1,0 @@
-# `apollo-server-plugin-base`

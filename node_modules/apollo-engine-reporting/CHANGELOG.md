@@ -1,4 +1,0 @@
-### vNext
-
-* Initial release.
-
