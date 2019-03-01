@@ -1,0 +1,13 @@
+{
+  "extends": "../../tsconfig-base.json",
+  "compilerOptions": {
+    "declaration": false,
+    "noUnusedParameters": true,
+    "skipLibCheck": true,
+    "outDir": "./lib"
+  },
+  "include": [
+    "custom_typings/**/*.d.ts",
+    "src/**/*.ts"
+  ]
+}

@@ -1,0 +1,23 @@
+# http://www.appveyor.com/docs/appveyor-yml
+environment:
+  SAUCE_USERNAME: sc-launcher-ci
+  SAUCE_ACCESS_KEY: 9f0d1fc0-df51-4863-9761-7879fa9ff844
+  VERBOSE_TESTS: 1
+
+# Install scripts. (runs after repo cloning)
+install:
+  # Get the latest stable version of nodejs
+  - ps: Install-Product node 4
+  - npm version
+  - npm config set spin false
+  - appveyor-retry npm install
+  # Setup make
+  - set PATH=C:\MinGW\bin;%PATH%
+  - copy c:\MinGW\bin\mingw32-make.exe c:\MinGW\bin\make.exe
+
+# Post-install test scripts.
+test_script:
+  - npm test
+
+# Don't actually build.
+build: off

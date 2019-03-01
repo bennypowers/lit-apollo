@@ -1,0 +1,16 @@
+# Installation
+> `npm install --save @types/merge-stream`
+
+# Summary
+This package contains type definitions for merge-stream (https://github.com/grncdr/merge-stream).
+
+# Details
+Files were exported from https://github.com/DefinitelyTyped/DefinitelyTyped/tree/master/types/merge-stream
+
+Additional Details
+ * Last updated: Mon, 16 Jul 2018 17:07:43 GMT
+ * Dependencies: node
+ * Global values: none
+
+# Credits
+These definitions were written by Keita Kagurazaka <https://github.com/k-kagurazaka>, Tom X. Tobin <https://github.com/tomxtobin>, Daniel Zazula <https://github.com/daniel-zazula>, Daniel Cassidy <https://github.com/djcsdy>.

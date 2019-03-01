@@ -1,0 +1,1839 @@
+{
+  "schema_version": "1.0.0",
+  "classes": [
+    {
+      "description": "# ApolloElement\n\nCustom Element base class for apollo custom elements.",
+      "summary": "",
+      "path": "apollo-element.js",
+      "properties": [
+        {
+          "name": "context",
+          "type": "Object",
+          "description": "Context to be passed to link execution chain.",
+          "privacy": "public",
+          "sourceRange": {
+            "file": "node_modules/%40apollo-elements/mixins/apollo-element-mixin.js",
+            "start": {
+              "line": 21,
+              "column": 4
+            },
+            "end": {
+              "line": 21,
+              "column": 17
+            }
+          },
+          "metadata": {},
+          "inheritedFrom": "ApolloElementMixin"
+        },
+        {
+          "name": "data",
+          "type": "Object",
+          "description": "The latest data for the query from the Apollo cache",
+          "privacy": "public",
+          "sourceRange": {
+            "start": {
+              "line": 19,
+              "column": 2
+            },
+            "end": {
+              "line": 21,
+              "column": 3
+            }
+          },
+          "metadata": {}
+        },
+        {
+          "name": "error",
+          "type": "Object",
+          "description": "The latest error for the query from the Apollo cache",
+          "privacy": "public",
+          "sourceRange": {
+            "start": {
+              "line": 33,
+              "column": 2
+            },
+            "end": {
+              "line": 35,
+              "column": 3
+            }
+          },
+          "metadata": {}
+        },
+        {
+          "name": "loading",
+          "type": "boolean",
+          "description": "Whether the query is currently in-flight.",
+          "privacy": "public",
+          "sourceRange": {
+            "start": {
+              "line": 47,
+              "column": 2
+            },
+            "end": {
+              "line": 49,
+              "column": 3
+            }
+          },
+          "metadata": {}
+        },
+        {
+          "name": "client",
+          "type": "ApolloClient",
+          "description": "The apollo client instance.",
+          "privacy": "public",
+          "sourceRange": {
+            "file": "node_modules/%40apollo-elements/mixins/apollo-element-mixin.js",
+            "start": {
+              "line": 45,
+              "column": 4
+            },
+            "end": {
+              "line": 45,
+              "column": 15
+            }
+          },
+          "metadata": {},
+          "defaultValue": "window.__APOLLO_CLIENT__",
+          "inheritedFrom": "ApolloElementMixin"
+        },
+        {
+          "name": "document",
+          "type": "DocumentNode",
+          "description": "GraphQL Document",
+          "privacy": "public",
+          "sourceRange": {
+            "file": "node_modules/%40apollo-elements/mixins/apollo-element-mixin.js",
+            "start": {
+              "line": 53,
+              "column": 2
+            },
+            "end": {
+              "line": 55,
+              "column": 3
+            }
+          },
+          "metadata": {},
+          "inheritedFrom": "ApolloElementMixin"
+        }
+      ],
+      "methods": [
+        {
+          "name": "connectedCallback",
+          "description": "",
+          "privacy": "protected",
+          "sourceRange": {
+            "file": "node_modules/%40apollo-elements/mixins/apollo-element-mixin.js",
+            "start": {
+              "line": 67,
+              "column": 2
+            },
+            "end": {
+              "line": 76,
+              "column": 3
+            }
+          },
+          "metadata": {},
+          "params": [],
+          "return": {
+            "type": "void"
+          },
+          "inheritedFrom": "ApolloElementMixin"
+        },
+        {
+          "name": "disconnectedCallback",
+          "description": "",
+          "privacy": "protected",
+          "sourceRange": {
+            "file": "node_modules/%40apollo-elements/mixins/apollo-element-mixin.js",
+            "start": {
+              "line": 79,
+              "column": 2
+            },
+            "end": {
+              "line": 83,
+              "column": 3
+            }
+          },
+          "metadata": {},
+          "params": [],
+          "return": {
+            "type": "void"
+          },
+          "inheritedFrom": "ApolloElementMixin"
+        },
+        {
+          "name": "onElementMutation",
+          "description": "",
+          "privacy": "protected",
+          "sourceRange": {
+            "file": "node_modules/%40apollo-elements/mixins/apollo-element-mixin.js",
+            "start": {
+              "line": 86,
+              "column": 2
+            },
+            "end": {
+              "line": 89,
+              "column": 3
+            }
+          },
+          "metadata": {},
+          "params": [],
+          "return": {
+            "type": "void"
+          },
+          "inheritedFrom": "ApolloElementMixin"
+        }
+      ],
+      "staticMethods": [],
+      "demos": [],
+      "metadata": {},
+      "sourceRange": {
+        "start": {
+          "line": 13,
+          "column": 7
+        },
+        "end": {
+          "line": 55,
+          "column": 1
+        }
+      },
+      "privacy": "public",
+      "superclass": "GluonElement",
+      "name": "ApolloElement"
+    },
+    {
+      "description": "# ApolloMutation\n\n👩‍🚀 A custom element base class to issue mutations via your Apollo cache.\n\n## Usage\n\n```js\nimport { client } from './apollo-client';\nimport { ApolloMutation, html } from '@apollo-elements/gluon';\n\nclass MutationElement extends ApolloMutation {\n  get template() {\n    return html`<input on-input=\"${this.onInput.bind(this)}\"\n  }\n\n  constructor() {\n    super();\n    this.client = client;\n    this.mutation = gql`\n      mutation InputMutation {\n        updateInput {\n          input\n        }\n      }\n    `;\n  }\n\n  onInput(event) {\n    const { mutation } = this;\n    const variables = { input: event.target.value };\n    return this.mutate({\n      mutation,\n      variables,\n    });\n  }\n};\n\ncustomElements.define('mutation-element', MutationElement)\n```",
+      "summary": "",
+      "path": "apollo-mutation.js",
+      "properties": [
+        {
+          "name": "context",
+          "type": "Object",
+          "description": "Context to be passed to link execution chain.",
+          "privacy": "public",
+          "sourceRange": {
+            "file": "node_modules/%40apollo-elements/mixins/apollo-element-mixin.js",
+            "start": {
+              "line": 21,
+              "column": 4
+            },
+            "end": {
+              "line": 21,
+              "column": 17
+            }
+          },
+          "metadata": {},
+          "inheritedFrom": "ApolloElementMixin"
+        },
+        {
+          "name": "data",
+          "type": "Object",
+          "description": "Latest data.",
+          "privacy": "public",
+          "sourceRange": {
+            "file": "node_modules/%40apollo-elements/mixins/apollo-element-mixin.js",
+            "start": {
+              "line": 27,
+              "column": 4
+            },
+            "end": {
+              "line": 27,
+              "column": 14
+            }
+          },
+          "metadata": {},
+          "inheritedFrom": "ApolloElementMixin"
+        },
+        {
+          "name": "error",
+          "type": "Object",
+          "description": "Latest error.",
+          "privacy": "public",
+          "sourceRange": {
+            "file": "node_modules/%40apollo-elements/mixins/apollo-element-mixin.js",
+            "start": {
+              "line": 33,
+              "column": 4
+            },
+            "end": {
+              "line": 33,
+              "column": 15
+            }
+          },
+          "metadata": {},
+          "inheritedFrom": "ApolloElementMixin"
+        },
+        {
+          "name": "loading",
+          "type": "Boolean",
+          "description": "Whether a request is in flight.",
+          "privacy": "public",
+          "sourceRange": {
+            "file": "node_modules/%40apollo-elements/mixins/apollo-element-mixin.js",
+            "start": {
+              "line": 39,
+              "column": 4
+            },
+            "end": {
+              "line": 39,
+              "column": 17
+            }
+          },
+          "metadata": {},
+          "inheritedFrom": "ApolloElementMixin"
+        },
+        {
+          "name": "client",
+          "type": "ApolloClient",
+          "description": "The apollo client instance.",
+          "privacy": "public",
+          "sourceRange": {
+            "file": "node_modules/%40apollo-elements/mixins/apollo-element-mixin.js",
+            "start": {
+              "line": 45,
+              "column": 4
+            },
+            "end": {
+              "line": 45,
+              "column": 15
+            }
+          },
+          "metadata": {},
+          "defaultValue": "window.__APOLLO_CLIENT__",
+          "inheritedFrom": "ApolloElementMixin"
+        },
+        {
+          "name": "document",
+          "type": "DocumentNode",
+          "description": "GraphQL Document",
+          "privacy": "public",
+          "sourceRange": {
+            "file": "node_modules/%40apollo-elements/mixins/apollo-element-mixin.js",
+            "start": {
+              "line": 53,
+              "column": 2
+            },
+            "end": {
+              "line": 55,
+              "column": 3
+            }
+          },
+          "metadata": {},
+          "inheritedFrom": "ApolloElementMixin"
+        },
+        {
+          "name": "ignoreResults",
+          "type": "Boolean",
+          "description": "Whether to ignore the results of the mutation.",
+          "privacy": "public",
+          "sourceRange": {
+            "file": "node_modules/%40apollo-elements/mixins/apollo-mutation-mixin.js",
+            "start": {
+              "line": 38,
+              "column": 4
+            },
+            "end": {
+              "line": 38,
+              "column": 22
+            }
+          },
+          "metadata": {},
+          "defaultValue": "false",
+          "inheritedFrom": "ApolloMutationMixin"
+        },
+        {
+          "name": "mostRecentMutationId",
+          "type": "Number",
+          "description": "The ID number of the most recent mutation since the element was instantiated.",
+          "privacy": "public",
+          "sourceRange": {
+            "file": "node_modules/%40apollo-elements/mixins/apollo-mutation-mixin.js",
+            "start": {
+              "line": 44,
+              "column": 4
+            },
+            "end": {
+              "line": 44,
+              "column": 29
+            }
+          },
+          "metadata": {},
+          "defaultValue": "0",
+          "inheritedFrom": "ApolloMutationMixin"
+        },
+        {
+          "name": "optimisticResponse",
+          "type": "Object",
+          "description": "An object that represents the result of this mutation that\nwill be optimistically stored before the server has actually returned a\nresult.\n\nThis is most often used for optimistic UI, where we want to be able to see\nthe result of a mutation immediately, and update the UI later if any errors\nappear.",
+          "privacy": "public",
+          "sourceRange": {
+            "file": "node_modules/%40apollo-elements/mixins/apollo-mutation-mixin.js",
+            "start": {
+              "line": 56,
+              "column": 4
+            },
+            "end": {
+              "line": 56,
+              "column": 28
+            }
+          },
+          "metadata": {},
+          "inheritedFrom": "ApolloMutationMixin"
+        },
+        {
+          "name": "update",
+          "type": "MutationUpdaterFn",
+          "description": "A function which updates the apollo cache when the query responds.\nThis function will be called twice over the lifecycle of a mutation.\nOnce at the very beginning if an optimisticResponse was provided.\nThe writes created from the optimistic data will be rolled back before\nthe second time this function is called which is when the mutation has\nsuccesfully resolved. At that point update will be called with the actual\nmutation result and those writes will not be rolled back.\n\nThe reason a DataProxy is provided instead of the user calling the methods\ndirectly on ApolloClient is that all of the writes are batched together at\nthe end of the update, and it allows for writes generated by optimistic\ndata to be rolled back.",
+          "privacy": "public",
+          "sourceRange": {
+            "file": "node_modules/%40apollo-elements/mixins/apollo-mutation-mixin.js",
+            "start": {
+              "line": 73,
+              "column": 4
+            },
+            "end": {
+              "line": 73,
+              "column": 16
+            }
+          },
+          "metadata": {},
+          "inheritedFrom": "ApolloMutationMixin"
+        },
+        {
+          "name": "variables",
+          "type": "Object",
+          "description": "An object that maps from the name of a variable as used in the mutation GraphQL document to that variable's value.",
+          "privacy": "public",
+          "sourceRange": {
+            "file": "node_modules/%40apollo-elements/mixins/apollo-mutation-mixin.js",
+            "start": {
+              "line": 79,
+              "column": 4
+            },
+            "end": {
+              "line": 79,
+              "column": 19
+            }
+          },
+          "metadata": {},
+          "inheritedFrom": "ApolloMutationMixin"
+        },
+        {
+          "name": "mutation",
+          "type": "DocumentNode",
+          "description": "The mutation.",
+          "privacy": "public",
+          "sourceRange": {
+            "file": "node_modules/%40apollo-elements/mixins/apollo-mutation-mixin.js",
+            "start": {
+              "line": 19,
+              "column": 2
+            },
+            "end": {
+              "line": 21,
+              "column": 3
+            }
+          },
+          "metadata": {},
+          "inheritedFrom": "ApolloMutationMixin"
+        },
+        {
+          "name": "called",
+          "type": "boolean",
+          "description": "Whether the mutation has been called",
+          "privacy": "public",
+          "sourceRange": {
+            "start": {
+              "line": 54,
+              "column": 2
+            },
+            "end": {
+              "line": 56,
+              "column": 3
+            }
+          },
+          "metadata": {}
+        }
+      ],
+      "methods": [
+        {
+          "name": "connectedCallback",
+          "description": "",
+          "privacy": "protected",
+          "sourceRange": {
+            "file": "node_modules/%40apollo-elements/mixins/apollo-element-mixin.js",
+            "start": {
+              "line": 67,
+              "column": 2
+            },
+            "end": {
+              "line": 76,
+              "column": 3
+            }
+          },
+          "metadata": {},
+          "params": [],
+          "return": {
+            "type": "void"
+          },
+          "inheritedFrom": "ApolloElementMixin"
+        },
+        {
+          "name": "disconnectedCallback",
+          "description": "",
+          "privacy": "protected",
+          "sourceRange": {
+            "file": "node_modules/%40apollo-elements/mixins/apollo-element-mixin.js",
+            "start": {
+              "line": 79,
+              "column": 2
+            },
+            "end": {
+              "line": 83,
+              "column": 3
+            }
+          },
+          "metadata": {},
+          "params": [],
+          "return": {
+            "type": "void"
+          },
+          "inheritedFrom": "ApolloElementMixin"
+        },
+        {
+          "name": "onElementMutation",
+          "description": "",
+          "privacy": "protected",
+          "sourceRange": {
+            "file": "node_modules/%40apollo-elements/mixins/apollo-element-mixin.js",
+            "start": {
+              "line": 86,
+              "column": 2
+            },
+            "end": {
+              "line": 89,
+              "column": 3
+            }
+          },
+          "metadata": {},
+          "params": [],
+          "return": {
+            "type": "void"
+          },
+          "inheritedFrom": "ApolloElementMixin"
+        },
+        {
+          "name": "generateMutationId",
+          "description": "Increments and returns the most recent mutation id.",
+          "privacy": "protected",
+          "sourceRange": {
+            "file": "node_modules/%40apollo-elements/mixins/apollo-mutation-mixin.js",
+            "start": {
+              "line": 90,
+              "column": 2
+            },
+            "end": {
+              "line": 93,
+              "column": 3
+            }
+          },
+          "metadata": {},
+          "params": [],
+          "return": {
+            "type": "number"
+          },
+          "inheritedFrom": "ApolloMutationMixin"
+        },
+        {
+          "name": "isMostRecentMutation",
+          "description": "Returns true when an ID matches the most recent mutation id.",
+          "privacy": "protected",
+          "sourceRange": {
+            "file": "node_modules/%40apollo-elements/mixins/apollo-mutation-mixin.js",
+            "start": {
+              "line": 102,
+              "column": 2
+            },
+            "end": {
+              "line": 104,
+              "column": 3
+            }
+          },
+          "metadata": {},
+          "params": [
+            {
+              "name": "mutationId",
+              "type": "number"
+            }
+          ],
+          "return": {
+            "type": "boolean"
+          },
+          "inheritedFrom": "ApolloMutationMixin"
+        },
+        {
+          "name": "mutate",
+          "description": "This resolves a single mutation according to the options specified and returns a Promise which is either resolved with the resulting data or rejected with an error.",
+          "privacy": "public",
+          "sourceRange": {
+            "file": "node_modules/%40apollo-elements/mixins/apollo-mutation-mixin.js",
+            "start": {
+              "line": 121,
+              "column": 2
+            },
+            "end": {
+              "line": 158,
+              "column": 3
+            }
+          },
+          "metadata": {},
+          "params": [
+            {
+              "name": "{\n  context = this.context,\n  errorPolicy = this.errorPolicy,\n  fetchPolicy = this.fetchPolicy,\n  mutation = this.mutation,\n  optimisticResponse = this.optimisticResponse,\n  refetchQueries = this.refetchQueries,\n  update = this.update,\n  awaitRefetchQueries = this.awaitRefetchQueries,\n  variables = this.variables\n} = {}"
+            }
+          ],
+          "return": {
+            "type": "Promise.<FetchResult>"
+          },
+          "inheritedFrom": "ApolloMutationMixin"
+        },
+        {
+          "name": "onCompletedMutation",
+          "description": "Callback for when a mutation is completed.",
+          "privacy": "protected",
+          "sourceRange": {
+            "file": "node_modules/%40apollo-elements/mixins/apollo-mutation-mixin.js",
+            "start": {
+              "line": 168,
+              "column": 2
+            },
+            "end": {
+              "line": 177,
+              "column": 3
+            }
+          },
+          "metadata": {},
+          "params": [
+            {
+              "name": "response",
+              "type": "FetchResult"
+            },
+            {
+              "name": "mutationId",
+              "type": "number"
+            }
+          ],
+          "return": {
+            "type": "any"
+          },
+          "inheritedFrom": "ApolloMutationMixin"
+        },
+        {
+          "name": "onMutationError",
+          "description": "Callback for when a mutation fails.",
+          "privacy": "protected",
+          "sourceRange": {
+            "file": "node_modules/%40apollo-elements/mixins/apollo-mutation-mixin.js",
+            "start": {
+              "line": 187,
+              "column": 2
+            },
+            "end": {
+              "line": 194,
+              "column": 3
+            }
+          },
+          "metadata": {},
+          "params": [
+            {
+              "name": "error",
+              "type": "Error",
+              "description": "mutation error"
+            },
+            {
+              "name": "mutationId",
+              "type": "number",
+              "description": "id of the mutation"
+            }
+          ],
+          "return": {
+            "type": "any"
+          },
+          "inheritedFrom": "ApolloMutationMixin"
+        },
+        {
+          "name": "onCompleted",
+          "description": "Callback for when a mutation is completed.",
+          "privacy": "public",
+          "sourceRange": {
+            "file": "node_modules/%40apollo-elements/mixins/apollo-mutation-mixin.js",
+            "start": {
+              "line": 201,
+              "column": 2
+            },
+            "end": {
+              "line": 201,
+              "column": 19
+            }
+          },
+          "metadata": {},
+          "params": [],
+          "return": {
+            "type": "void"
+          },
+          "inheritedFrom": "ApolloMutationMixin"
+        },
+        {
+          "name": "onError",
+          "description": "Callback for when an error occurs in mutation.",
+          "privacy": "public",
+          "sourceRange": {
+            "file": "node_modules/%40apollo-elements/mixins/apollo-mutation-mixin.js",
+            "start": {
+              "line": 208,
+              "column": 2
+            },
+            "end": {
+              "line": 208,
+              "column": 15
+            }
+          },
+          "metadata": {},
+          "params": [],
+          "return": {
+            "type": "void"
+          },
+          "inheritedFrom": "ApolloMutationMixin"
+        }
+      ],
+      "staticMethods": [],
+      "demos": [],
+      "metadata": {},
+      "sourceRange": {
+        "start": {
+          "line": 48,
+          "column": 7
+        },
+        "end": {
+          "line": 62,
+          "column": 1
+        }
+      },
+      "privacy": "public",
+      "superclass": "GluonElement",
+      "name": "ApolloMutation"
+    },
+    {
+      "description": "# ApolloQuery\n\n🚀 A custom element base class that connects to your Apollo cache.\n\n## Usage\n\n```js\nimport { client } from './apollo-client.js';\nimport { ApolloQuery, html } from '@apollo-elements/gluon';\nimport gql from 'graphql-tag';\n\nconst errorTemplate = ({message = 'Unknown Error'}) => html`\n  <h1>😢 Such Sad, Very Error! 😰</h1>\n  <div>${message}</div>`\n\nclass ConnectedElement extends ApolloQuery {\n  get template() {\n    const { data, error, loading, networkStatus } = this;\n    return\n        loading ? html`<such-overlay-very-spin></such-overlay-very-spin>`\n      : error ? errorTemplate(error)\n      : html`<p>${data.helloWorld.greeting}, ${data.helloWorld.name}</p>`\n  }\n\n  constructor() {\n    super();\n    this.client = client;\n    this.query = gql`\n      query {\n        helloWorld {\n          name\n          greeting\n        }\n      }\n    `;\n  }\n};\n\ncustomElements.define('connected-element', ConnectedElement)\n```",
+      "summary": "",
+      "path": "apollo-query.js",
+      "properties": [
+        {
+          "name": "context",
+          "type": "Object",
+          "description": "Context to be passed to link execution chain.",
+          "privacy": "public",
+          "sourceRange": {
+            "file": "node_modules/%40apollo-elements/mixins/apollo-element-mixin.js",
+            "start": {
+              "line": 21,
+              "column": 4
+            },
+            "end": {
+              "line": 21,
+              "column": 17
+            }
+          },
+          "metadata": {},
+          "inheritedFrom": "ApolloElementMixin"
+        },
+        {
+          "name": "data",
+          "type": "Object",
+          "description": "Latest data.",
+          "privacy": "public",
+          "sourceRange": {
+            "file": "node_modules/%40apollo-elements/mixins/apollo-element-mixin.js",
+            "start": {
+              "line": 27,
+              "column": 4
+            },
+            "end": {
+              "line": 27,
+              "column": 14
+            }
+          },
+          "metadata": {},
+          "inheritedFrom": "ApolloElementMixin"
+        },
+        {
+          "name": "error",
+          "type": "Object",
+          "description": "Latest error.",
+          "privacy": "public",
+          "sourceRange": {
+            "file": "node_modules/%40apollo-elements/mixins/apollo-element-mixin.js",
+            "start": {
+              "line": 33,
+              "column": 4
+            },
+            "end": {
+              "line": 33,
+              "column": 15
+            }
+          },
+          "metadata": {},
+          "inheritedFrom": "ApolloElementMixin"
+        },
+        {
+          "name": "loading",
+          "type": "Boolean",
+          "description": "Whether a request is in flight.",
+          "privacy": "public",
+          "sourceRange": {
+            "file": "node_modules/%40apollo-elements/mixins/apollo-element-mixin.js",
+            "start": {
+              "line": 39,
+              "column": 4
+            },
+            "end": {
+              "line": 39,
+              "column": 17
+            }
+          },
+          "metadata": {},
+          "inheritedFrom": "ApolloElementMixin"
+        },
+        {
+          "name": "client",
+          "type": "ApolloClient",
+          "description": "The apollo client instance.",
+          "privacy": "public",
+          "sourceRange": {
+            "file": "node_modules/%40apollo-elements/mixins/apollo-element-mixin.js",
+            "start": {
+              "line": 45,
+              "column": 4
+            },
+            "end": {
+              "line": 45,
+              "column": 15
+            }
+          },
+          "metadata": {},
+          "defaultValue": "window.__APOLLO_CLIENT__",
+          "inheritedFrom": "ApolloElementMixin"
+        },
+        {
+          "name": "document",
+          "type": "DocumentNode",
+          "description": "GraphQL Document",
+          "privacy": "public",
+          "sourceRange": {
+            "file": "node_modules/%40apollo-elements/mixins/apollo-element-mixin.js",
+            "start": {
+              "line": 53,
+              "column": 2
+            },
+            "end": {
+              "line": 55,
+              "column": 3
+            }
+          },
+          "metadata": {},
+          "inheritedFrom": "ApolloElementMixin"
+        },
+        {
+          "name": "errorPolicy",
+          "type": "ErrorPolicy",
+          "description": "Specifies the ErrorPolicy to be used for this query.",
+          "privacy": "public",
+          "sourceRange": {
+            "file": "node_modules/%40apollo-elements/mixins/apollo-query-mixin.js",
+            "start": {
+              "line": 75,
+              "column": 4
+            },
+            "end": {
+              "line": 75,
+              "column": 20
+            }
+          },
+          "metadata": {},
+          "defaultValue": "'none'",
+          "inheritedFrom": "ApolloQueryMixin"
+        },
+        {
+          "name": "fetchPolicy",
+          "type": "FetchPolicy",
+          "description": "Specifies the FetchPolicy to be used for this query.",
+          "privacy": "public",
+          "sourceRange": {
+            "file": "node_modules/%40apollo-elements/mixins/apollo-query-mixin.js",
+            "start": {
+              "line": 81,
+              "column": 4
+            },
+            "end": {
+              "line": 81,
+              "column": 20
+            }
+          },
+          "metadata": {},
+          "defaultValue": "'cache-first'",
+          "inheritedFrom": "ApolloQueryMixin"
+        },
+        {
+          "name": "fetchResults",
+          "type": "Boolean",
+          "description": "Whether or not to fetch results.",
+          "privacy": "public",
+          "sourceRange": {
+            "file": "node_modules/%40apollo-elements/mixins/apollo-query-mixin.js",
+            "start": {
+              "line": 87,
+              "column": 4
+            },
+            "end": {
+              "line": 87,
+              "column": 21
+            }
+          },
+          "metadata": {},
+          "defaultValue": "undefined",
+          "inheritedFrom": "ApolloQueryMixin"
+        },
+        {
+          "name": "pollInterval",
+          "type": "Number",
+          "description": "The time interval (in milliseconds) on which this query should be refetched from the server.",
+          "privacy": "public",
+          "sourceRange": {
+            "file": "node_modules/%40apollo-elements/mixins/apollo-query-mixin.js",
+            "start": {
+              "line": 93,
+              "column": 4
+            },
+            "end": {
+              "line": 93,
+              "column": 21
+            }
+          },
+          "metadata": {},
+          "defaultValue": "undefined",
+          "inheritedFrom": "ApolloQueryMixin"
+        },
+        {
+          "name": "notifyOnNetworkStatusChange",
+          "type": "Boolean",
+          "description": "Whether or not updates to the network status should trigger next on the observer of this query.",
+          "privacy": "public",
+          "sourceRange": {
+            "file": "node_modules/%40apollo-elements/mixins/apollo-query-mixin.js",
+            "start": {
+              "line": 99,
+              "column": 4
+            },
+            "end": {
+              "line": 99,
+              "column": 36
+            }
+          },
+          "metadata": {},
+          "defaultValue": "undefined",
+          "inheritedFrom": "ApolloQueryMixin"
+        },
+        {
+          "name": "tryFetch",
+          "type": "Boolean",
+          "description": "Try and fetch new results even if the variables haven't changed (we may still just hit the store, but if there's nothing in there will refetch).",
+          "privacy": "public",
+          "sourceRange": {
+            "file": "node_modules/%40apollo-elements/mixins/apollo-query-mixin.js",
+            "start": {
+              "line": 105,
+              "column": 4
+            },
+            "end": {
+              "line": 105,
+              "column": 17
+            }
+          },
+          "metadata": {},
+          "defaultValue": "undefined",
+          "inheritedFrom": "ApolloQueryMixin"
+        },
+        {
+          "name": "observableQuery",
+          "type": "ObservableQuery",
+          "description": "The apollo ObservableQuery watching this element's query.",
+          "privacy": "public",
+          "sourceRange": {
+            "file": "node_modules/%40apollo-elements/mixins/apollo-query-mixin.js",
+            "start": {
+              "line": 111,
+              "column": 4
+            },
+            "end": {
+              "line": 111,
+              "column": 25
+            }
+          },
+          "metadata": {},
+          "inheritedFrom": "ApolloQueryMixin"
+        },
+        {
+          "name": "query",
+          "type": "DocumentNode",
+          "description": "A GraphQL document containing a single query.",
+          "privacy": "public",
+          "sourceRange": {
+            "file": "node_modules/%40apollo-elements/mixins/apollo-query-mixin.js",
+            "start": {
+              "line": 19,
+              "column": 2
+            },
+            "end": {
+              "line": 21,
+              "column": 3
+            }
+          },
+          "metadata": {},
+          "inheritedFrom": "ApolloQueryMixin"
+        },
+        {
+          "name": "variables",
+          "type": "Object.<string, *>",
+          "description": "An object map from variable name to variable value, where the variables are used within the GraphQL query.",
+          "privacy": "public",
+          "sourceRange": {
+            "file": "node_modules/%40apollo-elements/mixins/apollo-query-mixin.js",
+            "start": {
+              "line": 40,
+              "column": 2
+            },
+            "end": {
+              "line": 42,
+              "column": 3
+            }
+          },
+          "metadata": {},
+          "inheritedFrom": "ApolloQueryMixin"
+        },
+        {
+          "name": "options",
+          "type": "ModifiableWatchQueryOptions",
+          "description": "Exposes the [`ObservableQuery#setOptions`](https://www.apollographql.com/docs/react/api/apollo-client.html#ObservableQuery.setOptions) method.",
+          "privacy": "public",
+          "sourceRange": {
+            "file": "node_modules/%40apollo-elements/mixins/apollo-query-mixin.js",
+            "start": {
+              "line": 57,
+              "column": 2
+            },
+            "end": {
+              "line": 59,
+              "column": 3
+            }
+          },
+          "metadata": {},
+          "inheritedFrom": "ApolloQueryMixin"
+        },
+        {
+          "name": "networkStatus",
+          "type": "(1 | 2 | 3 | 4 | 5 | 6 | 7 | 8)",
+          "description": "`networkStatus` is useful if you want to display a different loading indicator (or no indicator at all)\ndepending on your network status as it provides a more detailed view into the state of a network request\non your component than `loading` does. `networkStatus` is an enum with different number values between 1 and 8.\nThese number values each represent a different network state.\n\n1. `loading`: The query has never been run before and the request is now pending. A query will still have this network status even if a result was returned from the cache, but a query was dispatched anyway.\n2. `setVariables`: If a query’s variables change and a network request was fired then the network status will be setVariables until the result of that query comes back. React users will see this when options.variables changes on their queries.\n3. `fetchMore`: Indicates that fetchMore was called on this query and that the network request created is currently in flight.\n4. `refetch`: It means that refetch was called on a query and the refetch request is currently in flight.\n5. Unused.\n6. `poll`: Indicates that a polling query is currently in flight. So for example if you are polling a query every 10 seconds then the network status will switch to poll every 10 seconds whenever a poll request has been sent but not resolved.\n7. `ready`: No request is in flight for this query, and no errors happened. Everything is OK.\n8. `error`: No request is in flight for this query, but one or more errors were detected.\n\nIf the network status is less then 7 then it is equivalent to `loading` being true. In fact you could\nreplace all of your `loading` checks with `networkStatus < 7` and you would not see a difference.\nIt is recommended that you use `loading`, however.",
+          "privacy": "public",
+          "sourceRange": {
+            "start": {
+              "line": 72,
+              "column": 2
+            },
+            "end": {
+              "line": 74,
+              "column": 3
+            }
+          },
+          "metadata": {}
+        }
+      ],
+      "methods": [
+        {
+          "name": "connectedCallback",
+          "description": "",
+          "privacy": "protected",
+          "sourceRange": {
+            "file": "node_modules/%40apollo-elements/mixins/apollo-query-mixin.js",
+            "start": {
+              "line": 115,
+              "column": 2
+            },
+            "end": {
+              "line": 118,
+              "column": 3
+            }
+          },
+          "metadata": {},
+          "params": [],
+          "return": {
+            "type": "void"
+          },
+          "inheritedFrom": "ApolloQueryMixin"
+        },
+        {
+          "name": "disconnectedCallback",
+          "description": "",
+          "privacy": "protected",
+          "sourceRange": {
+            "file": "node_modules/%40apollo-elements/mixins/apollo-element-mixin.js",
+            "start": {
+              "line": 79,
+              "column": 2
+            },
+            "end": {
+              "line": 83,
+              "column": 3
+            }
+          },
+          "metadata": {},
+          "params": [],
+          "return": {
+            "type": "void"
+          },
+          "inheritedFrom": "ApolloElementMixin"
+        },
+        {
+          "name": "onElementMutation",
+          "description": "",
+          "privacy": "protected",
+          "sourceRange": {
+            "file": "node_modules/%40apollo-elements/mixins/apollo-element-mixin.js",
+            "start": {
+              "line": 86,
+              "column": 2
+            },
+            "end": {
+              "line": 89,
+              "column": 3
+            }
+          },
+          "metadata": {},
+          "params": [],
+          "return": {
+            "type": "void"
+          },
+          "inheritedFrom": "ApolloElementMixin"
+        },
+        {
+          "name": "refetch",
+          "description": "Exposes the [`ObservableQuery#refetch`](https://www.apollographql.com/docs/react/api/apollo-client.html#ObservableQuery.refetch) method.",
+          "privacy": "public",
+          "sourceRange": {
+            "file": "node_modules/%40apollo-elements/mixins/apollo-query-mixin.js",
+            "start": {
+              "line": 126,
+              "column": 2
+            },
+            "end": {
+              "line": 131,
+              "column": 3
+            }
+          },
+          "metadata": {},
+          "params": [
+            {
+              "name": "args",
+              "rest": true
+            }
+          ],
+          "return": {
+            "type": "Promise.<ApolloQueryResult>"
+          },
+          "inheritedFrom": "ApolloQueryMixin"
+        },
+        {
+          "name": "setVariables",
+          "description": "Exposes the [`ObservableQuery#setVariables`](https://www.apollographql.com/docs/react/api/apollo-client.html#ObservableQuery.setVariables) method.",
+          "privacy": "public",
+          "sourceRange": {
+            "file": "node_modules/%40apollo-elements/mixins/apollo-query-mixin.js",
+            "start": {
+              "line": 142,
+              "column": 2
+            },
+            "end": {
+              "line": 147,
+              "column": 3
+            }
+          },
+          "metadata": {},
+          "params": [
+            {
+              "name": "variables",
+              "type": "Object",
+              "description": "The new set of variables. If there are missing variables, the previous values of those variables will be used."
+            },
+            {
+              "name": "tryFetch",
+              "type": "boolean=",
+              "defaultValue": "this.tryFetch",
+              "description": "Try and fetch new results even if the variables haven't changed (we may still just hit the store, but if there's nothing in there will refetch)."
+            },
+            {
+              "name": "fetchResults",
+              "type": "boolean=",
+              "defaultValue": "this.fetchResults",
+              "description": "Option to ignore fetching results when updating variables."
+            }
+          ],
+          "return": {
+            "type": "Promise.<ApolloQueryResult>"
+          },
+          "inheritedFrom": "ApolloQueryMixin"
+        },
+        {
+          "name": "subscribe",
+          "description": "Resets the observableQuery and subscribes.",
+          "privacy": "public",
+          "sourceRange": {
+            "file": "node_modules/%40apollo-elements/mixins/apollo-query-mixin.js",
+            "start": {
+              "line": 155,
+              "column": 2
+            },
+            "end": {
+              "line": 162,
+              "column": 3
+            }
+          },
+          "metadata": {},
+          "params": [
+            {
+              "name": "{\n  query = this.query,\n  variables = this.variables\n} = {}"
+            }
+          ],
+          "return": {
+            "type": "Promise.<ZenObservable.Observer.<ApolloQueryResult.<TData>>>"
+          },
+          "inheritedFrom": "ApolloQueryMixin"
+        },
+        {
+          "name": "subscribeToMore",
+          "description": "Lets you pass a GraphQL subscription and updateQuery function\nto subscribe to more updates for your query.\n\nThe `updateQuery` parameter is a function that takes the previous query data,\nthen a `{ subscriptionData: TSubscriptionResult }` object,\nand returns an object with updated query data based on the new results.",
+          "privacy": "public",
+          "sourceRange": {
+            "file": "node_modules/%40apollo-elements/mixins/apollo-query-mixin.js",
+            "start": {
+              "line": 175,
+              "column": 2
+            },
+            "end": {
+              "line": 180,
+              "column": 3
+            }
+          },
+          "metadata": {},
+          "params": [
+            {
+              "name": "options",
+              "type": "{document: DocumentNode, updateQuery: Function, variables: Object, onError: Function}="
+            }
+          ],
+          "return": {
+            "type": "function (): void"
+          },
+          "inheritedFrom": "ApolloQueryMixin"
+        },
+        {
+          "name": "executeQuery",
+          "description": "Executes a Query once and updates the component with the result",
+          "privacy": "public",
+          "sourceRange": {
+            "file": "node_modules/%40apollo-elements/mixins/apollo-query-mixin.js",
+            "start": {
+              "line": 188,
+              "column": 2
+            },
+            "end": {
+              "line": 213,
+              "column": 3
+            }
+          },
+          "metadata": {},
+          "params": [
+            {
+              "name": "{\n  metadata,\n  context,\n  query = this.query,\n  variables = this.variables,\n  fetchPolicy = this.fetchPolicy,\n  errorPolicy = this.errorPolicy,\n  fetchResults = this.fetchResults\n} = this"
+            }
+          ],
+          "return": {
+            "type": "Promise.<ApolloQueryResult>"
+          },
+          "inheritedFrom": "ApolloQueryMixin"
+        },
+        {
+          "name": "fetchMore",
+          "description": "Exposes the `ObservableQuery#fetchMore` method.\nhttps://www.apollographql.com/docs/react/api/apollo-client.html#ObservableQuery.fetchMore\n\nThe optional `updateQuery` parameter is a function that takes the previous query data,\nthen a `{ subscriptionData: TSubscriptionResult }` object,\nand returns an object with updated query data based on the new results.\n\nThe optional `variables` parameter is an optional new variables object.",
+          "privacy": "public",
+          "sourceRange": {
+            "file": "node_modules/%40apollo-elements/mixins/apollo-query-mixin.js",
+            "start": {
+              "line": 232,
+              "column": 2
+            },
+            "end": {
+              "line": 237,
+              "column": 3
+            }
+          },
+          "metadata": {},
+          "params": [
+            {
+              "name": "{\n  query = this.query,\n  updateQuery,\n  variables\n} = {}"
+            }
+          ],
+          "return": {
+            "type": "Promise.<ApolloQueryResult>"
+          },
+          "inheritedFrom": "ApolloQueryMixin"
+        },
+        {
+          "name": "watchQuery",
+          "description": "Creates an instance of ObservableQuery with the options provided by the element.\n- `context` Context to be passed to link execution chain\n- `errorPolicy` Specifies the ErrorPolicy to be used for this query\n- `fetchPolicy` Specifies the FetchPolicy to be used for this query\n- `fetchResults` Whether or not to fetch results\n- `metadata` Arbitrary metadata stored in the store with this query. Designed for debugging, developer tools, etc.\n- `notifyOnNetworkStatusChange` Whether or not updates to the network status should trigger next on the observer of this query\n- `pollInterval` The time interval (in milliseconds) on which this query should be refetched from the server.\n- `query` A GraphQL document that consists of a single query to be sent down to the server.\n- `variables` A map going from variable name to variable value, where the variables are used within the GraphQL query.",
+          "privacy": "protected",
+          "sourceRange": {
+            "file": "node_modules/%40apollo-elements/mixins/apollo-query-mixin.js",
+            "start": {
+              "line": 266,
+              "column": 2
+            },
+            "end": {
+              "line": 288,
+              "column": 3
+            }
+          },
+          "metadata": {},
+          "params": [
+            {
+              "name": "{\n  context = this.context,\n  errorPolicy = this.errorPolicy,\n  fetchPolicy = this.fetchPolicy,\n  fetchResults = this.fetchResults,\n  metadata = this.metadata,\n  notifyOnNetworkStatusChange = this.notifyOnNetworkStatusChange,\n  pollInterval = this.pollInterval,\n  query = this.query,\n  variables = this.variables\n} = this"
+            }
+          ],
+          "return": {
+            "type": "ObservableQuery"
+          },
+          "inheritedFrom": "ApolloQueryMixin"
+        },
+        {
+          "name": "nextData",
+          "description": "Updates the element with the result of a query.",
+          "privacy": "protected",
+          "sourceRange": {
+            "file": "node_modules/%40apollo-elements/mixins/apollo-query-mixin.js",
+            "start": {
+              "line": 300,
+              "column": 2
+            },
+            "end": {
+              "line": 305,
+              "column": 3
+            }
+          },
+          "metadata": {},
+          "params": [
+            {
+              "name": "{\n  data,\n  loading,\n  networkStatus,\n  stale\n}"
+            }
+          ],
+          "return": {
+            "type": "void"
+          },
+          "inheritedFrom": "ApolloQueryMixin"
+        },
+        {
+          "name": "nextError",
+          "description": "Updates the element with the error when the query fails.",
+          "privacy": "protected",
+          "sourceRange": {
+            "file": "node_modules/%40apollo-elements/mixins/apollo-query-mixin.js",
+            "start": {
+              "line": 313,
+              "column": 2
+            },
+            "end": {
+              "line": 315,
+              "column": 3
+            }
+          },
+          "metadata": {},
+          "params": [
+            {
+              "name": "error",
+              "type": "Error"
+            }
+          ],
+          "return": {
+            "type": "void"
+          },
+          "inheritedFrom": "ApolloQueryMixin"
+        }
+      ],
+      "staticMethods": [],
+      "demos": [],
+      "metadata": {},
+      "sourceRange": {
+        "start": {
+          "line": 50,
+          "column": 7
+        },
+        "end": {
+          "line": 80,
+          "column": 1
+        }
+      },
+      "privacy": "public",
+      "superclass": "GluonElement",
+      "name": "ApolloQuery"
+    },
+    {
+      "description": "# ApolloSubscription\n\n🚀 A custom element base class that updates with an Apollo GraphQL subscription.\n\n## Usage\n\n```js\nimport { client } from './apollo-client.js';\nimport { ApolloSubscription, html } from '@apollo-elements/gluon';\nimport gql from 'graphql-tag';\n\nconst errorTemplate = ({message = 'Unknown Error'}) => html`\n  <h1>😢 Such Sad, Very Error! 😰</h1>\n  <div>${message}</div>`\n\nclass SubscribingElement extends ApolloSubscription {\n  get template() {\n    const { data, error = {}, loading } = this;\n    return\n        loading ? html`<such-overlay-very-spin></such-overlay-very-spin>`\n      : error ? errorTemplate(error)\n      : html`<p>${data.helloWorld.greeting}, ${data.helloWorld.name}</p>`\n  }\n\n  constructor() {\n    super();\n    this.client = client;\n    this.subscription = gql`\n      subscription {\n        helloWorld {\n          name\n          greeting\n        }\n      }\n    `;\n  }\n};\n\ncustomElements.define('connected-element', ConnectedElement)\n```",
+      "summary": "",
+      "path": "apollo-subscription.js",
+      "properties": [
+        {
+          "name": "context",
+          "type": "Object",
+          "description": "Context to be passed to link execution chain.",
+          "privacy": "public",
+          "sourceRange": {
+            "file": "node_modules/%40apollo-elements/mixins/apollo-element-mixin.js",
+            "start": {
+              "line": 21,
+              "column": 4
+            },
+            "end": {
+              "line": 21,
+              "column": 17
+            }
+          },
+          "metadata": {},
+          "inheritedFrom": "ApolloElementMixin"
+        },
+        {
+          "name": "data",
+          "type": "Object",
+          "description": "Latest data.",
+          "privacy": "public",
+          "sourceRange": {
+            "file": "node_modules/%40apollo-elements/mixins/apollo-element-mixin.js",
+            "start": {
+              "line": 27,
+              "column": 4
+            },
+            "end": {
+              "line": 27,
+              "column": 14
+            }
+          },
+          "metadata": {},
+          "inheritedFrom": "ApolloElementMixin"
+        },
+        {
+          "name": "error",
+          "type": "Object",
+          "description": "Latest error.",
+          "privacy": "public",
+          "sourceRange": {
+            "file": "node_modules/%40apollo-elements/mixins/apollo-element-mixin.js",
+            "start": {
+              "line": 33,
+              "column": 4
+            },
+            "end": {
+              "line": 33,
+              "column": 15
+            }
+          },
+          "metadata": {},
+          "inheritedFrom": "ApolloElementMixin"
+        },
+        {
+          "name": "loading",
+          "type": "Boolean",
+          "description": "Whether a request is in flight.",
+          "privacy": "public",
+          "sourceRange": {
+            "file": "node_modules/%40apollo-elements/mixins/apollo-element-mixin.js",
+            "start": {
+              "line": 39,
+              "column": 4
+            },
+            "end": {
+              "line": 39,
+              "column": 17
+            }
+          },
+          "metadata": {},
+          "inheritedFrom": "ApolloElementMixin"
+        },
+        {
+          "name": "client",
+          "type": "ApolloClient",
+          "description": "The apollo client instance.",
+          "privacy": "public",
+          "sourceRange": {
+            "file": "node_modules/%40apollo-elements/mixins/apollo-element-mixin.js",
+            "start": {
+              "line": 45,
+              "column": 4
+            },
+            "end": {
+              "line": 45,
+              "column": 15
+            }
+          },
+          "metadata": {},
+          "defaultValue": "window.__APOLLO_CLIENT__",
+          "inheritedFrom": "ApolloElementMixin"
+        },
+        {
+          "name": "document",
+          "type": "DocumentNode",
+          "description": "GraphQL Document",
+          "privacy": "public",
+          "sourceRange": {
+            "file": "node_modules/%40apollo-elements/mixins/apollo-element-mixin.js",
+            "start": {
+              "line": 53,
+              "column": 2
+            },
+            "end": {
+              "line": 55,
+              "column": 3
+            }
+          },
+          "metadata": {},
+          "inheritedFrom": "ApolloElementMixin"
+        },
+        {
+          "name": "fetchPolicy",
+          "type": "FetchPolicy",
+          "description": "Specifies the FetchPolicy to be used for this subscription.",
+          "privacy": "public",
+          "sourceRange": {
+            "file": "node_modules/%40apollo-elements/mixins/apollo-subscription-mixin.js",
+            "start": {
+              "line": 57,
+              "column": 4
+            },
+            "end": {
+              "line": 57,
+              "column": 20
+            }
+          },
+          "metadata": {},
+          "defaultValue": "'cache-first'",
+          "inheritedFrom": "ApolloSubscriptionMixin"
+        },
+        {
+          "name": "fetchResults",
+          "type": "Boolean",
+          "description": "Whether or not to fetch results.",
+          "privacy": "public",
+          "sourceRange": {
+            "file": "node_modules/%40apollo-elements/mixins/apollo-subscription-mixin.js",
+            "start": {
+              "line": 63,
+              "column": 4
+            },
+            "end": {
+              "line": 63,
+              "column": 21
+            }
+          },
+          "metadata": {},
+          "defaultValue": "undefined",
+          "inheritedFrom": "ApolloSubscriptionMixin"
+        },
+        {
+          "name": "pollInterval",
+          "type": "Number",
+          "description": "The time interval (in milliseconds) on which this subscription should be refetched from the server.",
+          "privacy": "public",
+          "sourceRange": {
+            "file": "node_modules/%40apollo-elements/mixins/apollo-subscription-mixin.js",
+            "start": {
+              "line": 69,
+              "column": 4
+            },
+            "end": {
+              "line": 69,
+              "column": 21
+            }
+          },
+          "metadata": {},
+          "defaultValue": "undefined",
+          "inheritedFrom": "ApolloSubscriptionMixin"
+        },
+        {
+          "name": "notifyOnNetworkStatusChange",
+          "type": "Boolean",
+          "description": "Whether or not updates to the network status should trigger next on the observer of this subscription.",
+          "privacy": "public",
+          "sourceRange": {
+            "file": "node_modules/%40apollo-elements/mixins/apollo-subscription-mixin.js",
+            "start": {
+              "line": 75,
+              "column": 4
+            },
+            "end": {
+              "line": 75,
+              "column": 36
+            }
+          },
+          "metadata": {},
+          "defaultValue": "undefined",
+          "inheritedFrom": "ApolloSubscriptionMixin"
+        },
+        {
+          "name": "tryFetch",
+          "type": "Boolean",
+          "description": "Try and fetch new results even if the variables haven't changed (we may still just hit the store, but if there's nothing in there will refetch).",
+          "privacy": "public",
+          "sourceRange": {
+            "file": "node_modules/%40apollo-elements/mixins/apollo-subscription-mixin.js",
+            "start": {
+              "line": 81,
+              "column": 4
+            },
+            "end": {
+              "line": 81,
+              "column": 17
+            }
+          },
+          "metadata": {},
+          "defaultValue": "undefined",
+          "inheritedFrom": "ApolloSubscriptionMixin"
+        },
+        {
+          "name": "observable",
+          "type": "Observable",
+          "description": "Observable watching this element's subscription.",
+          "privacy": "public",
+          "sourceRange": {
+            "file": "node_modules/%40apollo-elements/mixins/apollo-subscription-mixin.js",
+            "start": {
+              "line": 87,
+              "column": 4
+            },
+            "end": {
+              "line": 87,
+              "column": 20
+            }
+          },
+          "metadata": {},
+          "inheritedFrom": "ApolloSubscriptionMixin"
+        },
+        {
+          "name": "subscription",
+          "type": "DocumentNode",
+          "description": "A GraphQL document containing a single subscription.",
+          "privacy": "public",
+          "sourceRange": {
+            "file": "node_modules/%40apollo-elements/mixins/apollo-subscription-mixin.js",
+            "start": {
+              "line": 21,
+              "column": 2
+            },
+            "end": {
+              "line": 23,
+              "column": 3
+            }
+          },
+          "metadata": {},
+          "inheritedFrom": "ApolloSubscriptionMixin"
+        },
+        {
+          "name": "variables",
+          "type": "Object.<string, *>",
+          "description": "An object map from variable name to variable value, where the variables are used within the GraphQL subscription.",
+          "privacy": "public",
+          "sourceRange": {
+            "file": "node_modules/%40apollo-elements/mixins/apollo-subscription-mixin.js",
+            "start": {
+              "line": 39,
+              "column": 2
+            },
+            "end": {
+              "line": 41,
+              "column": 3
+            }
+          },
+          "metadata": {},
+          "inheritedFrom": "ApolloSubscriptionMixin"
+        }
+      ],
+      "methods": [
+        {
+          "name": "connectedCallback",
+          "description": "",
+          "privacy": "protected",
+          "sourceRange": {
+            "file": "node_modules/%40apollo-elements/mixins/apollo-subscription-mixin.js",
+            "start": {
+              "line": 91,
+              "column": 2
+            },
+            "end": {
+              "line": 94,
+              "column": 3
+            }
+          },
+          "metadata": {},
+          "params": [],
+          "return": {
+            "type": "void"
+          },
+          "inheritedFrom": "ApolloSubscriptionMixin"
+        },
+        {
+          "name": "disconnectedCallback",
+          "description": "",
+          "privacy": "protected",
+          "sourceRange": {
+            "file": "node_modules/%40apollo-elements/mixins/apollo-element-mixin.js",
+            "start": {
+              "line": 79,
+              "column": 2
+            },
+            "end": {
+              "line": 83,
+              "column": 3
+            }
+          },
+          "metadata": {},
+          "params": [],
+          "return": {
+            "type": "void"
+          },
+          "inheritedFrom": "ApolloElementMixin"
+        },
+        {
+          "name": "onElementMutation",
+          "description": "",
+          "privacy": "protected",
+          "sourceRange": {
+            "file": "node_modules/%40apollo-elements/mixins/apollo-element-mixin.js",
+            "start": {
+              "line": 86,
+              "column": 2
+            },
+            "end": {
+              "line": 89,
+              "column": 3
+            }
+          },
+          "metadata": {},
+          "params": [],
+          "return": {
+            "type": "void"
+          },
+          "inheritedFrom": "ApolloElementMixin"
+        },
+        {
+          "name": "subscribe",
+          "description": "Resets the observable and subscribes.",
+          "privacy": "public",
+          "sourceRange": {
+            "file": "node_modules/%40apollo-elements/mixins/apollo-subscription-mixin.js",
+            "start": {
+              "line": 102,
+              "column": 2
+            },
+            "end": {
+              "line": 113,
+              "column": 3
+            }
+          },
+          "metadata": {},
+          "params": [
+            {
+              "name": "{\n  fetchPolicy = this.fetchPolicy,\n  query = this.subscription,\n  variables = this.variables\n} = {}"
+            }
+          ],
+          "return": {
+            "type": "Promise.<ZenObservable.Observer.<SubscriptionResult.<TData>>>"
+          },
+          "inheritedFrom": "ApolloSubscriptionMixin"
+        },
+        {
+          "name": "nextData",
+          "description": "Updates the element with the result of a subscription.",
+          "privacy": "protected",
+          "sourceRange": {
+            "file": "node_modules/%40apollo-elements/mixins/apollo-subscription-mixin.js",
+            "start": {
+              "line": 123,
+              "column": 2
+            },
+            "end": {
+              "line": 129,
+              "column": 3
+            }
+          },
+          "metadata": {},
+          "params": [
+            {
+              "name": "{\n  data\n}"
+            }
+          ],
+          "return": {
+            "type": "void"
+          },
+          "inheritedFrom": "ApolloSubscriptionMixin"
+        },
+        {
+          "name": "nextError",
+          "description": "Updates the element with the error when the subscription fails.",
+          "privacy": "protected",
+          "sourceRange": {
+            "file": "node_modules/%40apollo-elements/mixins/apollo-subscription-mixin.js",
+            "start": {
+              "line": 137,
+              "column": 2
+            },
+            "end": {
+              "line": 140,
+              "column": 3
+            }
+          },
+          "metadata": {},
+          "params": [
+            {
+              "name": "error",
+              "type": "Error"
+            }
+          ],
+          "return": {
+            "type": "void"
+          },
+          "inheritedFrom": "ApolloSubscriptionMixin"
+        }
+      ],
+      "staticMethods": [],
+      "demos": [],
+      "metadata": {},
+      "sourceRange": {
+        "start": {
+          "line": 50,
+          "column": 7
+        },
+        "end": {
+          "line": 50,
+          "column": 82
+        }
+      },
+      "privacy": "public",
+      "superclass": "GluonElement",
+      "name": "ApolloSubscription"
+    }
+  ]
+}

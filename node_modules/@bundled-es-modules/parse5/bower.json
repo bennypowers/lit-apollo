@@ -1,0 +1,5 @@
+{
+  "name": "parse5",
+  "description": "mirror of parse5, bundled and exposed as ES module",
+  "author": "Lars den Bakker <larsdenbakker@gmail.com>"
+}

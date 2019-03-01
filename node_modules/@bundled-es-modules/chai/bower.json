@@ -1,0 +1,5 @@
+{
+  "name": "chai",
+  "description": "mirror of chai, bundled and exposed as ES module",
+  "author": "Thomas Allmer <d4kmor@gmail.com>"
+}

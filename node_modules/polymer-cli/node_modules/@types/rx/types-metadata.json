@@ -1,0 +1,35 @@
+{
+    "authors": "Carl de Billy <http://carl.debilly.net/>, gsino <http://www.codeplex.com/site/users/view/gsino>, Igor Oleinikov <https://github.com/Igorbek>",
+    "libraryDependencies": [
+        "rx-core",
+        "rx-core-binding",
+        "rx-lite",
+        "rx-lite-aggregates",
+        "rx-lite-async",
+        "rx-lite-backpressure",
+        "rx-lite-coincidence",
+        "rx-lite-experimental",
+        "rx-lite-joinpatterns",
+        "rx-lite-testing",
+        "rx-lite-time",
+        "rx-lite-virtualtime"
+    ],
+    "moduleDependencies": [],
+    "libraryMajorVersion": 4,
+    "libraryMinorVersion": 1,
+    "typeScriptVersion": "2.0",
+    "libraryName": "rx",
+    "typingsPackageName": "rx",
+    "projectName": "https://github.com/Reactive-Extensions/RxJS",
+    "sourceRepoURL": "https://www.github.com/DefinitelyTyped/DefinitelyTyped",
+    "sourceBranch": "master",
+    "globals": [],
+    "declaredModules": [
+        "rx"
+    ],
+    "files": [
+        "index.d.ts"
+    ],
+    "hasPackageJson": false,
+    "contentHash": "e0d4c71cf79237611d3572dc5c3a6a1c50e7197cd1b01cddc054b61a14de6d9a"
+}

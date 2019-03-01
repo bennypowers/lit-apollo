@@ -1,0 +1,27 @@
+{
+    "name": "freeport",
+    "libraryName": "freeport",
+    "sourceRepoURL": "https://www.github.com/DefinitelyTyped/DefinitelyTyped",
+    "data": {
+        "authors": "Arne Schubert <https://github.com/atd-schubert>",
+        "dependencies": {},
+        "pathMappings": {},
+        "libraryMajorVersion": 1,
+        "libraryMinorVersion": 0,
+        "typeScriptVersion": "2.0",
+        "libraryName": "freeport",
+        "typingsPackageName": "freeport",
+        "projectName": "https://github.com/daaku/nodejs-freeport",
+        "sourceRepoURL": "https://www.github.com/DefinitelyTyped/DefinitelyTyped",
+        "globals": [],
+        "declaredModules": [
+            "freeport/."
+        ],
+        "files": [
+            "index.d.ts"
+        ],
+        "hasPackageJson": false,
+        "contentHash": "87a846dfc4b0ce973b0ea3b28be5c78ebb29d7b883e094c4fde4dc10e0cab756"
+    },
+    "isLatest": true
+}

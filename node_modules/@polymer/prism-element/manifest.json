@@ -1,0 +1,40 @@
+{
+  "files": {
+    "prism-highlighter.html": {
+      "convertedUrl": "prism-highlighter.js",
+      "exports": {}
+    },
+    "prism-import.html": {
+      "convertedUrl": "prism-import.js",
+      "exports": {}
+    },
+    "prism-theme-default.html": {
+      "convertedUrl": "prism-theme-default.js",
+      "exports": {}
+    },
+    "index.html": {
+      "convertedUrl": "index.html",
+      "exports": {}
+    },
+    "demo/index.html": {
+      "convertedUrl": "demo/index.html",
+      "exports": {}
+    },
+    "demo/prism-demo.html": {
+      "convertedUrl": "demo/prism-demo.js",
+      "exports": {}
+    },
+    "test/index.html": {
+      "convertedUrl": "test/index.html",
+      "exports": {}
+    },
+    "test/prism-element.html": {
+      "convertedUrl": "test/prism-element.html",
+      "exports": {}
+    },
+    "test/simple-container.html": {
+      "convertedUrl": "test/simple-container.js",
+      "exports": {}
+    }
+  }
+}

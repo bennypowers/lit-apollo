@@ -1,0 +1,29 @@
+{
+    "authors": "Qubo <https://github.com/tkQubo>",
+    "definitionFilename": "index.d.ts",
+    "libraryDependencies": [
+        "rx"
+    ],
+    "moduleDependencies": [
+        "through"
+    ],
+    "libraryMajorVersion": 0,
+    "libraryMinorVersion": 0,
+    "libraryName": "Inquirer.js",
+    "typingsPackageName": "inquirer",
+    "projectName": "https://github.com/SBoudrias/Inquirer.js",
+    "sourceRepoURL": "https://www.github.com/DefinitelyTyped/DefinitelyTyped",
+    "sourceBranch": "types-2.0",
+    "kind": "ProperModule",
+    "globals": [
+        "inquirer"
+    ],
+    "declaredModules": [
+        "inquirer"
+    ],
+    "files": [
+        "index.d.ts"
+    ],
+    "hasPackageJson": false,
+    "contentHash": "377c692bf84e6eb4e7121ecb6bab2613efda88950fa6f0978946e0d29c66b5f4"
+}
