@@ -2,7 +2,7 @@
   "schema_version": "1.0.0",
   "elements": [
     {
-      "description": "`<apollo-mutation>` fires Polymer-style prop-changed events\nwhen its `called`, `data`, `error`, `loading` or `networkStatus`\nproperties change.\n\n## 👩‍🚀 Usage\n```html\n<apollo-mutation id=\"userMutation\" data=\"{{data}}\">\n  <script type=\"application/graphql\">\n    mutation User($id: ID!, $name: String, $picture: String) {\n      user(id: $id, name: $name, picture: $picture) {\n        name\n        picture\n      }\n    }\n  </script>\n</apollo-mutation>\n\n<paper-input label=\"Name\" value=\"{{name}}\"></paper-input>\n<paper-input label=\"Picture URL\" value=\"{{picture}}\"></paper-input>\n<paper-button on-click=\"mutate\">Submit</paper-button>\n```\n\n```js\nmutate() {\n  const { name, picture } = this;\n  return this.$.userMutation.mutate({ variables: { name, picture } })\n}\n```",
+      "description": "`<apollo-mutation>` fires Polymer-style prop-changed events\nwhen its `called`, `data`, `error`, `loading` or `networkStatus`\nproperties change.\n\n## 👩‍🚀 Usage\n\n```js\nclass MutationElement extends PolymerElement {\n  static template = html`\n    <apollo-mutation id=\"userMutation\" data=\"{{data}}\">\n      <script type=\"application/graphql\">\n        mutation User($id: ID!, $name: String, $picture: String) {\n          user(id: $id, name: $name, picture: $picture) {\n            name\n            picture\n          }\n        }\n      </script>\n    </apollo-mutation>\n\n    <paper-input label=\"Name\" value=\"{{name}}\"></paper-input>\n    <paper-input label=\"Picture URL\" value=\"{{picture}}\"></paper-input>\n    <paper-button on-click=\"mutate\">Submit</paper-button>\n  `;\n\n  static properties = {\n    variables: {\n      type: Object,\n      computed: 'computeVariables(name, picture)',\n    },\n  };\n\n  computeVariables(name, picture) {\n    return { name, picture }\n  }\n\n  mutate() {\n    const { variables } = this;\n    return this.$.userMutation.mutate({ variables })\n  }\n}\n```",
       "summary": "",
       "path": "apollo-mutation.js",
       "properties": [],
@@ -10,15 +10,15 @@
         {
           "name": "notify",
           "description": "Fires a `*-changed` event.",
-          "privacy": "public",
+          "privacy": "protected",
           "sourceRange": {
             "file": "notifying-element-mixin.js",
             "start": {
-              "line": 16,
+              "line": 17,
               "column": 2
             },
             "end": {
-              "line": 24,
+              "line": 25,
               "column": 3
             }
           },
@@ -46,11 +46,11 @@
       "metadata": {},
       "sourceRange": {
         "start": {
-          "line": 38,
+          "line": 52,
           "column": 23
         },
         "end": {
-          "line": 74,
+          "line": 104,
           "column": 2
         }
       },
@@ -70,7 +70,7 @@
       ]
     },
     {
-      "description": "`<apollo-query>` fires Polymer-style prop-changed events\nwhen its `data`, `error`, `loading` or `networkStatus`\nproperties change.\n\n## 👩‍🚀 Usage\n```html\n<apollo-query data=\"{{data}}\" variables=\"[[variables]]\">\n  <script type=\"application/graphql\">\n    query User($id: ID!) {\n      user(id: $id) {\n        name\n        picture\n      }\n    }\n  </script>\n</apollo-query>\n\n<paper-icon-item>\n  <iron-image slot=\"item-icon\">[[data.user.picture]]</iron-image>\n  [[data.user.name]]\n</paper-icon-item>\n```",
+      "description": "`<apollo-query>` fires Polymer-style prop-changed events\nwhen its `data`, `error`, `loading` or `networkStatus`\nproperties change.\n\n## 👩‍🚀 Usage\n```js\nclass QueryElement extends PolymerElement {\n  static template = html`\n    <apollo-query data=\"{{data}}\" variables=\"[[variables]]\">\n      <script type=\"application/graphql\">\n        query User($id: ID!) {\n          user(id: $id) {\n            name\n            picture\n          }\n        }\n      </script>\n    </apollo-query>\n\n    <paper-icon-item>\n      <iron-image slot=\"item-icon\">[[data.user.picture]]</iron-image>\n      [[data.user.name]]\n    </paper-icon-item>\n  `;\n}\n```",
       "summary": "",
       "path": "apollo-query.js",
       "properties": [],
@@ -78,15 +78,15 @@
         {
           "name": "notify",
           "description": "Fires a `*-changed` event.",
-          "privacy": "public",
+          "privacy": "protected",
           "sourceRange": {
             "file": "notifying-element-mixin.js",
             "start": {
-              "line": 16,
+              "line": 17,
               "column": 2
             },
             "end": {
-              "line": 24,
+              "line": 25,
               "column": 3
             }
           },
@@ -114,11 +114,11 @@
       "metadata": {},
       "sourceRange": {
         "start": {
-          "line": 32,
+          "line": 36,
           "column": 20
         },
         "end": {
-          "line": 68,
+          "line": 88,
           "column": 2
         }
       },
@@ -138,7 +138,7 @@
       ]
     },
     {
-      "description": "`<apollo-subscription>` fires Polymer-style prop-changed events\nwhen its `data`, `error`, or `loading` properties change.\n\n## 👩‍🚀 Usage\n```html\n<apollo-subscription data=\"{{data}}\" variables=\"[[variables]]\" on-data-changed=\"toast\">\n  <script type=\"application/graphql\">\n    subscription UserJoined($id: ID!) {\n      userJoined(id: $id) {\n        name\n        picture\n      }\n    }\n  </script>\n</apollo-subscription>\n\n<paper-toast duration=\"5000\" text=\"A wild [[data.userJoined.name]] approaches!\">\n  <iron-image>[[data.userJoined.picture]]</iron-image>\n</paper-toast>\n```",
+      "description": "`<apollo-subscription>` fires Polymer-style prop-changed events\nwhen its `data`, `error`, or `loading` properties change.\n\n## 👩‍🚀 Usage\n```js\nclass QueryElement extends PolymerElement {\n  static template = html`\n    <apollo-subscription data=\"{{data}}\" variables=\"[[variables]]\" on-data-changed=\"toast\">\n      <script type=\"application/graphql\">\n        subscription UserJoined($id: ID!) {\n          userJoined(id: $id) {\n            name\n            picture\n          }\n        }\n      </script>\n    </apollo-subscription>\n\n    <paper-toast duration=\"5000\" text=\"A wild [[data.userJoined.name]] approaches!\">\n      <iron-image>[[data.userJoined.picture]]</iron-image>\n    </paper-toast>\n  `;\n}\n```",
       "summary": "",
       "path": "apollo-subscription.js",
       "properties": [],
@@ -146,15 +146,15 @@
         {
           "name": "notify",
           "description": "Fires a `*-changed` event.",
-          "privacy": "public",
+          "privacy": "protected",
           "sourceRange": {
             "file": "notifying-element-mixin.js",
             "start": {
-              "line": 16,
+              "line": 17,
               "column": 2
             },
             "end": {
-              "line": 24,
+              "line": 25,
               "column": 3
             }
           },
@@ -182,11 +182,11 @@
       "metadata": {},
       "sourceRange": {
         "start": {
-          "line": 29,
+          "line": 34,
           "column": 27
         },
         "end": {
-          "line": 61,
+          "line": 74,
           "column": 2
         }
       },
@@ -216,14 +216,14 @@
         {
           "name": "notify",
           "description": "Fires a `*-changed` event.",
-          "privacy": "public",
+          "privacy": "protected",
           "sourceRange": {
             "start": {
-              "line": 16,
+              "line": 17,
               "column": 2
             },
             "end": {
-              "line": 24,
+              "line": 25,
               "column": 3
             }
           },
@@ -254,7 +254,7 @@
           "column": 7
         },
         "end": {
-          "line": 25,
+          "line": 26,
           "column": 2
         }
       },
@@ -278,41 +278,7 @@
         {
           "name": "called",
           "type": "?",
-          "description": "",
-          "privacy": "public",
-          "sourceRange": {
-            "start": {
-              "line": 39,
-              "column": 2
-            },
-            "end": {
-              "line": 41,
-              "column": 3
-            }
-          },
-          "metadata": {}
-        },
-        {
-          "name": "data",
-          "type": "?",
-          "description": "",
-          "privacy": "public",
-          "sourceRange": {
-            "start": {
-              "line": 48,
-              "column": 2
-            },
-            "end": {
-              "line": 50,
-              "column": 3
-            }
-          },
-          "metadata": {}
-        },
-        {
-          "name": "error",
-          "type": "?",
-          "description": "",
+          "description": "Whether the mutation has been called",
           "privacy": "public",
           "sourceRange": {
             "start": {
@@ -327,9 +293,206 @@
           "metadata": {}
         },
         {
+          "name": "data",
+          "type": "?",
+          "description": "Latest data.",
+          "privacy": "public",
+          "sourceRange": {
+            "start": {
+              "line": 70,
+              "column": 2
+            },
+            "end": {
+              "line": 72,
+              "column": 3
+            }
+          },
+          "metadata": {}
+        },
+        {
+          "name": "error",
+          "type": "?",
+          "description": "Latest error.",
+          "privacy": "public",
+          "sourceRange": {
+            "start": {
+              "line": 83,
+              "column": 2
+            },
+            "end": {
+              "line": 85,
+              "column": 3
+            }
+          },
+          "metadata": {}
+        },
+        {
           "name": "loading",
           "type": "?",
-          "description": "",
+          "description": "Whether a request is in flight.",
+          "privacy": "public",
+          "sourceRange": {
+            "start": {
+              "line": 96,
+              "column": 2
+            },
+            "end": {
+              "line": 98,
+              "column": 3
+            }
+          },
+          "metadata": {}
+        }
+      ],
+      "methods": [],
+      "staticMethods": [],
+      "demos": [],
+      "metadata": {},
+      "sourceRange": {
+        "start": {
+          "line": 52,
+          "column": 43
+        },
+        "end": {
+          "line": 104,
+          "column": 1
+        }
+      },
+      "privacy": "public"
+    },
+    {
+      "description": "",
+      "summary": "",
+      "path": "apollo-query.js",
+      "properties": [
+        {
+          "name": "data",
+          "type": "?",
+          "description": "Latest data.",
+          "privacy": "public",
+          "sourceRange": {
+            "start": {
+              "line": 41,
+              "column": 2
+            },
+            "end": {
+              "line": 43,
+              "column": 3
+            }
+          },
+          "metadata": {}
+        },
+        {
+          "name": "error",
+          "type": "?",
+          "description": "Latest error.",
+          "privacy": "public",
+          "sourceRange": {
+            "start": {
+              "line": 54,
+              "column": 2
+            },
+            "end": {
+              "line": 56,
+              "column": 3
+            }
+          },
+          "metadata": {}
+        },
+        {
+          "name": "loading",
+          "type": "?",
+          "description": "Whether a request is in flight.",
+          "privacy": "public",
+          "sourceRange": {
+            "start": {
+              "line": 67,
+              "column": 2
+            },
+            "end": {
+              "line": 69,
+              "column": 3
+            }
+          },
+          "metadata": {}
+        },
+        {
+          "name": "networkStatus",
+          "type": "?",
+          "description": "Enum of network statuses. See https://bit.ly/2sfKLY0",
+          "privacy": "public",
+          "sourceRange": {
+            "start": {
+              "line": 80,
+              "column": 2
+            },
+            "end": {
+              "line": 82,
+              "column": 3
+            }
+          },
+          "metadata": {}
+        }
+      ],
+      "methods": [],
+      "staticMethods": [],
+      "demos": [],
+      "metadata": {},
+      "sourceRange": {
+        "start": {
+          "line": 36,
+          "column": 37
+        },
+        "end": {
+          "line": 88,
+          "column": 1
+        }
+      },
+      "privacy": "public"
+    },
+    {
+      "description": "",
+      "summary": "",
+      "path": "apollo-subscription.js",
+      "properties": [
+        {
+          "name": "data",
+          "type": "?",
+          "description": "Latest data.",
+          "privacy": "public",
+          "sourceRange": {
+            "start": {
+              "line": 40,
+              "column": 2
+            },
+            "end": {
+              "line": 42,
+              "column": 3
+            }
+          },
+          "metadata": {}
+        },
+        {
+          "name": "error",
+          "type": "?",
+          "description": "Latest error.",
+          "privacy": "public",
+          "sourceRange": {
+            "start": {
+              "line": 53,
+              "column": 2
+            },
+            "end": {
+              "line": 55,
+              "column": 3
+            }
+          },
+          "metadata": {}
+        },
+        {
+          "name": "loading",
+          "type": "?",
+          "description": "Whether a request is in flight.",
           "privacy": "public",
           "sourceRange": {
             "start": {
@@ -350,174 +513,11 @@
       "metadata": {},
       "sourceRange": {
         "start": {
-          "line": 38,
-          "column": 43
-        },
-        "end": {
-          "line": 74,
-          "column": 1
-        }
-      },
-      "privacy": "public"
-    },
-    {
-      "description": "",
-      "summary": "",
-      "path": "apollo-query.js",
-      "properties": [
-        {
-          "name": "data",
-          "type": "?",
-          "description": "",
-          "privacy": "public",
-          "sourceRange": {
-            "start": {
-              "line": 33,
-              "column": 2
-            },
-            "end": {
-              "line": 35,
-              "column": 3
-            }
-          },
-          "metadata": {}
-        },
-        {
-          "name": "error",
-          "type": "?",
-          "description": "",
-          "privacy": "public",
-          "sourceRange": {
-            "start": {
-              "line": 42,
-              "column": 2
-            },
-            "end": {
-              "line": 44,
-              "column": 3
-            }
-          },
-          "metadata": {}
-        },
-        {
-          "name": "loading",
-          "type": "?",
-          "description": "",
-          "privacy": "public",
-          "sourceRange": {
-            "start": {
-              "line": 51,
-              "column": 2
-            },
-            "end": {
-              "line": 53,
-              "column": 3
-            }
-          },
-          "metadata": {}
-        },
-        {
-          "name": "networkStatus",
-          "type": "?",
-          "description": "",
-          "privacy": "public",
-          "sourceRange": {
-            "start": {
-              "line": 60,
-              "column": 2
-            },
-            "end": {
-              "line": 62,
-              "column": 3
-            }
-          },
-          "metadata": {}
-        }
-      ],
-      "methods": [],
-      "staticMethods": [],
-      "demos": [],
-      "metadata": {},
-      "sourceRange": {
-        "start": {
-          "line": 32,
-          "column": 37
-        },
-        "end": {
-          "line": 68,
-          "column": 1
-        }
-      },
-      "privacy": "public"
-    },
-    {
-      "description": "",
-      "summary": "",
-      "path": "apollo-subscription.js",
-      "properties": [
-        {
-          "name": "data",
-          "type": "?",
-          "description": "Latest data.",
-          "privacy": "public",
-          "sourceRange": {
-            "start": {
-              "line": 35,
-              "column": 2
-            },
-            "end": {
-              "line": 37,
-              "column": 3
-            }
-          },
-          "metadata": {}
-        },
-        {
-          "name": "error",
-          "type": "?",
-          "description": "",
-          "privacy": "public",
-          "sourceRange": {
-            "start": {
-              "line": 44,
-              "column": 2
-            },
-            "end": {
-              "line": 46,
-              "column": 3
-            }
-          },
-          "metadata": {}
-        },
-        {
-          "name": "loading",
-          "type": "?",
-          "description": "",
-          "privacy": "public",
-          "sourceRange": {
-            "start": {
-              "line": 53,
-              "column": 2
-            },
-            "end": {
-              "line": 55,
-              "column": 3
-            }
-          },
-          "metadata": {}
-        }
-      ],
-      "methods": [],
-      "staticMethods": [],
-      "demos": [],
-      "metadata": {},
-      "sourceRange": {
-        "start": {
-          "line": 29,
+          "line": 34,
           "column": 51
         },
         "end": {
-          "line": 61,
+          "line": 74,
           "column": 1
         }
       },

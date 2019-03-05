@@ -202,7 +202,7 @@
       "name": "ApolloElement"
     },
     {
-      "description": "# ApolloMutation\n\n👩‍🚀 A custom element base class to issue mutations via your Apollo cache.\n\n## Usage\n\n```js\nimport { client } from './apollo-client';\nimport { ApolloMutation, html } from '@apollo-elements/gluon';\n\nclass MutationElement extends ApolloMutation {\n  get template() {\n    return html`<input on-input=\"${this.onInput.bind(this)}\"\n  }\n\n  constructor() {\n    super();\n    this.client = client;\n    this.mutation = gql`\n      mutation InputMutation {\n        updateInput {\n          input\n        }\n      }\n    `;\n  }\n\n  onInput(event) {\n    const { mutation } = this;\n    const variables = { input: event.target.value };\n    return this.mutate({\n      mutation,\n      variables,\n    });\n  }\n};\n\ncustomElements.define('mutation-element', MutationElement)\n```",
+      "description": "# ApolloMutation\n\n👩‍🚀 A custom element base class to issue mutations via your Apollo cache.\n\n## Usage\n\n```js\nimport { client } from './apollo-client';\nimport { ApolloMutation, html } from '@apollo-elements/gluon';\nimport mutation from './mutation-element.graphql';\n\nclass MutationElement extends ApolloMutation {\n  client = client;\n  mutation = mutation;\n  template =  html`<input @keyup=\"${this.onInput}\"/>`\n\n  onInput({ target: { value: input }, key }) {\n    this.variables = { input };\n    if (key === 'Enter') return this.mutate();\n  }\n};\n\ncustomElements.define('mutation-element', MutationElement)\n```",
       "summary": "",
       "path": "apollo-mutation.js",
       "properties": [
@@ -322,6 +322,23 @@
           "inheritedFrom": "ApolloElementMixin"
         },
         {
+          "name": "called",
+          "type": "boolean",
+          "description": "If the mutation has been called",
+          "privacy": "public",
+          "sourceRange": {
+            "start": {
+              "line": 39,
+              "column": 2
+            },
+            "end": {
+              "line": 41,
+              "column": 3
+            }
+          },
+          "metadata": {}
+        },
+        {
           "name": "ignoreResults",
           "type": "Boolean",
           "description": "Whether to ignore the results of the mutation.",
@@ -329,11 +346,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-mutation-mixin.js",
             "start": {
-              "line": 38,
+              "line": 44,
               "column": 4
             },
             "end": {
-              "line": 38,
+              "line": 44,
               "column": 22
             }
           },
@@ -349,11 +366,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-mutation-mixin.js",
             "start": {
-              "line": 44,
+              "line": 50,
               "column": 4
             },
             "end": {
-              "line": 44,
+              "line": 50,
               "column": 29
             }
           },
@@ -369,11 +386,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-mutation-mixin.js",
             "start": {
-              "line": 56,
+              "line": 62,
               "column": 4
             },
             "end": {
-              "line": 56,
+              "line": 62,
               "column": 28
             }
           },
@@ -388,11 +405,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-mutation-mixin.js",
             "start": {
-              "line": 73,
+              "line": 79,
               "column": 4
             },
             "end": {
-              "line": 73,
+              "line": 79,
               "column": 16
             }
           },
@@ -407,11 +424,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-mutation-mixin.js",
             "start": {
-              "line": 79,
+              "line": 85,
               "column": 4
             },
             "end": {
-              "line": 79,
+              "line": 85,
               "column": 19
             }
           },
@@ -436,23 +453,6 @@
           },
           "metadata": {},
           "inheritedFrom": "ApolloMutationMixin"
-        },
-        {
-          "name": "called",
-          "type": "boolean",
-          "description": "Whether the mutation has been called",
-          "privacy": "public",
-          "sourceRange": {
-            "start": {
-              "line": 54,
-              "column": 2
-            },
-            "end": {
-              "line": 56,
-              "column": 3
-            }
-          },
-          "metadata": {}
         }
       ],
       "methods": [
@@ -529,11 +529,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-mutation-mixin.js",
             "start": {
-              "line": 90,
+              "line": 96,
               "column": 2
             },
             "end": {
-              "line": 93,
+              "line": 99,
               "column": 3
             }
           },
@@ -551,11 +551,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-mutation-mixin.js",
             "start": {
-              "line": 102,
+              "line": 108,
               "column": 2
             },
             "end": {
-              "line": 104,
+              "line": 110,
               "column": 3
             }
           },
@@ -578,11 +578,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-mutation-mixin.js",
             "start": {
-              "line": 121,
+              "line": 127,
               "column": 2
             },
             "end": {
-              "line": 158,
+              "line": 164,
               "column": 3
             }
           },
@@ -604,11 +604,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-mutation-mixin.js",
             "start": {
-              "line": 168,
+              "line": 174,
               "column": 2
             },
             "end": {
-              "line": 177,
+              "line": 183,
               "column": 3
             }
           },
@@ -635,11 +635,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-mutation-mixin.js",
             "start": {
-              "line": 187,
+              "line": 193,
               "column": 2
             },
             "end": {
-              "line": 194,
+              "line": 200,
               "column": 3
             }
           },
@@ -668,11 +668,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-mutation-mixin.js",
             "start": {
-              "line": 201,
+              "line": 207,
               "column": 2
             },
             "end": {
-              "line": 201,
+              "line": 207,
               "column": 19
             }
           },
@@ -690,11 +690,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-mutation-mixin.js",
             "start": {
-              "line": 208,
+              "line": 214,
               "column": 2
             },
             "end": {
-              "line": 208,
+              "line": 214,
               "column": 15
             }
           },
@@ -711,11 +711,11 @@
       "metadata": {},
       "sourceRange": {
         "start": {
-          "line": 48,
+          "line": 33,
           "column": 7
         },
         "end": {
-          "line": 62,
+          "line": 47,
           "column": 1
         }
       },
@@ -724,7 +724,7 @@
       "name": "ApolloMutation"
     },
     {
-      "description": "# ApolloQuery\n\n🚀 A custom element base class that connects to your Apollo cache.\n\n## Usage\n\n```js\nimport { client } from './apollo-client.js';\nimport { ApolloQuery, html } from '@apollo-elements/gluon';\nimport gql from 'graphql-tag';\n\nconst errorTemplate = ({message = 'Unknown Error'}) => html`\n  <h1>😢 Such Sad, Very Error! 😰</h1>\n  <div>${message}</div>`\n\nclass ConnectedElement extends ApolloQuery {\n  get template() {\n    const { data, error, loading, networkStatus } = this;\n    return\n        loading ? html`<such-overlay-very-spin></such-overlay-very-spin>`\n      : error ? errorTemplate(error)\n      : html`<p>${data.helloWorld.greeting}, ${data.helloWorld.name}</p>`\n  }\n\n  constructor() {\n    super();\n    this.client = client;\n    this.query = gql`\n      query {\n        helloWorld {\n          name\n          greeting\n        }\n      }\n    `;\n  }\n};\n\ncustomElements.define('connected-element', ConnectedElement)\n```",
+      "description": "# ApolloQuery\n\n🚀 A custom element base class that connects to your Apollo cache.\n\n## Usage\n\n```js\nimport { client } from './apollo-client.js';\nimport { ApolloQuery, html } from '@apollo-elements/gluon';\nimport query from './connected-element.graphql';\n\nconst errorTemplate = ({message = 'Unknown Error'}) => html`\n  <h1>😢 Such Sad, Very Error! 😰</h1>\n  <div>${message}</div>`\n\nclass ConnectedElement extends ApolloQuery {\n  client = client;\n  query = query;\n  get template() {\n    const { data, error, loading, networkStatus } = this;\n    return (\n        loading ? html`<such-overlay-very-spin></such-overlay-very-spin>`\n      : error ? errorTemplate(error)\n      : html`<p>${data.helloWorld.greeting}, ${data.helloWorld.name}</p>`\n    );\n  }\n};\n\ncustomElements.define('connected-element', ConnectedElement)\n```",
       "summary": "",
       "path": "apollo-query.js",
       "properties": [
@@ -1046,11 +1046,11 @@
           "privacy": "public",
           "sourceRange": {
             "start": {
-              "line": 72,
+              "line": 62,
               "column": 2
             },
             "end": {
-              "line": 74,
+              "line": 64,
               "column": 3
             }
           },
@@ -1381,20 +1381,20 @@
       "metadata": {},
       "sourceRange": {
         "start": {
-          "line": 50,
+          "line": 40,
           "column": 7
         },
         "end": {
-          "line": 80,
+          "line": 70,
           "column": 1
         }
       },
       "privacy": "public",
-      "superclass": "GluonElement",
+      "superclass": "ApolloElement",
       "name": "ApolloQuery"
     },
     {
-      "description": "# ApolloSubscription\n\n🚀 A custom element base class that updates with an Apollo GraphQL subscription.\n\n## Usage\n\n```js\nimport { client } from './apollo-client.js';\nimport { ApolloSubscription, html } from '@apollo-elements/gluon';\nimport gql from 'graphql-tag';\n\nconst errorTemplate = ({message = 'Unknown Error'}) => html`\n  <h1>😢 Such Sad, Very Error! 😰</h1>\n  <div>${message}</div>`\n\nclass SubscribingElement extends ApolloSubscription {\n  get template() {\n    const { data, error = {}, loading } = this;\n    return\n        loading ? html`<such-overlay-very-spin></such-overlay-very-spin>`\n      : error ? errorTemplate(error)\n      : html`<p>${data.helloWorld.greeting}, ${data.helloWorld.name}</p>`\n  }\n\n  constructor() {\n    super();\n    this.client = client;\n    this.subscription = gql`\n      subscription {\n        helloWorld {\n          name\n          greeting\n        }\n      }\n    `;\n  }\n};\n\ncustomElements.define('connected-element', ConnectedElement)\n```",
+      "description": "# ApolloSubscription\n\n🚀 A custom element base class that updates with an Apollo GraphQL subscription.\n\n## Usage\n\n```js\nimport { client } from './apollo-client.js';\nimport { ApolloSubscription, html } from '@apollo-elements/gluon';\nimport subscription from './subscription-element.graphql';\n\nconst errorTemplate = ({message = 'Unknown Error'}) => html`\n  <h1>😢 Such Sad, Very Error! 😰</h1>\n  <div>${message}</div>`\n\nclass SubscribingElement extends ApolloSubscription {\n  client = client;\n  subscription = subscription;\n\n  get template() {\n    const { data, error = {}, loading } = this;\n    return (\n        loading ? html`<such-overlay-very-spin></such-overlay-very-spin>`\n      : error ? errorTemplate(error)\n      : html`<p>${data.helloWorld.greeting}, ${data.helloWorld.name}</p>`\n    )\n  }\n};\n\ncustomElements.define('connected-element', ConnectedElement)\n```",
       "summary": "",
       "path": "apollo-subscription.js",
       "properties": [
@@ -1823,16 +1823,16 @@
       "metadata": {},
       "sourceRange": {
         "start": {
-          "line": 50,
+          "line": 41,
           "column": 7
         },
         "end": {
-          "line": 50,
+          "line": 41,
           "column": 82
         }
       },
       "privacy": "public",
-      "superclass": "GluonElement",
+      "superclass": "ApolloElement",
       "name": "ApolloSubscription"
     }
   ]
