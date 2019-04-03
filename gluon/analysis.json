@@ -346,11 +346,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-mutation-mixin.js",
             "start": {
-              "line": 44,
+              "line": 62,
               "column": 4
             },
             "end": {
-              "line": 44,
+              "line": 62,
               "column": 22
             }
           },
@@ -366,11 +366,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-mutation-mixin.js",
             "start": {
-              "line": 50,
+              "line": 68,
               "column": 4
             },
             "end": {
-              "line": 50,
+              "line": 68,
               "column": 29
             }
           },
@@ -386,11 +386,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-mutation-mixin.js",
             "start": {
-              "line": 62,
+              "line": 80,
               "column": 4
             },
             "end": {
-              "line": 62,
+              "line": 80,
               "column": 28
             }
           },
@@ -405,11 +405,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-mutation-mixin.js",
             "start": {
-              "line": 79,
+              "line": 97,
               "column": 4
             },
             "end": {
-              "line": 79,
+              "line": 97,
               "column": 16
             }
           },
@@ -424,11 +424,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-mutation-mixin.js",
             "start": {
-              "line": 85,
+              "line": 103,
               "column": 4
             },
             "end": {
-              "line": 85,
+              "line": 103,
               "column": 19
             }
           },
@@ -443,11 +443,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-mutation-mixin.js",
             "start": {
-              "line": 19,
+              "line": 37,
               "column": 2
             },
             "end": {
-              "line": 21,
+              "line": 39,
               "column": 3
             }
           },
@@ -529,11 +529,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-mutation-mixin.js",
             "start": {
-              "line": 96,
+              "line": 114,
               "column": 2
             },
             "end": {
-              "line": 99,
+              "line": 117,
               "column": 3
             }
           },
@@ -551,11 +551,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-mutation-mixin.js",
             "start": {
-              "line": 108,
+              "line": 126,
               "column": 2
             },
             "end": {
-              "line": 110,
+              "line": 128,
               "column": 3
             }
           },
@@ -578,18 +578,18 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-mutation-mixin.js",
             "start": {
-              "line": 127,
+              "line": 145,
               "column": 2
             },
             "end": {
-              "line": 164,
+              "line": 170,
               "column": 3
             }
           },
           "metadata": {},
           "params": [
             {
-              "name": "{\n  context = this.context,\n  errorPolicy = this.errorPolicy,\n  fetchPolicy = this.fetchPolicy,\n  mutation = this.mutation,\n  optimisticResponse = this.optimisticResponse,\n  refetchQueries = this.refetchQueries,\n  update = this.update,\n  awaitRefetchQueries = this.awaitRefetchQueries,\n  variables = this.variables\n} = {}"
+              "name": "{\n  mutation = this.mutation,\n  variables = this.variables,\n  ...options\n} = this"
             }
           ],
           "return": {
@@ -604,11 +604,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-mutation-mixin.js",
             "start": {
-              "line": 174,
+              "line": 180,
               "column": 2
             },
             "end": {
-              "line": 183,
+              "line": 189,
               "column": 3
             }
           },
@@ -635,11 +635,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-mutation-mixin.js",
             "start": {
-              "line": 193,
+              "line": 199,
               "column": 2
             },
             "end": {
-              "line": 200,
+              "line": 206,
               "column": 3
             }
           },
@@ -668,11 +668,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-mutation-mixin.js",
             "start": {
-              "line": 207,
+              "line": 213,
               "column": 2
             },
             "end": {
-              "line": 207,
+              "line": 213,
               "column": 19
             }
           },
@@ -690,11 +690,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-mutation-mixin.js",
             "start": {
-              "line": 214,
+              "line": 220,
               "column": 2
             },
             "end": {
-              "line": 214,
+              "line": 220,
               "column": 15
             }
           },
@@ -851,11 +851,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-query-mixin.js",
             "start": {
-              "line": 75,
+              "line": 106,
               "column": 4
             },
             "end": {
-              "line": 75,
+              "line": 106,
               "column": 20
             }
           },
@@ -871,11 +871,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-query-mixin.js",
             "start": {
-              "line": 81,
+              "line": 112,
               "column": 4
             },
             "end": {
-              "line": 81,
+              "line": 112,
               "column": 20
             }
           },
@@ -891,11 +891,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-query-mixin.js",
             "start": {
-              "line": 87,
+              "line": 118,
               "column": 4
             },
             "end": {
-              "line": 87,
+              "line": 118,
               "column": 21
             }
           },
@@ -911,11 +911,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-query-mixin.js",
             "start": {
-              "line": 93,
+              "line": 124,
               "column": 4
             },
             "end": {
-              "line": 93,
+              "line": 124,
               "column": 21
             }
           },
@@ -931,11 +931,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-query-mixin.js",
             "start": {
-              "line": 99,
+              "line": 130,
               "column": 4
             },
             "end": {
-              "line": 99,
+              "line": 130,
               "column": 36
             }
           },
@@ -951,11 +951,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-query-mixin.js",
             "start": {
-              "line": 105,
+              "line": 136,
               "column": 4
             },
             "end": {
-              "line": 105,
+              "line": 136,
               "column": 17
             }
           },
@@ -971,11 +971,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-query-mixin.js",
             "start": {
-              "line": 111,
+              "line": 142,
               "column": 4
             },
             "end": {
-              "line": 111,
+              "line": 142,
               "column": 25
             }
           },
@@ -990,11 +990,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-query-mixin.js",
             "start": {
-              "line": 19,
+              "line": 50,
               "column": 2
             },
             "end": {
-              "line": 21,
+              "line": 52,
               "column": 3
             }
           },
@@ -1009,11 +1009,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-query-mixin.js",
             "start": {
-              "line": 40,
+              "line": 71,
               "column": 2
             },
             "end": {
-              "line": 42,
+              "line": 73,
               "column": 3
             }
           },
@@ -1028,11 +1028,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-query-mixin.js",
             "start": {
-              "line": 57,
+              "line": 88,
               "column": 2
             },
             "end": {
-              "line": 59,
+              "line": 90,
               "column": 3
             }
           },
@@ -1065,11 +1065,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-query-mixin.js",
             "start": {
-              "line": 115,
+              "line": 146,
               "column": 2
             },
             "end": {
-              "line": 118,
+              "line": 149,
               "column": 3
             }
           },
@@ -1131,11 +1131,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-query-mixin.js",
             "start": {
-              "line": 126,
+              "line": 157,
               "column": 2
             },
             "end": {
-              "line": 131,
+              "line": 162,
               "column": 3
             }
           },
@@ -1158,11 +1158,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-query-mixin.js",
             "start": {
-              "line": 142,
+              "line": 173,
               "column": 2
             },
             "end": {
-              "line": 147,
+              "line": 178,
               "column": 3
             }
           },
@@ -1198,11 +1198,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-query-mixin.js",
             "start": {
-              "line": 155,
+              "line": 186,
               "column": 2
             },
             "end": {
-              "line": 162,
+              "line": 193,
               "column": 3
             }
           },
@@ -1224,11 +1224,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-query-mixin.js",
             "start": {
-              "line": 175,
+              "line": 206,
               "column": 2
             },
             "end": {
-              "line": 180,
+              "line": 211,
               "column": 3
             }
           },
@@ -1251,18 +1251,18 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-query-mixin.js",
             "start": {
-              "line": 188,
+              "line": 219,
               "column": 2
             },
             "end": {
-              "line": 213,
+              "line": 234,
               "column": 3
             }
           },
           "metadata": {},
           "params": [
             {
-              "name": "{\n  metadata,\n  context,\n  query = this.query,\n  variables = this.variables,\n  fetchPolicy = this.fetchPolicy,\n  errorPolicy = this.errorPolicy,\n  fetchResults = this.fetchResults\n} = this"
+              "name": "{\n  query = this.query,\n  variables = this.variables,\n  ...options\n} = this"
             }
           ],
           "return": {
@@ -1277,11 +1277,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-query-mixin.js",
             "start": {
-              "line": 232,
+              "line": 253,
               "column": 2
             },
             "end": {
-              "line": 237,
+              "line": 258,
               "column": 3
             }
           },
@@ -1303,18 +1303,18 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-query-mixin.js",
             "start": {
-              "line": 266,
+              "line": 287,
               "column": 2
             },
             "end": {
-              "line": 288,
+              "line": 294,
               "column": 3
             }
           },
           "metadata": {},
           "params": [
             {
-              "name": "{\n  context = this.context,\n  errorPolicy = this.errorPolicy,\n  fetchPolicy = this.fetchPolicy,\n  fetchResults = this.fetchResults,\n  metadata = this.metadata,\n  notifyOnNetworkStatusChange = this.notifyOnNetworkStatusChange,\n  pollInterval = this.pollInterval,\n  query = this.query,\n  variables = this.variables\n} = this"
+              "name": "{\n  query = this.query,\n  variables = this.variables,\n  ...options\n} = this"
             }
           ],
           "return": {
@@ -1329,11 +1329,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-query-mixin.js",
             "start": {
-              "line": 300,
+              "line": 306,
               "column": 2
             },
             "end": {
-              "line": 305,
+              "line": 311,
               "column": 3
             }
           },
@@ -1355,11 +1355,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-query-mixin.js",
             "start": {
-              "line": 313,
+              "line": 319,
               "column": 2
             },
             "end": {
-              "line": 315,
+              "line": 321,
               "column": 3
             }
           },
@@ -1749,7 +1749,7 @@
               "column": 2
             },
             "end": {
-              "line": 113,
+              "line": 115,
               "column": 3
             }
           },
@@ -1771,11 +1771,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-subscription-mixin.js",
             "start": {
-              "line": 123,
+              "line": 125,
               "column": 2
             },
             "end": {
-              "line": 129,
+              "line": 131,
               "column": 3
             }
           },
@@ -1797,11 +1797,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-subscription-mixin.js",
             "start": {
-              "line": 137,
+              "line": 139,
               "column": 2
             },
             "end": {
-              "line": 140,
+              "line": 142,
               "column": 3
             }
           },
