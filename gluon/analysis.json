@@ -1352,7 +1352,7 @@
               "column": 4
             },
             "end": {
-              "line": 319,
+              "line": 320,
               "column": 5
             }
           },
@@ -1374,11 +1374,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-query-mixin.js",
             "start": {
-              "line": 327,
+              "line": 328,
               "column": 4
             },
             "end": {
-              "line": 329,
+              "line": 331,
               "column": 5
             }
           },
@@ -1389,6 +1389,50 @@
               "type": "Error"
             }
           ],
+          "return": {
+            "type": "void"
+          },
+          "inheritedFrom": "ApolloQueryMixin"
+        },
+        {
+          "name": "onData",
+          "description": "Callback for when a query is completed.",
+          "privacy": "public",
+          "sourceRange": {
+            "file": "node_modules/%40apollo-elements/mixins/apollo-query-mixin.js",
+            "start": {
+              "line": 338,
+              "column": 4
+            },
+            "end": {
+              "line": 338,
+              "column": 15
+            }
+          },
+          "metadata": {},
+          "params": [],
+          "return": {
+            "type": "void"
+          },
+          "inheritedFrom": "ApolloQueryMixin"
+        },
+        {
+          "name": "onError",
+          "description": "Callback for when an error occurs in mutation.",
+          "privacy": "public",
+          "sourceRange": {
+            "file": "node_modules/%40apollo-elements/mixins/apollo-query-mixin.js",
+            "start": {
+              "line": 345,
+              "column": 4
+            },
+            "end": {
+              "line": 345,
+              "column": 16
+            }
+          },
+          "metadata": {},
+          "params": [],
           "return": {
             "type": "void"
           },

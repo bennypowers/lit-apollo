@@ -839,7 +839,7 @@
               "column": 4
             },
             "end": {
-              "line": 319,
+              "line": 320,
               "column": 5
             }
           },
@@ -859,11 +859,11 @@
           "privacy": "protected",
           "sourceRange": {
             "start": {
-              "line": 327,
+              "line": 328,
               "column": 4
             },
             "end": {
-              "line": 329,
+              "line": 331,
               "column": 5
             }
           },
@@ -874,6 +874,46 @@
               "type": "Error"
             }
           ],
+          "return": {
+            "type": "void"
+          }
+        },
+        {
+          "name": "onData",
+          "description": "Callback for when a query is completed.",
+          "privacy": "public",
+          "sourceRange": {
+            "start": {
+              "line": 338,
+              "column": 4
+            },
+            "end": {
+              "line": 338,
+              "column": 15
+            }
+          },
+          "metadata": {},
+          "params": [],
+          "return": {
+            "type": "void"
+          }
+        },
+        {
+          "name": "onError",
+          "description": "Callback for when an error occurs in mutation.",
+          "privacy": "public",
+          "sourceRange": {
+            "start": {
+              "line": 345,
+              "column": 4
+            },
+            "end": {
+              "line": 345,
+              "column": 16
+            }
+          },
+          "metadata": {},
+          "params": [],
           "return": {
             "type": "void"
           }
@@ -888,7 +928,7 @@
           "column": 7
         },
         "end": {
-          "line": 330,
+          "line": 346,
           "column": 4
         }
       },
