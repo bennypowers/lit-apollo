@@ -14,11 +14,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-element-mixin.js",
             "start": {
-              "line": 27,
+              "line": 32,
               "column": 6
             },
             "end": {
-              "line": 27,
+              "line": 32,
               "column": 19
             }
           },
@@ -33,11 +33,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-element-mixin.js",
             "start": {
-              "line": 33,
+              "line": 38,
               "column": 6
             },
             "end": {
-              "line": 33,
+              "line": 38,
               "column": 16
             }
           },
@@ -52,11 +52,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-element-mixin.js",
             "start": {
-              "line": 39,
+              "line": 44,
               "column": 6
             },
             "end": {
-              "line": 39,
+              "line": 44,
               "column": 17
             }
           },
@@ -71,11 +71,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-element-mixin.js",
             "start": {
-              "line": 45,
+              "line": 50,
               "column": 6
             },
             "end": {
-              "line": 45,
+              "line": 50,
               "column": 19
             }
           },
@@ -90,11 +90,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-element-mixin.js",
             "start": {
-              "line": 51,
+              "line": 56,
               "column": 6
             },
             "end": {
-              "line": 51,
+              "line": 56,
               "column": 17
             }
           },
@@ -110,11 +110,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-element-mixin.js",
             "start": {
-              "line": 59,
+              "line": 64,
               "column": 4
             },
             "end": {
-              "line": 61,
+              "line": 66,
               "column": 5
             }
           },
@@ -130,11 +130,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-element-mixin.js",
             "start": {
-              "line": 73,
+              "line": 78,
               "column": 4
             },
             "end": {
-              "line": 82,
+              "line": 87,
               "column": 5
             }
           },
@@ -152,11 +152,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-element-mixin.js",
             "start": {
-              "line": 85,
+              "line": 90,
               "column": 4
             },
             "end": {
-              "line": 89,
+              "line": 94,
               "column": 5
             }
           },
@@ -174,11 +174,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-element-mixin.js",
             "start": {
-              "line": 92,
+              "line": 97,
               "column": 4
             },
             "end": {
-              "line": 95,
+              "line": 100,
               "column": 5
             }
           },
@@ -220,11 +220,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-element-mixin.js",
             "start": {
-              "line": 27,
+              "line": 32,
               "column": 6
             },
             "end": {
-              "line": 27,
+              "line": 32,
               "column": 19
             }
           },
@@ -239,11 +239,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-element-mixin.js",
             "start": {
-              "line": 33,
+              "line": 38,
               "column": 6
             },
             "end": {
-              "line": 33,
+              "line": 38,
               "column": 16
             }
           },
@@ -258,11 +258,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-element-mixin.js",
             "start": {
-              "line": 39,
+              "line": 44,
               "column": 6
             },
             "end": {
-              "line": 39,
+              "line": 44,
               "column": 17
             }
           },
@@ -277,11 +277,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-element-mixin.js",
             "start": {
-              "line": 45,
+              "line": 50,
               "column": 6
             },
             "end": {
-              "line": 45,
+              "line": 50,
               "column": 19
             }
           },
@@ -296,11 +296,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-element-mixin.js",
             "start": {
-              "line": 51,
+              "line": 56,
               "column": 6
             },
             "end": {
-              "line": 51,
+              "line": 56,
               "column": 17
             }
           },
@@ -316,11 +316,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-element-mixin.js",
             "start": {
-              "line": 59,
+              "line": 64,
               "column": 4
             },
             "end": {
-              "line": 61,
+              "line": 66,
               "column": 5
             }
           },
@@ -336,11 +336,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-element-mixin.js",
             "start": {
-              "line": 73,
+              "line": 78,
               "column": 4
             },
             "end": {
-              "line": 82,
+              "line": 87,
               "column": 5
             }
           },
@@ -358,11 +358,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-element-mixin.js",
             "start": {
-              "line": 85,
+              "line": 90,
               "column": 4
             },
             "end": {
-              "line": 89,
+              "line": 94,
               "column": 5
             }
           },
@@ -380,11 +380,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-element-mixin.js",
             "start": {
-              "line": 92,
+              "line": 97,
               "column": 4
             },
             "end": {
-              "line": 95,
+              "line": 100,
               "column": 5
             }
           },
@@ -442,11 +442,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-element-mixin.js",
             "start": {
-              "line": 27,
+              "line": 32,
               "column": 6
             },
             "end": {
-              "line": 27,
+              "line": 32,
               "column": 19
             }
           },
@@ -461,11 +461,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-element-mixin.js",
             "start": {
-              "line": 33,
+              "line": 38,
               "column": 6
             },
             "end": {
-              "line": 33,
+              "line": 38,
               "column": 16
             }
           },
@@ -480,11 +480,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-element-mixin.js",
             "start": {
-              "line": 39,
+              "line": 44,
               "column": 6
             },
             "end": {
-              "line": 39,
+              "line": 44,
               "column": 17
             }
           },
@@ -499,11 +499,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-element-mixin.js",
             "start": {
-              "line": 45,
+              "line": 50,
               "column": 6
             },
             "end": {
-              "line": 45,
+              "line": 50,
               "column": 19
             }
           },
@@ -518,11 +518,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-element-mixin.js",
             "start": {
-              "line": 51,
+              "line": 56,
               "column": 6
             },
             "end": {
-              "line": 51,
+              "line": 56,
               "column": 17
             }
           },
@@ -538,11 +538,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-element-mixin.js",
             "start": {
-              "line": 59,
+              "line": 64,
               "column": 4
             },
             "end": {
-              "line": 61,
+              "line": 66,
               "column": 5
             }
           },
@@ -558,11 +558,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-element-mixin.js",
             "start": {
-              "line": 73,
+              "line": 78,
               "column": 4
             },
             "end": {
-              "line": 82,
+              "line": 87,
               "column": 5
             }
           },
@@ -580,11 +580,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-element-mixin.js",
             "start": {
-              "line": 85,
+              "line": 90,
               "column": 4
             },
             "end": {
-              "line": 89,
+              "line": 94,
               "column": 5
             }
           },
@@ -602,11 +602,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-element-mixin.js",
             "start": {
-              "line": 92,
+              "line": 97,
               "column": 4
             },
             "end": {
-              "line": 95,
+              "line": 100,
               "column": 5
             }
           },
@@ -664,11 +664,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-element-mixin.js",
             "start": {
-              "line": 27,
+              "line": 32,
               "column": 6
             },
             "end": {
-              "line": 27,
+              "line": 32,
               "column": 19
             }
           },
@@ -683,11 +683,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-element-mixin.js",
             "start": {
-              "line": 33,
+              "line": 38,
               "column": 6
             },
             "end": {
-              "line": 33,
+              "line": 38,
               "column": 16
             }
           },
@@ -702,11 +702,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-element-mixin.js",
             "start": {
-              "line": 39,
+              "line": 44,
               "column": 6
             },
             "end": {
-              "line": 39,
+              "line": 44,
               "column": 17
             }
           },
@@ -721,11 +721,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-element-mixin.js",
             "start": {
-              "line": 45,
+              "line": 50,
               "column": 6
             },
             "end": {
-              "line": 45,
+              "line": 50,
               "column": 19
             }
           },
@@ -740,11 +740,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-element-mixin.js",
             "start": {
-              "line": 51,
+              "line": 56,
               "column": 6
             },
             "end": {
-              "line": 51,
+              "line": 56,
               "column": 17
             }
           },
@@ -760,11 +760,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-element-mixin.js",
             "start": {
-              "line": 59,
+              "line": 64,
               "column": 4
             },
             "end": {
-              "line": 61,
+              "line": 66,
               "column": 5
             }
           },
@@ -780,11 +780,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-element-mixin.js",
             "start": {
-              "line": 73,
+              "line": 78,
               "column": 4
             },
             "end": {
-              "line": 82,
+              "line": 87,
               "column": 5
             }
           },
@@ -802,11 +802,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-element-mixin.js",
             "start": {
-              "line": 85,
+              "line": 90,
               "column": 4
             },
             "end": {
-              "line": 89,
+              "line": 94,
               "column": 5
             }
           },
@@ -824,11 +824,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-element-mixin.js",
             "start": {
-              "line": 92,
+              "line": 97,
               "column": 4
             },
             "end": {
-              "line": 95,
+              "line": 100,
               "column": 5
             }
           },
@@ -886,11 +886,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-element-mixin.js",
             "start": {
-              "line": 27,
+              "line": 32,
               "column": 6
             },
             "end": {
-              "line": 27,
+              "line": 32,
               "column": 19
             }
           },
@@ -905,11 +905,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-element-mixin.js",
             "start": {
-              "line": 33,
+              "line": 38,
               "column": 6
             },
             "end": {
-              "line": 33,
+              "line": 38,
               "column": 16
             }
           },
@@ -924,11 +924,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-element-mixin.js",
             "start": {
-              "line": 39,
+              "line": 44,
               "column": 6
             },
             "end": {
-              "line": 39,
+              "line": 44,
               "column": 17
             }
           },
@@ -943,11 +943,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-element-mixin.js",
             "start": {
-              "line": 45,
+              "line": 50,
               "column": 6
             },
             "end": {
-              "line": 45,
+              "line": 50,
               "column": 19
             }
           },
@@ -962,11 +962,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-element-mixin.js",
             "start": {
-              "line": 51,
+              "line": 56,
               "column": 6
             },
             "end": {
-              "line": 51,
+              "line": 56,
               "column": 17
             }
           },
@@ -982,11 +982,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-element-mixin.js",
             "start": {
-              "line": 59,
+              "line": 64,
               "column": 4
             },
             "end": {
-              "line": 61,
+              "line": 66,
               "column": 5
             }
           },
@@ -1002,11 +1002,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-element-mixin.js",
             "start": {
-              "line": 73,
+              "line": 78,
               "column": 4
             },
             "end": {
-              "line": 82,
+              "line": 87,
               "column": 5
             }
           },
@@ -1024,11 +1024,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-element-mixin.js",
             "start": {
-              "line": 85,
+              "line": 90,
               "column": 4
             },
             "end": {
-              "line": 89,
+              "line": 94,
               "column": 5
             }
           },
@@ -1046,11 +1046,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-element-mixin.js",
             "start": {
-              "line": 92,
+              "line": 97,
               "column": 4
             },
             "end": {
-              "line": 95,
+              "line": 100,
               "column": 5
             }
           },
@@ -1108,11 +1108,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-element-mixin.js",
             "start": {
-              "line": 27,
+              "line": 32,
               "column": 6
             },
             "end": {
-              "line": 27,
+              "line": 32,
               "column": 19
             }
           },
@@ -1127,11 +1127,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-element-mixin.js",
             "start": {
-              "line": 33,
+              "line": 38,
               "column": 6
             },
             "end": {
-              "line": 33,
+              "line": 38,
               "column": 16
             }
           },
@@ -1146,11 +1146,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-element-mixin.js",
             "start": {
-              "line": 39,
+              "line": 44,
               "column": 6
             },
             "end": {
-              "line": 39,
+              "line": 44,
               "column": 17
             }
           },
@@ -1165,11 +1165,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-element-mixin.js",
             "start": {
-              "line": 45,
+              "line": 50,
               "column": 6
             },
             "end": {
-              "line": 45,
+              "line": 50,
               "column": 19
             }
           },
@@ -1184,11 +1184,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-element-mixin.js",
             "start": {
-              "line": 51,
+              "line": 56,
               "column": 6
             },
             "end": {
-              "line": 51,
+              "line": 56,
               "column": 17
             }
           },
@@ -1204,11 +1204,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-element-mixin.js",
             "start": {
-              "line": 59,
+              "line": 64,
               "column": 4
             },
             "end": {
-              "line": 61,
+              "line": 66,
               "column": 5
             }
           },
@@ -1223,11 +1223,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-mutation-mixin.js",
             "start": {
-              "line": 68,
+              "line": 70,
               "column": 6
             },
             "end": {
-              "line": 68,
+              "line": 70,
               "column": 17
             }
           },
@@ -1243,11 +1243,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-mutation-mixin.js",
             "start": {
-              "line": 74,
+              "line": 76,
               "column": 6
             },
             "end": {
-              "line": 74,
+              "line": 76,
               "column": 24
             }
           },
@@ -1263,11 +1263,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-mutation-mixin.js",
             "start": {
-              "line": 80,
+              "line": 82,
               "column": 6
             },
             "end": {
-              "line": 80,
+              "line": 82,
               "column": 31
             }
           },
@@ -1283,11 +1283,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-mutation-mixin.js",
             "start": {
-              "line": 92,
+              "line": 94,
               "column": 6
             },
             "end": {
-              "line": 92,
+              "line": 94,
               "column": 30
             }
           },
@@ -1302,11 +1302,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-mutation-mixin.js",
             "start": {
-              "line": 109,
+              "line": 111,
               "column": 6
             },
             "end": {
-              "line": 109,
+              "line": 111,
               "column": 18
             }
           },
@@ -1321,11 +1321,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-mutation-mixin.js",
             "start": {
-              "line": 115,
+              "line": 117,
               "column": 6
             },
             "end": {
-              "line": 115,
+              "line": 117,
               "column": 21
             }
           },
@@ -1340,11 +1340,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-mutation-mixin.js",
             "start": {
-              "line": 121,
+              "line": 123,
               "column": 6
             },
             "end": {
-              "line": 121,
+              "line": 123,
               "column": 35
             }
           },
@@ -1359,11 +1359,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-mutation-mixin.js",
             "start": {
-              "line": 49,
+              "line": 51,
               "column": 4
             },
             "end": {
-              "line": 51,
+              "line": 53,
               "column": 5
             }
           },
@@ -1379,11 +1379,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-element-mixin.js",
             "start": {
-              "line": 73,
+              "line": 78,
               "column": 4
             },
             "end": {
-              "line": 82,
+              "line": 87,
               "column": 5
             }
           },
@@ -1401,11 +1401,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-element-mixin.js",
             "start": {
-              "line": 85,
+              "line": 90,
               "column": 4
             },
             "end": {
-              "line": 89,
+              "line": 94,
               "column": 5
             }
           },
@@ -1423,11 +1423,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-element-mixin.js",
             "start": {
-              "line": 92,
+              "line": 97,
               "column": 4
             },
             "end": {
-              "line": 95,
+              "line": 100,
               "column": 5
             }
           },
@@ -1445,11 +1445,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-mutation-mixin.js",
             "start": {
-              "line": 130,
+              "line": 132,
               "column": 4
             },
             "end": {
-              "line": 133,
+              "line": 135,
               "column": 5
             }
           },
@@ -1467,11 +1467,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-mutation-mixin.js",
             "start": {
-              "line": 142,
+              "line": 144,
               "column": 4
             },
             "end": {
-              "line": 144,
+              "line": 146,
               "column": 5
             }
           },
@@ -1518,11 +1518,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-mutation-mixin.js",
             "start": {
-              "line": 196,
+              "line": 198,
               "column": 4
             },
             "end": {
-              "line": 205,
+              "line": 207,
               "column": 5
             }
           },
@@ -1549,11 +1549,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-mutation-mixin.js",
             "start": {
-              "line": 215,
+              "line": 217,
               "column": 4
             },
             "end": {
-              "line": 222,
+              "line": 224,
               "column": 5
             }
           },
@@ -1582,11 +1582,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-mutation-mixin.js",
             "start": {
-              "line": 229,
+              "line": 231,
               "column": 4
             },
             "end": {
-              "line": 229,
+              "line": 231,
               "column": 21
             }
           },
@@ -1604,11 +1604,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-mutation-mixin.js",
             "start": {
-              "line": 236,
+              "line": 238,
               "column": 4
             },
             "end": {
-              "line": 236,
+              "line": 238,
               "column": 17
             }
           },
@@ -1650,11 +1650,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-element-mixin.js",
             "start": {
-              "line": 27,
+              "line": 32,
               "column": 6
             },
             "end": {
-              "line": 27,
+              "line": 32,
               "column": 19
             }
           },
@@ -1669,11 +1669,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-element-mixin.js",
             "start": {
-              "line": 33,
+              "line": 38,
               "column": 6
             },
             "end": {
-              "line": 33,
+              "line": 38,
               "column": 16
             }
           },
@@ -1688,11 +1688,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-element-mixin.js",
             "start": {
-              "line": 39,
+              "line": 44,
               "column": 6
             },
             "end": {
-              "line": 39,
+              "line": 44,
               "column": 17
             }
           },
@@ -1707,11 +1707,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-element-mixin.js",
             "start": {
-              "line": 45,
+              "line": 50,
               "column": 6
             },
             "end": {
-              "line": 45,
+              "line": 50,
               "column": 19
             }
           },
@@ -1726,11 +1726,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-element-mixin.js",
             "start": {
-              "line": 51,
+              "line": 56,
               "column": 6
             },
             "end": {
-              "line": 51,
+              "line": 56,
               "column": 17
             }
           },
@@ -1746,11 +1746,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-element-mixin.js",
             "start": {
-              "line": 59,
+              "line": 64,
               "column": 4
             },
             "end": {
-              "line": 61,
+              "line": 66,
               "column": 5
             }
           },
@@ -1765,11 +1765,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-mutation-mixin.js",
             "start": {
-              "line": 68,
+              "line": 70,
               "column": 6
             },
             "end": {
-              "line": 68,
+              "line": 70,
               "column": 17
             }
           },
@@ -1785,11 +1785,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-mutation-mixin.js",
             "start": {
-              "line": 74,
+              "line": 76,
               "column": 6
             },
             "end": {
-              "line": 74,
+              "line": 76,
               "column": 24
             }
           },
@@ -1805,11 +1805,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-mutation-mixin.js",
             "start": {
-              "line": 80,
+              "line": 82,
               "column": 6
             },
             "end": {
-              "line": 80,
+              "line": 82,
               "column": 31
             }
           },
@@ -1825,11 +1825,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-mutation-mixin.js",
             "start": {
-              "line": 92,
+              "line": 94,
               "column": 6
             },
             "end": {
-              "line": 92,
+              "line": 94,
               "column": 30
             }
           },
@@ -1844,11 +1844,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-mutation-mixin.js",
             "start": {
-              "line": 109,
+              "line": 111,
               "column": 6
             },
             "end": {
-              "line": 109,
+              "line": 111,
               "column": 18
             }
           },
@@ -1863,11 +1863,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-mutation-mixin.js",
             "start": {
-              "line": 115,
+              "line": 117,
               "column": 6
             },
             "end": {
-              "line": 115,
+              "line": 117,
               "column": 21
             }
           },
@@ -1882,11 +1882,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-mutation-mixin.js",
             "start": {
-              "line": 121,
+              "line": 123,
               "column": 6
             },
             "end": {
-              "line": 121,
+              "line": 123,
               "column": 35
             }
           },
@@ -1901,11 +1901,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-mutation-mixin.js",
             "start": {
-              "line": 49,
+              "line": 51,
               "column": 4
             },
             "end": {
-              "line": 51,
+              "line": 53,
               "column": 5
             }
           },
@@ -1921,11 +1921,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-element-mixin.js",
             "start": {
-              "line": 73,
+              "line": 78,
               "column": 4
             },
             "end": {
-              "line": 82,
+              "line": 87,
               "column": 5
             }
           },
@@ -1943,11 +1943,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-element-mixin.js",
             "start": {
-              "line": 85,
+              "line": 90,
               "column": 4
             },
             "end": {
-              "line": 89,
+              "line": 94,
               "column": 5
             }
           },
@@ -1965,11 +1965,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-element-mixin.js",
             "start": {
-              "line": 92,
+              "line": 97,
               "column": 4
             },
             "end": {
-              "line": 95,
+              "line": 100,
               "column": 5
             }
           },
@@ -1987,11 +1987,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-mutation-mixin.js",
             "start": {
-              "line": 130,
+              "line": 132,
               "column": 4
             },
             "end": {
-              "line": 133,
+              "line": 135,
               "column": 5
             }
           },
@@ -2009,11 +2009,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-mutation-mixin.js",
             "start": {
-              "line": 142,
+              "line": 144,
               "column": 4
             },
             "end": {
-              "line": 144,
+              "line": 146,
               "column": 5
             }
           },
@@ -2062,11 +2062,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-mutation-mixin.js",
             "start": {
-              "line": 196,
+              "line": 198,
               "column": 4
             },
             "end": {
-              "line": 205,
+              "line": 207,
               "column": 5
             }
           },
@@ -2093,11 +2093,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-mutation-mixin.js",
             "start": {
-              "line": 215,
+              "line": 217,
               "column": 4
             },
             "end": {
-              "line": 222,
+              "line": 224,
               "column": 5
             }
           },
@@ -2126,11 +2126,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-mutation-mixin.js",
             "start": {
-              "line": 229,
+              "line": 231,
               "column": 4
             },
             "end": {
-              "line": 229,
+              "line": 231,
               "column": 21
             }
           },
@@ -2148,11 +2148,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-mutation-mixin.js",
             "start": {
-              "line": 236,
+              "line": 238,
               "column": 4
             },
             "end": {
-              "line": 236,
+              "line": 238,
               "column": 17
             }
           },
@@ -2210,11 +2210,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-element-mixin.js",
             "start": {
-              "line": 27,
+              "line": 32,
               "column": 6
             },
             "end": {
-              "line": 27,
+              "line": 32,
               "column": 19
             }
           },
@@ -2229,11 +2229,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-element-mixin.js",
             "start": {
-              "line": 33,
+              "line": 38,
               "column": 6
             },
             "end": {
-              "line": 33,
+              "line": 38,
               "column": 16
             }
           },
@@ -2248,11 +2248,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-element-mixin.js",
             "start": {
-              "line": 39,
+              "line": 44,
               "column": 6
             },
             "end": {
-              "line": 39,
+              "line": 44,
               "column": 17
             }
           },
@@ -2267,11 +2267,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-element-mixin.js",
             "start": {
-              "line": 45,
+              "line": 50,
               "column": 6
             },
             "end": {
-              "line": 45,
+              "line": 50,
               "column": 19
             }
           },
@@ -2286,11 +2286,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-element-mixin.js",
             "start": {
-              "line": 51,
+              "line": 56,
               "column": 6
             },
             "end": {
-              "line": 51,
+              "line": 56,
               "column": 17
             }
           },
@@ -2306,11 +2306,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-element-mixin.js",
             "start": {
-              "line": 59,
+              "line": 64,
               "column": 4
             },
             "end": {
-              "line": 61,
+              "line": 66,
               "column": 5
             }
           },
@@ -2325,11 +2325,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-mutation-mixin.js",
             "start": {
-              "line": 68,
+              "line": 70,
               "column": 6
             },
             "end": {
-              "line": 68,
+              "line": 70,
               "column": 17
             }
           },
@@ -2345,11 +2345,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-mutation-mixin.js",
             "start": {
-              "line": 74,
+              "line": 76,
               "column": 6
             },
             "end": {
-              "line": 74,
+              "line": 76,
               "column": 24
             }
           },
@@ -2365,11 +2365,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-mutation-mixin.js",
             "start": {
-              "line": 80,
+              "line": 82,
               "column": 6
             },
             "end": {
-              "line": 80,
+              "line": 82,
               "column": 31
             }
           },
@@ -2385,11 +2385,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-mutation-mixin.js",
             "start": {
-              "line": 92,
+              "line": 94,
               "column": 6
             },
             "end": {
-              "line": 92,
+              "line": 94,
               "column": 30
             }
           },
@@ -2404,11 +2404,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-mutation-mixin.js",
             "start": {
-              "line": 109,
+              "line": 111,
               "column": 6
             },
             "end": {
-              "line": 109,
+              "line": 111,
               "column": 18
             }
           },
@@ -2423,11 +2423,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-mutation-mixin.js",
             "start": {
-              "line": 115,
+              "line": 117,
               "column": 6
             },
             "end": {
-              "line": 115,
+              "line": 117,
               "column": 21
             }
           },
@@ -2442,11 +2442,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-mutation-mixin.js",
             "start": {
-              "line": 121,
+              "line": 123,
               "column": 6
             },
             "end": {
-              "line": 121,
+              "line": 123,
               "column": 35
             }
           },
@@ -2461,11 +2461,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-mutation-mixin.js",
             "start": {
-              "line": 49,
+              "line": 51,
               "column": 4
             },
             "end": {
-              "line": 51,
+              "line": 53,
               "column": 5
             }
           },
@@ -2481,11 +2481,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-element-mixin.js",
             "start": {
-              "line": 73,
+              "line": 78,
               "column": 4
             },
             "end": {
-              "line": 82,
+              "line": 87,
               "column": 5
             }
           },
@@ -2503,11 +2503,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-element-mixin.js",
             "start": {
-              "line": 85,
+              "line": 90,
               "column": 4
             },
             "end": {
-              "line": 89,
+              "line": 94,
               "column": 5
             }
           },
@@ -2525,11 +2525,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-element-mixin.js",
             "start": {
-              "line": 92,
+              "line": 97,
               "column": 4
             },
             "end": {
-              "line": 95,
+              "line": 100,
               "column": 5
             }
           },
@@ -2547,11 +2547,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-mutation-mixin.js",
             "start": {
-              "line": 130,
+              "line": 132,
               "column": 4
             },
             "end": {
-              "line": 133,
+              "line": 135,
               "column": 5
             }
           },
@@ -2569,11 +2569,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-mutation-mixin.js",
             "start": {
-              "line": 142,
+              "line": 144,
               "column": 4
             },
             "end": {
-              "line": 144,
+              "line": 146,
               "column": 5
             }
           },
@@ -2622,11 +2622,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-mutation-mixin.js",
             "start": {
-              "line": 196,
+              "line": 198,
               "column": 4
             },
             "end": {
-              "line": 205,
+              "line": 207,
               "column": 5
             }
           },
@@ -2653,11 +2653,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-mutation-mixin.js",
             "start": {
-              "line": 215,
+              "line": 217,
               "column": 4
             },
             "end": {
-              "line": 222,
+              "line": 224,
               "column": 5
             }
           },
@@ -2686,11 +2686,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-mutation-mixin.js",
             "start": {
-              "line": 229,
+              "line": 231,
               "column": 4
             },
             "end": {
-              "line": 229,
+              "line": 231,
               "column": 21
             }
           },
@@ -2708,11 +2708,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-mutation-mixin.js",
             "start": {
-              "line": 236,
+              "line": 238,
               "column": 4
             },
             "end": {
-              "line": 236,
+              "line": 238,
               "column": 17
             }
           },
@@ -2790,11 +2790,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-element-mixin.js",
             "start": {
-              "line": 27,
+              "line": 32,
               "column": 6
             },
             "end": {
-              "line": 27,
+              "line": 32,
               "column": 19
             }
           },
@@ -2809,11 +2809,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-element-mixin.js",
             "start": {
-              "line": 33,
+              "line": 38,
               "column": 6
             },
             "end": {
-              "line": 33,
+              "line": 38,
               "column": 16
             }
           },
@@ -2828,11 +2828,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-element-mixin.js",
             "start": {
-              "line": 39,
+              "line": 44,
               "column": 6
             },
             "end": {
-              "line": 39,
+              "line": 44,
               "column": 17
             }
           },
@@ -2847,11 +2847,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-element-mixin.js",
             "start": {
-              "line": 45,
+              "line": 50,
               "column": 6
             },
             "end": {
-              "line": 45,
+              "line": 50,
               "column": 19
             }
           },
@@ -2866,11 +2866,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-element-mixin.js",
             "start": {
-              "line": 51,
+              "line": 56,
               "column": 6
             },
             "end": {
-              "line": 51,
+              "line": 56,
               "column": 17
             }
           },
@@ -2886,11 +2886,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-element-mixin.js",
             "start": {
-              "line": 59,
+              "line": 64,
               "column": 4
             },
             "end": {
-              "line": 61,
+              "line": 66,
               "column": 5
             }
           },
@@ -2905,11 +2905,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-mutation-mixin.js",
             "start": {
-              "line": 68,
+              "line": 70,
               "column": 6
             },
             "end": {
-              "line": 68,
+              "line": 70,
               "column": 17
             }
           },
@@ -2925,11 +2925,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-mutation-mixin.js",
             "start": {
-              "line": 74,
+              "line": 76,
               "column": 6
             },
             "end": {
-              "line": 74,
+              "line": 76,
               "column": 24
             }
           },
@@ -2945,11 +2945,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-mutation-mixin.js",
             "start": {
-              "line": 80,
+              "line": 82,
               "column": 6
             },
             "end": {
-              "line": 80,
+              "line": 82,
               "column": 31
             }
           },
@@ -2965,11 +2965,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-mutation-mixin.js",
             "start": {
-              "line": 92,
+              "line": 94,
               "column": 6
             },
             "end": {
-              "line": 92,
+              "line": 94,
               "column": 30
             }
           },
@@ -2984,11 +2984,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-mutation-mixin.js",
             "start": {
-              "line": 109,
+              "line": 111,
               "column": 6
             },
             "end": {
-              "line": 109,
+              "line": 111,
               "column": 18
             }
           },
@@ -3003,11 +3003,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-mutation-mixin.js",
             "start": {
-              "line": 115,
+              "line": 117,
               "column": 6
             },
             "end": {
-              "line": 115,
+              "line": 117,
               "column": 21
             }
           },
@@ -3022,11 +3022,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-mutation-mixin.js",
             "start": {
-              "line": 121,
+              "line": 123,
               "column": 6
             },
             "end": {
-              "line": 121,
+              "line": 123,
               "column": 35
             }
           },
@@ -3041,11 +3041,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-mutation-mixin.js",
             "start": {
-              "line": 49,
+              "line": 51,
               "column": 4
             },
             "end": {
-              "line": 51,
+              "line": 53,
               "column": 5
             }
           },
@@ -3061,11 +3061,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-element-mixin.js",
             "start": {
-              "line": 73,
+              "line": 78,
               "column": 4
             },
             "end": {
-              "line": 82,
+              "line": 87,
               "column": 5
             }
           },
@@ -3083,11 +3083,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-element-mixin.js",
             "start": {
-              "line": 85,
+              "line": 90,
               "column": 4
             },
             "end": {
-              "line": 89,
+              "line": 94,
               "column": 5
             }
           },
@@ -3105,11 +3105,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-element-mixin.js",
             "start": {
-              "line": 92,
+              "line": 97,
               "column": 4
             },
             "end": {
-              "line": 95,
+              "line": 100,
               "column": 5
             }
           },
@@ -3127,11 +3127,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-mutation-mixin.js",
             "start": {
-              "line": 130,
+              "line": 132,
               "column": 4
             },
             "end": {
-              "line": 133,
+              "line": 135,
               "column": 5
             }
           },
@@ -3149,11 +3149,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-mutation-mixin.js",
             "start": {
-              "line": 142,
+              "line": 144,
               "column": 4
             },
             "end": {
-              "line": 144,
+              "line": 146,
               "column": 5
             }
           },
@@ -3202,11 +3202,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-mutation-mixin.js",
             "start": {
-              "line": 196,
+              "line": 198,
               "column": 4
             },
             "end": {
-              "line": 205,
+              "line": 207,
               "column": 5
             }
           },
@@ -3233,11 +3233,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-mutation-mixin.js",
             "start": {
-              "line": 215,
+              "line": 217,
               "column": 4
             },
             "end": {
-              "line": 222,
+              "line": 224,
               "column": 5
             }
           },
@@ -3266,11 +3266,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-mutation-mixin.js",
             "start": {
-              "line": 229,
+              "line": 231,
               "column": 4
             },
             "end": {
-              "line": 229,
+              "line": 231,
               "column": 21
             }
           },
@@ -3288,11 +3288,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-mutation-mixin.js",
             "start": {
-              "line": 236,
+              "line": 238,
               "column": 4
             },
             "end": {
-              "line": 236,
+              "line": 238,
               "column": 17
             }
           },
@@ -3370,11 +3370,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-element-mixin.js",
             "start": {
-              "line": 27,
+              "line": 32,
               "column": 6
             },
             "end": {
-              "line": 27,
+              "line": 32,
               "column": 19
             }
           },
@@ -3389,11 +3389,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-element-mixin.js",
             "start": {
-              "line": 33,
+              "line": 38,
               "column": 6
             },
             "end": {
-              "line": 33,
+              "line": 38,
               "column": 16
             }
           },
@@ -3408,11 +3408,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-element-mixin.js",
             "start": {
-              "line": 39,
+              "line": 44,
               "column": 6
             },
             "end": {
-              "line": 39,
+              "line": 44,
               "column": 17
             }
           },
@@ -3427,11 +3427,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-element-mixin.js",
             "start": {
-              "line": 45,
+              "line": 50,
               "column": 6
             },
             "end": {
-              "line": 45,
+              "line": 50,
               "column": 19
             }
           },
@@ -3446,11 +3446,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-element-mixin.js",
             "start": {
-              "line": 51,
+              "line": 56,
               "column": 6
             },
             "end": {
-              "line": 51,
+              "line": 56,
               "column": 17
             }
           },
@@ -3466,11 +3466,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-element-mixin.js",
             "start": {
-              "line": 59,
+              "line": 64,
               "column": 4
             },
             "end": {
-              "line": 61,
+              "line": 66,
               "column": 5
             }
           },
@@ -3485,11 +3485,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-mutation-mixin.js",
             "start": {
-              "line": 68,
+              "line": 70,
               "column": 6
             },
             "end": {
-              "line": 68,
+              "line": 70,
               "column": 17
             }
           },
@@ -3505,11 +3505,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-mutation-mixin.js",
             "start": {
-              "line": 74,
+              "line": 76,
               "column": 6
             },
             "end": {
-              "line": 74,
+              "line": 76,
               "column": 24
             }
           },
@@ -3525,11 +3525,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-mutation-mixin.js",
             "start": {
-              "line": 80,
+              "line": 82,
               "column": 6
             },
             "end": {
-              "line": 80,
+              "line": 82,
               "column": 31
             }
           },
@@ -3545,11 +3545,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-mutation-mixin.js",
             "start": {
-              "line": 92,
+              "line": 94,
               "column": 6
             },
             "end": {
-              "line": 92,
+              "line": 94,
               "column": 30
             }
           },
@@ -3564,11 +3564,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-mutation-mixin.js",
             "start": {
-              "line": 109,
+              "line": 111,
               "column": 6
             },
             "end": {
-              "line": 109,
+              "line": 111,
               "column": 18
             }
           },
@@ -3583,11 +3583,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-mutation-mixin.js",
             "start": {
-              "line": 115,
+              "line": 117,
               "column": 6
             },
             "end": {
-              "line": 115,
+              "line": 117,
               "column": 21
             }
           },
@@ -3602,11 +3602,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-mutation-mixin.js",
             "start": {
-              "line": 121,
+              "line": 123,
               "column": 6
             },
             "end": {
-              "line": 121,
+              "line": 123,
               "column": 35
             }
           },
@@ -3621,11 +3621,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-mutation-mixin.js",
             "start": {
-              "line": 49,
+              "line": 51,
               "column": 4
             },
             "end": {
-              "line": 51,
+              "line": 53,
               "column": 5
             }
           },
@@ -3641,11 +3641,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-element-mixin.js",
             "start": {
-              "line": 73,
+              "line": 78,
               "column": 4
             },
             "end": {
-              "line": 82,
+              "line": 87,
               "column": 5
             }
           },
@@ -3663,11 +3663,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-element-mixin.js",
             "start": {
-              "line": 85,
+              "line": 90,
               "column": 4
             },
             "end": {
-              "line": 89,
+              "line": 94,
               "column": 5
             }
           },
@@ -3685,11 +3685,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-element-mixin.js",
             "start": {
-              "line": 92,
+              "line": 97,
               "column": 4
             },
             "end": {
-              "line": 95,
+              "line": 100,
               "column": 5
             }
           },
@@ -3707,11 +3707,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-mutation-mixin.js",
             "start": {
-              "line": 130,
+              "line": 132,
               "column": 4
             },
             "end": {
-              "line": 133,
+              "line": 135,
               "column": 5
             }
           },
@@ -3729,11 +3729,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-mutation-mixin.js",
             "start": {
-              "line": 142,
+              "line": 144,
               "column": 4
             },
             "end": {
-              "line": 144,
+              "line": 146,
               "column": 5
             }
           },
@@ -3782,11 +3782,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-mutation-mixin.js",
             "start": {
-              "line": 196,
+              "line": 198,
               "column": 4
             },
             "end": {
-              "line": 205,
+              "line": 207,
               "column": 5
             }
           },
@@ -3813,11 +3813,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-mutation-mixin.js",
             "start": {
-              "line": 215,
+              "line": 217,
               "column": 4
             },
             "end": {
-              "line": 222,
+              "line": 224,
               "column": 5
             }
           },
@@ -3846,11 +3846,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-mutation-mixin.js",
             "start": {
-              "line": 229,
+              "line": 231,
               "column": 4
             },
             "end": {
-              "line": 229,
+              "line": 231,
               "column": 21
             }
           },
@@ -3868,11 +3868,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-mutation-mixin.js",
             "start": {
-              "line": 236,
+              "line": 238,
               "column": 4
             },
             "end": {
-              "line": 236,
+              "line": 238,
               "column": 17
             }
           },
@@ -3955,11 +3955,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-element-mixin.js",
             "start": {
-              "line": 27,
+              "line": 32,
               "column": 6
             },
             "end": {
-              "line": 27,
+              "line": 32,
               "column": 19
             }
           },
@@ -3974,11 +3974,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-element-mixin.js",
             "start": {
-              "line": 33,
+              "line": 38,
               "column": 6
             },
             "end": {
-              "line": 33,
+              "line": 38,
               "column": 16
             }
           },
@@ -3993,11 +3993,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-element-mixin.js",
             "start": {
-              "line": 39,
+              "line": 44,
               "column": 6
             },
             "end": {
-              "line": 39,
+              "line": 44,
               "column": 17
             }
           },
@@ -4012,11 +4012,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-element-mixin.js",
             "start": {
-              "line": 45,
+              "line": 50,
               "column": 6
             },
             "end": {
-              "line": 45,
+              "line": 50,
               "column": 19
             }
           },
@@ -4031,11 +4031,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-element-mixin.js",
             "start": {
-              "line": 51,
+              "line": 56,
               "column": 6
             },
             "end": {
-              "line": 51,
+              "line": 56,
               "column": 17
             }
           },
@@ -4051,11 +4051,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-element-mixin.js",
             "start": {
-              "line": 59,
+              "line": 64,
               "column": 4
             },
             "end": {
-              "line": 61,
+              "line": 66,
               "column": 5
             }
           },
@@ -4070,11 +4070,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-query-mixin.js",
             "start": {
-              "line": 128,
+              "line": 131,
               "column": 6
             },
             "end": {
-              "line": 128,
+              "line": 131,
               "column": 22
             }
           },
@@ -4090,11 +4090,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-query-mixin.js",
             "start": {
-              "line": 134,
+              "line": 137,
               "column": 6
             },
             "end": {
-              "line": 134,
+              "line": 137,
               "column": 22
             }
           },
@@ -4110,11 +4110,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-query-mixin.js",
             "start": {
-              "line": 140,
+              "line": 143,
               "column": 6
             },
             "end": {
-              "line": 140,
+              "line": 143,
               "column": 23
             }
           },
@@ -4130,11 +4130,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-query-mixin.js",
             "start": {
-              "line": 146,
+              "line": 149,
               "column": 6
             },
             "end": {
-              "line": 146,
+              "line": 149,
               "column": 23
             }
           },
@@ -4150,11 +4150,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-query-mixin.js",
             "start": {
-              "line": 152,
+              "line": 155,
               "column": 6
             },
             "end": {
-              "line": 152,
+              "line": 155,
               "column": 38
             }
           },
@@ -4170,11 +4170,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-query-mixin.js",
             "start": {
-              "line": 158,
+              "line": 161,
               "column": 6
             },
             "end": {
-              "line": 158,
+              "line": 161,
               "column": 19
             }
           },
@@ -4190,11 +4190,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-query-mixin.js",
             "start": {
-              "line": 164,
+              "line": 167,
               "column": 6
             },
             "end": {
-              "line": 164,
+              "line": 167,
               "column": 27
             }
           },
@@ -4209,11 +4209,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-query-mixin.js",
             "start": {
-              "line": 72,
+              "line": 75,
               "column": 4
             },
             "end": {
-              "line": 74,
+              "line": 77,
               "column": 5
             }
           },
@@ -4222,17 +4222,17 @@
         },
         {
           "name": "variables",
-          "type": "Object.<string, *>",
+          "type": "TVariables",
           "description": "An object map from variable name to variable value, where the variables are used within the GraphQL query.",
           "privacy": "public",
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-query-mixin.js",
             "start": {
-              "line": 93,
+              "line": 96,
               "column": 4
             },
             "end": {
-              "line": 95,
+              "line": 98,
               "column": 5
             }
           },
@@ -4247,11 +4247,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-query-mixin.js",
             "start": {
-              "line": 110,
+              "line": 113,
               "column": 4
             },
             "end": {
-              "line": 112,
+              "line": 115,
               "column": 5
             }
           },
@@ -4267,11 +4267,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-query-mixin.js",
             "start": {
-              "line": 168,
+              "line": 171,
               "column": 4
             },
             "end": {
-              "line": 171,
+              "line": 174,
               "column": 5
             }
           },
@@ -4289,11 +4289,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-element-mixin.js",
             "start": {
-              "line": 85,
+              "line": 90,
               "column": 4
             },
             "end": {
-              "line": 89,
+              "line": 94,
               "column": 5
             }
           },
@@ -4311,11 +4311,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-element-mixin.js",
             "start": {
-              "line": 92,
+              "line": 97,
               "column": 4
             },
             "end": {
-              "line": 95,
+              "line": 100,
               "column": 5
             }
           },
@@ -4333,11 +4333,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-query-mixin.js",
             "start": {
-              "line": 179,
+              "line": 182,
               "column": 4
             },
             "end": {
-              "line": 184,
+              "line": 187,
               "column": 5
             }
           },
@@ -4360,11 +4360,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-query-mixin.js",
             "start": {
-              "line": 195,
+              "line": 198,
               "column": 4
             },
             "end": {
-              "line": 200,
+              "line": 203,
               "column": 5
             }
           },
@@ -4400,11 +4400,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-query-mixin.js",
             "start": {
-              "line": 208,
+              "line": 211,
               "column": 4
             },
             "end": {
-              "line": 215,
+              "line": 218,
               "column": 5
             }
           },
@@ -4426,11 +4426,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-query-mixin.js",
             "start": {
-              "line": 228,
+              "line": 231,
               "column": 4
             },
             "end": {
-              "line": 233,
+              "line": 236,
               "column": 5
             }
           },
@@ -4453,11 +4453,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-query-mixin.js",
             "start": {
-              "line": 241,
+              "line": 244,
               "column": 4
             },
             "end": {
-              "line": 256,
+              "line": 259,
               "column": 5
             }
           },
@@ -4479,11 +4479,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-query-mixin.js",
             "start": {
-              "line": 271,
+              "line": 274,
               "column": 4
             },
             "end": {
-              "line": 276,
+              "line": 279,
               "column": 5
             }
           },
@@ -4505,11 +4505,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-query-mixin.js",
             "start": {
-              "line": 295,
+              "line": 298,
               "column": 4
             },
             "end": {
-              "line": 302,
+              "line": 305,
               "column": 5
             }
           },
@@ -4531,11 +4531,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-query-mixin.js",
             "start": {
-              "line": 314,
+              "line": 317,
               "column": 4
             },
             "end": {
-              "line": 320,
+              "line": 323,
               "column": 5
             }
           },
@@ -4557,11 +4557,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-query-mixin.js",
             "start": {
-              "line": 328,
+              "line": 331,
               "column": 4
             },
             "end": {
-              "line": 331,
+              "line": 334,
               "column": 5
             }
           },
@@ -4584,11 +4584,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-query-mixin.js",
             "start": {
-              "line": 338,
+              "line": 341,
               "column": 4
             },
             "end": {
-              "line": 338,
+              "line": 341,
               "column": 15
             }
           },
@@ -4606,11 +4606,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-query-mixin.js",
             "start": {
-              "line": 345,
+              "line": 348,
               "column": 4
             },
             "end": {
-              "line": 345,
+              "line": 348,
               "column": 16
             }
           },
@@ -4673,11 +4673,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-element-mixin.js",
             "start": {
-              "line": 27,
+              "line": 32,
               "column": 6
             },
             "end": {
-              "line": 27,
+              "line": 32,
               "column": 19
             }
           },
@@ -4692,11 +4692,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-element-mixin.js",
             "start": {
-              "line": 33,
+              "line": 38,
               "column": 6
             },
             "end": {
-              "line": 33,
+              "line": 38,
               "column": 16
             }
           },
@@ -4711,11 +4711,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-element-mixin.js",
             "start": {
-              "line": 39,
+              "line": 44,
               "column": 6
             },
             "end": {
-              "line": 39,
+              "line": 44,
               "column": 17
             }
           },
@@ -4730,11 +4730,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-element-mixin.js",
             "start": {
-              "line": 45,
+              "line": 50,
               "column": 6
             },
             "end": {
-              "line": 45,
+              "line": 50,
               "column": 19
             }
           },
@@ -4749,11 +4749,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-element-mixin.js",
             "start": {
-              "line": 51,
+              "line": 56,
               "column": 6
             },
             "end": {
-              "line": 51,
+              "line": 56,
               "column": 17
             }
           },
@@ -4769,11 +4769,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-element-mixin.js",
             "start": {
-              "line": 59,
+              "line": 64,
               "column": 4
             },
             "end": {
-              "line": 61,
+              "line": 66,
               "column": 5
             }
           },
@@ -4788,11 +4788,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-query-mixin.js",
             "start": {
-              "line": 128,
+              "line": 131,
               "column": 6
             },
             "end": {
-              "line": 128,
+              "line": 131,
               "column": 22
             }
           },
@@ -4808,11 +4808,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-query-mixin.js",
             "start": {
-              "line": 134,
+              "line": 137,
               "column": 6
             },
             "end": {
-              "line": 134,
+              "line": 137,
               "column": 22
             }
           },
@@ -4828,11 +4828,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-query-mixin.js",
             "start": {
-              "line": 140,
+              "line": 143,
               "column": 6
             },
             "end": {
-              "line": 140,
+              "line": 143,
               "column": 23
             }
           },
@@ -4848,11 +4848,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-query-mixin.js",
             "start": {
-              "line": 146,
+              "line": 149,
               "column": 6
             },
             "end": {
-              "line": 146,
+              "line": 149,
               "column": 23
             }
           },
@@ -4868,11 +4868,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-query-mixin.js",
             "start": {
-              "line": 152,
+              "line": 155,
               "column": 6
             },
             "end": {
-              "line": 152,
+              "line": 155,
               "column": 38
             }
           },
@@ -4888,11 +4888,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-query-mixin.js",
             "start": {
-              "line": 158,
+              "line": 161,
               "column": 6
             },
             "end": {
-              "line": 158,
+              "line": 161,
               "column": 19
             }
           },
@@ -4908,11 +4908,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-query-mixin.js",
             "start": {
-              "line": 164,
+              "line": 167,
               "column": 6
             },
             "end": {
-              "line": 164,
+              "line": 167,
               "column": 27
             }
           },
@@ -4927,11 +4927,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-query-mixin.js",
             "start": {
-              "line": 72,
+              "line": 75,
               "column": 4
             },
             "end": {
-              "line": 74,
+              "line": 77,
               "column": 5
             }
           },
@@ -4940,17 +4940,17 @@
         },
         {
           "name": "variables",
-          "type": "Object.<string, *>",
+          "type": "TVariables",
           "description": "An object map from variable name to variable value, where the variables are used within the GraphQL query.",
           "privacy": "public",
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-query-mixin.js",
             "start": {
-              "line": 93,
+              "line": 96,
               "column": 4
             },
             "end": {
-              "line": 95,
+              "line": 98,
               "column": 5
             }
           },
@@ -4965,11 +4965,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-query-mixin.js",
             "start": {
-              "line": 110,
+              "line": 113,
               "column": 4
             },
             "end": {
-              "line": 112,
+              "line": 115,
               "column": 5
             }
           },
@@ -4985,11 +4985,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-query-mixin.js",
             "start": {
-              "line": 168,
+              "line": 171,
               "column": 4
             },
             "end": {
-              "line": 171,
+              "line": 174,
               "column": 5
             }
           },
@@ -5007,11 +5007,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-element-mixin.js",
             "start": {
-              "line": 85,
+              "line": 90,
               "column": 4
             },
             "end": {
-              "line": 89,
+              "line": 94,
               "column": 5
             }
           },
@@ -5029,11 +5029,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-element-mixin.js",
             "start": {
-              "line": 92,
+              "line": 97,
               "column": 4
             },
             "end": {
-              "line": 95,
+              "line": 100,
               "column": 5
             }
           },
@@ -5051,11 +5051,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-query-mixin.js",
             "start": {
-              "line": 179,
+              "line": 182,
               "column": 4
             },
             "end": {
-              "line": 184,
+              "line": 187,
               "column": 5
             }
           },
@@ -5078,11 +5078,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-query-mixin.js",
             "start": {
-              "line": 195,
+              "line": 198,
               "column": 4
             },
             "end": {
-              "line": 200,
+              "line": 203,
               "column": 5
             }
           },
@@ -5118,11 +5118,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-query-mixin.js",
             "start": {
-              "line": 208,
+              "line": 211,
               "column": 4
             },
             "end": {
-              "line": 215,
+              "line": 218,
               "column": 5
             }
           },
@@ -5144,11 +5144,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-query-mixin.js",
             "start": {
-              "line": 228,
+              "line": 231,
               "column": 4
             },
             "end": {
-              "line": 233,
+              "line": 236,
               "column": 5
             }
           },
@@ -5171,11 +5171,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-query-mixin.js",
             "start": {
-              "line": 241,
+              "line": 244,
               "column": 4
             },
             "end": {
-              "line": 256,
+              "line": 259,
               "column": 5
             }
           },
@@ -5197,11 +5197,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-query-mixin.js",
             "start": {
-              "line": 271,
+              "line": 274,
               "column": 4
             },
             "end": {
-              "line": 276,
+              "line": 279,
               "column": 5
             }
           },
@@ -5223,11 +5223,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-query-mixin.js",
             "start": {
-              "line": 295,
+              "line": 298,
               "column": 4
             },
             "end": {
-              "line": 302,
+              "line": 305,
               "column": 5
             }
           },
@@ -5249,11 +5249,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-query-mixin.js",
             "start": {
-              "line": 314,
+              "line": 317,
               "column": 4
             },
             "end": {
-              "line": 320,
+              "line": 323,
               "column": 5
             }
           },
@@ -5275,11 +5275,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-query-mixin.js",
             "start": {
-              "line": 328,
+              "line": 331,
               "column": 4
             },
             "end": {
-              "line": 331,
+              "line": 334,
               "column": 5
             }
           },
@@ -5302,11 +5302,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-query-mixin.js",
             "start": {
-              "line": 338,
+              "line": 341,
               "column": 4
             },
             "end": {
-              "line": 338,
+              "line": 341,
               "column": 15
             }
           },
@@ -5324,11 +5324,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-query-mixin.js",
             "start": {
-              "line": 345,
+              "line": 348,
               "column": 4
             },
             "end": {
-              "line": 345,
+              "line": 348,
               "column": 16
             }
           },
@@ -5403,11 +5403,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-element-mixin.js",
             "start": {
-              "line": 27,
+              "line": 32,
               "column": 6
             },
             "end": {
-              "line": 27,
+              "line": 32,
               "column": 19
             }
           },
@@ -5422,11 +5422,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-element-mixin.js",
             "start": {
-              "line": 33,
+              "line": 38,
               "column": 6
             },
             "end": {
-              "line": 33,
+              "line": 38,
               "column": 16
             }
           },
@@ -5441,11 +5441,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-element-mixin.js",
             "start": {
-              "line": 39,
+              "line": 44,
               "column": 6
             },
             "end": {
-              "line": 39,
+              "line": 44,
               "column": 17
             }
           },
@@ -5460,11 +5460,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-element-mixin.js",
             "start": {
-              "line": 45,
+              "line": 50,
               "column": 6
             },
             "end": {
-              "line": 45,
+              "line": 50,
               "column": 19
             }
           },
@@ -5479,11 +5479,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-element-mixin.js",
             "start": {
-              "line": 51,
+              "line": 56,
               "column": 6
             },
             "end": {
-              "line": 51,
+              "line": 56,
               "column": 17
             }
           },
@@ -5499,11 +5499,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-element-mixin.js",
             "start": {
-              "line": 59,
+              "line": 64,
               "column": 4
             },
             "end": {
-              "line": 61,
+              "line": 66,
               "column": 5
             }
           },
@@ -5518,11 +5518,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-query-mixin.js",
             "start": {
-              "line": 128,
+              "line": 131,
               "column": 6
             },
             "end": {
-              "line": 128,
+              "line": 131,
               "column": 22
             }
           },
@@ -5538,11 +5538,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-query-mixin.js",
             "start": {
-              "line": 134,
+              "line": 137,
               "column": 6
             },
             "end": {
-              "line": 134,
+              "line": 137,
               "column": 22
             }
           },
@@ -5558,11 +5558,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-query-mixin.js",
             "start": {
-              "line": 140,
+              "line": 143,
               "column": 6
             },
             "end": {
-              "line": 140,
+              "line": 143,
               "column": 23
             }
           },
@@ -5578,11 +5578,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-query-mixin.js",
             "start": {
-              "line": 146,
+              "line": 149,
               "column": 6
             },
             "end": {
-              "line": 146,
+              "line": 149,
               "column": 23
             }
           },
@@ -5598,11 +5598,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-query-mixin.js",
             "start": {
-              "line": 152,
+              "line": 155,
               "column": 6
             },
             "end": {
-              "line": 152,
+              "line": 155,
               "column": 38
             }
           },
@@ -5618,11 +5618,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-query-mixin.js",
             "start": {
-              "line": 158,
+              "line": 161,
               "column": 6
             },
             "end": {
-              "line": 158,
+              "line": 161,
               "column": 19
             }
           },
@@ -5638,11 +5638,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-query-mixin.js",
             "start": {
-              "line": 164,
+              "line": 167,
               "column": 6
             },
             "end": {
-              "line": 164,
+              "line": 167,
               "column": 27
             }
           },
@@ -5657,11 +5657,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-query-mixin.js",
             "start": {
-              "line": 72,
+              "line": 75,
               "column": 4
             },
             "end": {
-              "line": 74,
+              "line": 77,
               "column": 5
             }
           },
@@ -5670,17 +5670,17 @@
         },
         {
           "name": "variables",
-          "type": "Object.<string, *>",
+          "type": "TVariables",
           "description": "An object map from variable name to variable value, where the variables are used within the GraphQL query.",
           "privacy": "public",
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-query-mixin.js",
             "start": {
-              "line": 93,
+              "line": 96,
               "column": 4
             },
             "end": {
-              "line": 95,
+              "line": 98,
               "column": 5
             }
           },
@@ -5695,11 +5695,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-query-mixin.js",
             "start": {
-              "line": 110,
+              "line": 113,
               "column": 4
             },
             "end": {
-              "line": 112,
+              "line": 115,
               "column": 5
             }
           },
@@ -5715,11 +5715,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-query-mixin.js",
             "start": {
-              "line": 168,
+              "line": 171,
               "column": 4
             },
             "end": {
-              "line": 171,
+              "line": 174,
               "column": 5
             }
           },
@@ -5737,11 +5737,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-element-mixin.js",
             "start": {
-              "line": 85,
+              "line": 90,
               "column": 4
             },
             "end": {
-              "line": 89,
+              "line": 94,
               "column": 5
             }
           },
@@ -5759,11 +5759,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-element-mixin.js",
             "start": {
-              "line": 92,
+              "line": 97,
               "column": 4
             },
             "end": {
-              "line": 95,
+              "line": 100,
               "column": 5
             }
           },
@@ -5781,11 +5781,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-query-mixin.js",
             "start": {
-              "line": 179,
+              "line": 182,
               "column": 4
             },
             "end": {
-              "line": 184,
+              "line": 187,
               "column": 5
             }
           },
@@ -5808,11 +5808,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-query-mixin.js",
             "start": {
-              "line": 195,
+              "line": 198,
               "column": 4
             },
             "end": {
-              "line": 200,
+              "line": 203,
               "column": 5
             }
           },
@@ -5848,11 +5848,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-query-mixin.js",
             "start": {
-              "line": 208,
+              "line": 211,
               "column": 4
             },
             "end": {
-              "line": 215,
+              "line": 218,
               "column": 5
             }
           },
@@ -5874,11 +5874,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-query-mixin.js",
             "start": {
-              "line": 228,
+              "line": 231,
               "column": 4
             },
             "end": {
-              "line": 233,
+              "line": 236,
               "column": 5
             }
           },
@@ -5901,11 +5901,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-query-mixin.js",
             "start": {
-              "line": 241,
+              "line": 244,
               "column": 4
             },
             "end": {
-              "line": 256,
+              "line": 259,
               "column": 5
             }
           },
@@ -5927,11 +5927,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-query-mixin.js",
             "start": {
-              "line": 271,
+              "line": 274,
               "column": 4
             },
             "end": {
-              "line": 276,
+              "line": 279,
               "column": 5
             }
           },
@@ -5953,11 +5953,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-query-mixin.js",
             "start": {
-              "line": 295,
+              "line": 298,
               "column": 4
             },
             "end": {
-              "line": 302,
+              "line": 305,
               "column": 5
             }
           },
@@ -5979,11 +5979,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-query-mixin.js",
             "start": {
-              "line": 314,
+              "line": 317,
               "column": 4
             },
             "end": {
-              "line": 320,
+              "line": 323,
               "column": 5
             }
           },
@@ -6005,11 +6005,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-query-mixin.js",
             "start": {
-              "line": 328,
+              "line": 331,
               "column": 4
             },
             "end": {
-              "line": 331,
+              "line": 334,
               "column": 5
             }
           },
@@ -6032,11 +6032,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-query-mixin.js",
             "start": {
-              "line": 338,
+              "line": 341,
               "column": 4
             },
             "end": {
-              "line": 338,
+              "line": 341,
               "column": 15
             }
           },
@@ -6054,11 +6054,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-query-mixin.js",
             "start": {
-              "line": 345,
+              "line": 348,
               "column": 4
             },
             "end": {
-              "line": 345,
+              "line": 348,
               "column": 16
             }
           },
@@ -6139,11 +6139,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-element-mixin.js",
             "start": {
-              "line": 27,
+              "line": 32,
               "column": 6
             },
             "end": {
-              "line": 27,
+              "line": 32,
               "column": 19
             }
           },
@@ -6158,11 +6158,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-element-mixin.js",
             "start": {
-              "line": 33,
+              "line": 38,
               "column": 6
             },
             "end": {
-              "line": 33,
+              "line": 38,
               "column": 16
             }
           },
@@ -6177,11 +6177,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-element-mixin.js",
             "start": {
-              "line": 39,
+              "line": 44,
               "column": 6
             },
             "end": {
-              "line": 39,
+              "line": 44,
               "column": 17
             }
           },
@@ -6196,11 +6196,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-element-mixin.js",
             "start": {
-              "line": 45,
+              "line": 50,
               "column": 6
             },
             "end": {
-              "line": 45,
+              "line": 50,
               "column": 19
             }
           },
@@ -6215,11 +6215,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-element-mixin.js",
             "start": {
-              "line": 51,
+              "line": 56,
               "column": 6
             },
             "end": {
-              "line": 51,
+              "line": 56,
               "column": 17
             }
           },
@@ -6235,11 +6235,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-element-mixin.js",
             "start": {
-              "line": 59,
+              "line": 64,
               "column": 4
             },
             "end": {
-              "line": 61,
+              "line": 66,
               "column": 5
             }
           },
@@ -6254,11 +6254,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-query-mixin.js",
             "start": {
-              "line": 128,
+              "line": 131,
               "column": 6
             },
             "end": {
-              "line": 128,
+              "line": 131,
               "column": 22
             }
           },
@@ -6274,11 +6274,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-query-mixin.js",
             "start": {
-              "line": 134,
+              "line": 137,
               "column": 6
             },
             "end": {
-              "line": 134,
+              "line": 137,
               "column": 22
             }
           },
@@ -6294,11 +6294,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-query-mixin.js",
             "start": {
-              "line": 140,
+              "line": 143,
               "column": 6
             },
             "end": {
-              "line": 140,
+              "line": 143,
               "column": 23
             }
           },
@@ -6314,11 +6314,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-query-mixin.js",
             "start": {
-              "line": 146,
+              "line": 149,
               "column": 6
             },
             "end": {
-              "line": 146,
+              "line": 149,
               "column": 23
             }
           },
@@ -6334,11 +6334,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-query-mixin.js",
             "start": {
-              "line": 152,
+              "line": 155,
               "column": 6
             },
             "end": {
-              "line": 152,
+              "line": 155,
               "column": 38
             }
           },
@@ -6354,11 +6354,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-query-mixin.js",
             "start": {
-              "line": 158,
+              "line": 161,
               "column": 6
             },
             "end": {
-              "line": 158,
+              "line": 161,
               "column": 19
             }
           },
@@ -6374,11 +6374,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-query-mixin.js",
             "start": {
-              "line": 164,
+              "line": 167,
               "column": 6
             },
             "end": {
-              "line": 164,
+              "line": 167,
               "column": 27
             }
           },
@@ -6393,11 +6393,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-query-mixin.js",
             "start": {
-              "line": 72,
+              "line": 75,
               "column": 4
             },
             "end": {
-              "line": 74,
+              "line": 77,
               "column": 5
             }
           },
@@ -6406,17 +6406,17 @@
         },
         {
           "name": "variables",
-          "type": "Object.<string, *>",
+          "type": "TVariables",
           "description": "An object map from variable name to variable value, where the variables are used within the GraphQL query.",
           "privacy": "public",
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-query-mixin.js",
             "start": {
-              "line": 93,
+              "line": 96,
               "column": 4
             },
             "end": {
-              "line": 95,
+              "line": 98,
               "column": 5
             }
           },
@@ -6431,11 +6431,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-query-mixin.js",
             "start": {
-              "line": 110,
+              "line": 113,
               "column": 4
             },
             "end": {
-              "line": 112,
+              "line": 115,
               "column": 5
             }
           },
@@ -6451,11 +6451,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-query-mixin.js",
             "start": {
-              "line": 168,
+              "line": 171,
               "column": 4
             },
             "end": {
-              "line": 171,
+              "line": 174,
               "column": 5
             }
           },
@@ -6473,11 +6473,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-element-mixin.js",
             "start": {
-              "line": 85,
+              "line": 90,
               "column": 4
             },
             "end": {
-              "line": 89,
+              "line": 94,
               "column": 5
             }
           },
@@ -6495,11 +6495,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-element-mixin.js",
             "start": {
-              "line": 92,
+              "line": 97,
               "column": 4
             },
             "end": {
-              "line": 95,
+              "line": 100,
               "column": 5
             }
           },
@@ -6517,11 +6517,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-query-mixin.js",
             "start": {
-              "line": 179,
+              "line": 182,
               "column": 4
             },
             "end": {
-              "line": 184,
+              "line": 187,
               "column": 5
             }
           },
@@ -6544,11 +6544,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-query-mixin.js",
             "start": {
-              "line": 195,
+              "line": 198,
               "column": 4
             },
             "end": {
-              "line": 200,
+              "line": 203,
               "column": 5
             }
           },
@@ -6584,11 +6584,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-query-mixin.js",
             "start": {
-              "line": 208,
+              "line": 211,
               "column": 4
             },
             "end": {
-              "line": 215,
+              "line": 218,
               "column": 5
             }
           },
@@ -6610,11 +6610,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-query-mixin.js",
             "start": {
-              "line": 228,
+              "line": 231,
               "column": 4
             },
             "end": {
-              "line": 233,
+              "line": 236,
               "column": 5
             }
           },
@@ -6637,11 +6637,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-query-mixin.js",
             "start": {
-              "line": 241,
+              "line": 244,
               "column": 4
             },
             "end": {
-              "line": 256,
+              "line": 259,
               "column": 5
             }
           },
@@ -6663,11 +6663,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-query-mixin.js",
             "start": {
-              "line": 271,
+              "line": 274,
               "column": 4
             },
             "end": {
-              "line": 276,
+              "line": 279,
               "column": 5
             }
           },
@@ -6689,11 +6689,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-query-mixin.js",
             "start": {
-              "line": 295,
+              "line": 298,
               "column": 4
             },
             "end": {
-              "line": 302,
+              "line": 305,
               "column": 5
             }
           },
@@ -6715,11 +6715,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-query-mixin.js",
             "start": {
-              "line": 314,
+              "line": 317,
               "column": 4
             },
             "end": {
-              "line": 320,
+              "line": 323,
               "column": 5
             }
           },
@@ -6741,11 +6741,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-query-mixin.js",
             "start": {
-              "line": 328,
+              "line": 331,
               "column": 4
             },
             "end": {
-              "line": 331,
+              "line": 334,
               "column": 5
             }
           },
@@ -6768,11 +6768,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-query-mixin.js",
             "start": {
-              "line": 338,
+              "line": 341,
               "column": 4
             },
             "end": {
-              "line": 338,
+              "line": 341,
               "column": 15
             }
           },
@@ -6790,11 +6790,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-query-mixin.js",
             "start": {
-              "line": 345,
+              "line": 348,
               "column": 4
             },
             "end": {
-              "line": 345,
+              "line": 348,
               "column": 16
             }
           },
@@ -6875,11 +6875,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-element-mixin.js",
             "start": {
-              "line": 27,
+              "line": 32,
               "column": 6
             },
             "end": {
-              "line": 27,
+              "line": 32,
               "column": 19
             }
           },
@@ -6894,11 +6894,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-element-mixin.js",
             "start": {
-              "line": 33,
+              "line": 38,
               "column": 6
             },
             "end": {
-              "line": 33,
+              "line": 38,
               "column": 16
             }
           },
@@ -6913,11 +6913,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-element-mixin.js",
             "start": {
-              "line": 39,
+              "line": 44,
               "column": 6
             },
             "end": {
-              "line": 39,
+              "line": 44,
               "column": 17
             }
           },
@@ -6932,11 +6932,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-element-mixin.js",
             "start": {
-              "line": 45,
+              "line": 50,
               "column": 6
             },
             "end": {
-              "line": 45,
+              "line": 50,
               "column": 19
             }
           },
@@ -6951,11 +6951,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-element-mixin.js",
             "start": {
-              "line": 51,
+              "line": 56,
               "column": 6
             },
             "end": {
-              "line": 51,
+              "line": 56,
               "column": 17
             }
           },
@@ -6971,11 +6971,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-element-mixin.js",
             "start": {
-              "line": 59,
+              "line": 64,
               "column": 4
             },
             "end": {
-              "line": 61,
+              "line": 66,
               "column": 5
             }
           },
@@ -6990,11 +6990,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-query-mixin.js",
             "start": {
-              "line": 128,
+              "line": 131,
               "column": 6
             },
             "end": {
-              "line": 128,
+              "line": 131,
               "column": 22
             }
           },
@@ -7010,11 +7010,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-query-mixin.js",
             "start": {
-              "line": 134,
+              "line": 137,
               "column": 6
             },
             "end": {
-              "line": 134,
+              "line": 137,
               "column": 22
             }
           },
@@ -7030,11 +7030,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-query-mixin.js",
             "start": {
-              "line": 140,
+              "line": 143,
               "column": 6
             },
             "end": {
-              "line": 140,
+              "line": 143,
               "column": 23
             }
           },
@@ -7050,11 +7050,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-query-mixin.js",
             "start": {
-              "line": 146,
+              "line": 149,
               "column": 6
             },
             "end": {
-              "line": 146,
+              "line": 149,
               "column": 23
             }
           },
@@ -7070,11 +7070,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-query-mixin.js",
             "start": {
-              "line": 152,
+              "line": 155,
               "column": 6
             },
             "end": {
-              "line": 152,
+              "line": 155,
               "column": 38
             }
           },
@@ -7090,11 +7090,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-query-mixin.js",
             "start": {
-              "line": 158,
+              "line": 161,
               "column": 6
             },
             "end": {
-              "line": 158,
+              "line": 161,
               "column": 19
             }
           },
@@ -7110,11 +7110,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-query-mixin.js",
             "start": {
-              "line": 164,
+              "line": 167,
               "column": 6
             },
             "end": {
-              "line": 164,
+              "line": 167,
               "column": 27
             }
           },
@@ -7129,11 +7129,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-query-mixin.js",
             "start": {
-              "line": 72,
+              "line": 75,
               "column": 4
             },
             "end": {
-              "line": 74,
+              "line": 77,
               "column": 5
             }
           },
@@ -7142,17 +7142,17 @@
         },
         {
           "name": "variables",
-          "type": "Object.<string, *>",
+          "type": "TVariables",
           "description": "An object map from variable name to variable value, where the variables are used within the GraphQL query.",
           "privacy": "public",
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-query-mixin.js",
             "start": {
-              "line": 93,
+              "line": 96,
               "column": 4
             },
             "end": {
-              "line": 95,
+              "line": 98,
               "column": 5
             }
           },
@@ -7167,11 +7167,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-query-mixin.js",
             "start": {
-              "line": 110,
+              "line": 113,
               "column": 4
             },
             "end": {
-              "line": 112,
+              "line": 115,
               "column": 5
             }
           },
@@ -7187,11 +7187,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-query-mixin.js",
             "start": {
-              "line": 168,
+              "line": 171,
               "column": 4
             },
             "end": {
-              "line": 171,
+              "line": 174,
               "column": 5
             }
           },
@@ -7209,11 +7209,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-element-mixin.js",
             "start": {
-              "line": 85,
+              "line": 90,
               "column": 4
             },
             "end": {
-              "line": 89,
+              "line": 94,
               "column": 5
             }
           },
@@ -7231,11 +7231,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-element-mixin.js",
             "start": {
-              "line": 92,
+              "line": 97,
               "column": 4
             },
             "end": {
-              "line": 95,
+              "line": 100,
               "column": 5
             }
           },
@@ -7253,11 +7253,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-query-mixin.js",
             "start": {
-              "line": 179,
+              "line": 182,
               "column": 4
             },
             "end": {
-              "line": 184,
+              "line": 187,
               "column": 5
             }
           },
@@ -7280,11 +7280,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-query-mixin.js",
             "start": {
-              "line": 195,
+              "line": 198,
               "column": 4
             },
             "end": {
-              "line": 200,
+              "line": 203,
               "column": 5
             }
           },
@@ -7320,11 +7320,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-query-mixin.js",
             "start": {
-              "line": 208,
+              "line": 211,
               "column": 4
             },
             "end": {
-              "line": 215,
+              "line": 218,
               "column": 5
             }
           },
@@ -7346,11 +7346,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-query-mixin.js",
             "start": {
-              "line": 228,
+              "line": 231,
               "column": 4
             },
             "end": {
-              "line": 233,
+              "line": 236,
               "column": 5
             }
           },
@@ -7373,11 +7373,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-query-mixin.js",
             "start": {
-              "line": 241,
+              "line": 244,
               "column": 4
             },
             "end": {
-              "line": 256,
+              "line": 259,
               "column": 5
             }
           },
@@ -7399,11 +7399,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-query-mixin.js",
             "start": {
-              "line": 271,
+              "line": 274,
               "column": 4
             },
             "end": {
-              "line": 276,
+              "line": 279,
               "column": 5
             }
           },
@@ -7425,11 +7425,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-query-mixin.js",
             "start": {
-              "line": 295,
+              "line": 298,
               "column": 4
             },
             "end": {
-              "line": 302,
+              "line": 305,
               "column": 5
             }
           },
@@ -7451,11 +7451,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-query-mixin.js",
             "start": {
-              "line": 314,
+              "line": 317,
               "column": 4
             },
             "end": {
-              "line": 320,
+              "line": 323,
               "column": 5
             }
           },
@@ -7477,11 +7477,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-query-mixin.js",
             "start": {
-              "line": 328,
+              "line": 331,
               "column": 4
             },
             "end": {
-              "line": 331,
+              "line": 334,
               "column": 5
             }
           },
@@ -7504,11 +7504,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-query-mixin.js",
             "start": {
-              "line": 338,
+              "line": 341,
               "column": 4
             },
             "end": {
-              "line": 338,
+              "line": 341,
               "column": 15
             }
           },
@@ -7526,11 +7526,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-query-mixin.js",
             "start": {
-              "line": 345,
+              "line": 348,
               "column": 4
             },
             "end": {
-              "line": 345,
+              "line": 348,
               "column": 16
             }
           },
@@ -7611,11 +7611,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-element-mixin.js",
             "start": {
-              "line": 27,
+              "line": 32,
               "column": 6
             },
             "end": {
-              "line": 27,
+              "line": 32,
               "column": 19
             }
           },
@@ -7630,11 +7630,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-element-mixin.js",
             "start": {
-              "line": 33,
+              "line": 38,
               "column": 6
             },
             "end": {
-              "line": 33,
+              "line": 38,
               "column": 16
             }
           },
@@ -7649,11 +7649,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-element-mixin.js",
             "start": {
-              "line": 39,
+              "line": 44,
               "column": 6
             },
             "end": {
-              "line": 39,
+              "line": 44,
               "column": 17
             }
           },
@@ -7668,11 +7668,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-element-mixin.js",
             "start": {
-              "line": 45,
+              "line": 50,
               "column": 6
             },
             "end": {
-              "line": 45,
+              "line": 50,
               "column": 19
             }
           },
@@ -7687,11 +7687,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-element-mixin.js",
             "start": {
-              "line": 51,
+              "line": 56,
               "column": 6
             },
             "end": {
-              "line": 51,
+              "line": 56,
               "column": 17
             }
           },
@@ -7707,11 +7707,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-element-mixin.js",
             "start": {
-              "line": 59,
+              "line": 64,
               "column": 4
             },
             "end": {
-              "line": 61,
+              "line": 66,
               "column": 5
             }
           },
@@ -7726,11 +7726,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-query-mixin.js",
             "start": {
-              "line": 128,
+              "line": 131,
               "column": 6
             },
             "end": {
-              "line": 128,
+              "line": 131,
               "column": 22
             }
           },
@@ -7746,11 +7746,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-query-mixin.js",
             "start": {
-              "line": 134,
+              "line": 137,
               "column": 6
             },
             "end": {
-              "line": 134,
+              "line": 137,
               "column": 22
             }
           },
@@ -7766,11 +7766,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-query-mixin.js",
             "start": {
-              "line": 140,
+              "line": 143,
               "column": 6
             },
             "end": {
-              "line": 140,
+              "line": 143,
               "column": 23
             }
           },
@@ -7786,11 +7786,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-query-mixin.js",
             "start": {
-              "line": 146,
+              "line": 149,
               "column": 6
             },
             "end": {
-              "line": 146,
+              "line": 149,
               "column": 23
             }
           },
@@ -7806,11 +7806,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-query-mixin.js",
             "start": {
-              "line": 152,
+              "line": 155,
               "column": 6
             },
             "end": {
-              "line": 152,
+              "line": 155,
               "column": 38
             }
           },
@@ -7826,11 +7826,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-query-mixin.js",
             "start": {
-              "line": 158,
+              "line": 161,
               "column": 6
             },
             "end": {
-              "line": 158,
+              "line": 161,
               "column": 19
             }
           },
@@ -7846,11 +7846,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-query-mixin.js",
             "start": {
-              "line": 164,
+              "line": 167,
               "column": 6
             },
             "end": {
-              "line": 164,
+              "line": 167,
               "column": 27
             }
           },
@@ -7865,11 +7865,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-query-mixin.js",
             "start": {
-              "line": 72,
+              "line": 75,
               "column": 4
             },
             "end": {
-              "line": 74,
+              "line": 77,
               "column": 5
             }
           },
@@ -7878,17 +7878,17 @@
         },
         {
           "name": "variables",
-          "type": "Object.<string, *>",
+          "type": "TVariables",
           "description": "An object map from variable name to variable value, where the variables are used within the GraphQL query.",
           "privacy": "public",
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-query-mixin.js",
             "start": {
-              "line": 93,
+              "line": 96,
               "column": 4
             },
             "end": {
-              "line": 95,
+              "line": 98,
               "column": 5
             }
           },
@@ -7903,11 +7903,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-query-mixin.js",
             "start": {
-              "line": 110,
+              "line": 113,
               "column": 4
             },
             "end": {
-              "line": 112,
+              "line": 115,
               "column": 5
             }
           },
@@ -7923,11 +7923,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-query-mixin.js",
             "start": {
-              "line": 168,
+              "line": 171,
               "column": 4
             },
             "end": {
-              "line": 171,
+              "line": 174,
               "column": 5
             }
           },
@@ -7945,11 +7945,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-element-mixin.js",
             "start": {
-              "line": 85,
+              "line": 90,
               "column": 4
             },
             "end": {
-              "line": 89,
+              "line": 94,
               "column": 5
             }
           },
@@ -7967,11 +7967,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-element-mixin.js",
             "start": {
-              "line": 92,
+              "line": 97,
               "column": 4
             },
             "end": {
-              "line": 95,
+              "line": 100,
               "column": 5
             }
           },
@@ -7989,11 +7989,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-query-mixin.js",
             "start": {
-              "line": 179,
+              "line": 182,
               "column": 4
             },
             "end": {
-              "line": 184,
+              "line": 187,
               "column": 5
             }
           },
@@ -8016,11 +8016,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-query-mixin.js",
             "start": {
-              "line": 195,
+              "line": 198,
               "column": 4
             },
             "end": {
-              "line": 200,
+              "line": 203,
               "column": 5
             }
           },
@@ -8056,11 +8056,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-query-mixin.js",
             "start": {
-              "line": 208,
+              "line": 211,
               "column": 4
             },
             "end": {
-              "line": 215,
+              "line": 218,
               "column": 5
             }
           },
@@ -8082,11 +8082,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-query-mixin.js",
             "start": {
-              "line": 228,
+              "line": 231,
               "column": 4
             },
             "end": {
-              "line": 233,
+              "line": 236,
               "column": 5
             }
           },
@@ -8109,11 +8109,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-query-mixin.js",
             "start": {
-              "line": 241,
+              "line": 244,
               "column": 4
             },
             "end": {
-              "line": 256,
+              "line": 259,
               "column": 5
             }
           },
@@ -8135,11 +8135,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-query-mixin.js",
             "start": {
-              "line": 271,
+              "line": 274,
               "column": 4
             },
             "end": {
-              "line": 276,
+              "line": 279,
               "column": 5
             }
           },
@@ -8161,11 +8161,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-query-mixin.js",
             "start": {
-              "line": 295,
+              "line": 298,
               "column": 4
             },
             "end": {
-              "line": 302,
+              "line": 305,
               "column": 5
             }
           },
@@ -8187,11 +8187,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-query-mixin.js",
             "start": {
-              "line": 314,
+              "line": 317,
               "column": 4
             },
             "end": {
-              "line": 320,
+              "line": 323,
               "column": 5
             }
           },
@@ -8213,11 +8213,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-query-mixin.js",
             "start": {
-              "line": 328,
+              "line": 331,
               "column": 4
             },
             "end": {
-              "line": 331,
+              "line": 334,
               "column": 5
             }
           },
@@ -8240,11 +8240,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-query-mixin.js",
             "start": {
-              "line": 338,
+              "line": 341,
               "column": 4
             },
             "end": {
-              "line": 338,
+              "line": 341,
               "column": 15
             }
           },
@@ -8262,11 +8262,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-query-mixin.js",
             "start": {
-              "line": 345,
+              "line": 348,
               "column": 4
             },
             "end": {
-              "line": 345,
+              "line": 348,
               "column": 16
             }
           },
@@ -8347,11 +8347,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-element-mixin.js",
             "start": {
-              "line": 27,
+              "line": 32,
               "column": 6
             },
             "end": {
-              "line": 27,
+              "line": 32,
               "column": 19
             }
           },
@@ -8366,11 +8366,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-element-mixin.js",
             "start": {
-              "line": 33,
+              "line": 38,
               "column": 6
             },
             "end": {
-              "line": 33,
+              "line": 38,
               "column": 16
             }
           },
@@ -8385,11 +8385,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-element-mixin.js",
             "start": {
-              "line": 39,
+              "line": 44,
               "column": 6
             },
             "end": {
-              "line": 39,
+              "line": 44,
               "column": 17
             }
           },
@@ -8404,11 +8404,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-element-mixin.js",
             "start": {
-              "line": 45,
+              "line": 50,
               "column": 6
             },
             "end": {
-              "line": 45,
+              "line": 50,
               "column": 19
             }
           },
@@ -8423,11 +8423,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-element-mixin.js",
             "start": {
-              "line": 51,
+              "line": 56,
               "column": 6
             },
             "end": {
-              "line": 51,
+              "line": 56,
               "column": 17
             }
           },
@@ -8443,11 +8443,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-element-mixin.js",
             "start": {
-              "line": 59,
+              "line": 64,
               "column": 4
             },
             "end": {
-              "line": 61,
+              "line": 66,
               "column": 5
             }
           },
@@ -8462,11 +8462,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-subscription-mixin.js",
             "start": {
-              "line": 77,
+              "line": 79,
               "column": 6
             },
             "end": {
-              "line": 77,
+              "line": 79,
               "column": 22
             }
           },
@@ -8482,11 +8482,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-subscription-mixin.js",
             "start": {
-              "line": 83,
+              "line": 85,
               "column": 6
             },
             "end": {
-              "line": 83,
+              "line": 85,
               "column": 23
             }
           },
@@ -8502,11 +8502,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-subscription-mixin.js",
             "start": {
-              "line": 89,
+              "line": 91,
               "column": 6
             },
             "end": {
-              "line": 89,
+              "line": 91,
               "column": 23
             }
           },
@@ -8522,11 +8522,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-subscription-mixin.js",
             "start": {
-              "line": 95,
+              "line": 97,
               "column": 6
             },
             "end": {
-              "line": 95,
+              "line": 97,
               "column": 38
             }
           },
@@ -8542,11 +8542,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-subscription-mixin.js",
             "start": {
-              "line": 101,
+              "line": 103,
               "column": 6
             },
             "end": {
-              "line": 101,
+              "line": 103,
               "column": 19
             }
           },
@@ -8562,11 +8562,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-subscription-mixin.js",
             "start": {
-              "line": 107,
+              "line": 109,
               "column": 6
             },
             "end": {
-              "line": 107,
+              "line": 109,
               "column": 22
             }
           },
@@ -8581,11 +8581,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-subscription-mixin.js",
             "start": {
-              "line": 41,
+              "line": 43,
               "column": 4
             },
             "end": {
-              "line": 43,
+              "line": 45,
               "column": 5
             }
           },
@@ -8594,17 +8594,17 @@
         },
         {
           "name": "variables",
-          "type": "Object.<string, *>",
+          "type": "TVariables",
           "description": "An object map from variable name to variable value, where the variables are used within the GraphQL subscription.",
           "privacy": "public",
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-subscription-mixin.js",
             "start": {
-              "line": 59,
+              "line": 61,
               "column": 4
             },
             "end": {
-              "line": 61,
+              "line": 63,
               "column": 5
             }
           },
@@ -8620,11 +8620,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-subscription-mixin.js",
             "start": {
-              "line": 111,
+              "line": 113,
               "column": 4
             },
             "end": {
-              "line": 114,
+              "line": 116,
               "column": 5
             }
           },
@@ -8642,11 +8642,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-element-mixin.js",
             "start": {
-              "line": 85,
+              "line": 90,
               "column": 4
             },
             "end": {
-              "line": 89,
+              "line": 94,
               "column": 5
             }
           },
@@ -8664,11 +8664,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-element-mixin.js",
             "start": {
-              "line": 92,
+              "line": 97,
               "column": 4
             },
             "end": {
-              "line": 95,
+              "line": 100,
               "column": 5
             }
           },
@@ -8686,11 +8686,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-subscription-mixin.js",
             "start": {
-              "line": 123,
+              "line": 125,
               "column": 4
             },
             "end": {
-              "line": 136,
+              "line": 138,
               "column": 5
             }
           },
@@ -8712,11 +8712,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-subscription-mixin.js",
             "start": {
-              "line": 145,
+              "line": 147,
               "column": 4
             },
             "end": {
-              "line": 152,
+              "line": 154,
               "column": 5
             }
           },
@@ -8738,11 +8738,11 @@
           "sourceRange": {
             "file": "node_modules/%40apollo-elements/mixins/apollo-subscription-mixin.js",
             "start": {
-              "line": 160,
+              "line": 162,
               "column": 4
             },
             "end": {
-              "line": 163,
+              "line": 165,
               "column": 5
             }
           },
